@@ -3,6 +3,9 @@ const L2Crypt = require('./encryption/L2Crypt');
 const BaseRecievePacket = require('./network/BaseRecievePacket');
 const BaseSendablePacket = require('./network/BaseSendablePacket');
 const opcode = require('./enums/opcode');
+
+const ItemList = require('./network/serverpackets/ItemList');
+
 class L2Client {
 	constructor(socket) {
 		this.crypt = new L2Crypt();
@@ -63,6 +66,9 @@ class L2Client {
 		}
 		console.log(('000' + ((i > 16)?i:0).toString(16)).substr(-4) + ' ' + block);
 		console.log(' ');
+	}
+	sendItemList(open) {
+		this.write(new ItemList(this, open));
 	}
 }
 module.exports = L2Client;
