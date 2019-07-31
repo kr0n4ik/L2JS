@@ -1,0 +1,3732 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
+	<npc id="32700" level="80" type="L2Npc" name="Delusion Manager">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai aggroRange="450" />
+		<collision>
+			<radius normal="25" />
+			<height normal="47.5" />
+		</collision>
+	</npc>
+	<npc id="32701" level="80" type="L2Npc" name="Delusion Manager">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai aggroRange="450" />
+		<collision>
+			<radius normal="25" />
+			<height normal="47.5" />
+		</collision>
+	</npc>
+	<npc id="32702" level="80" type="L2Npc">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc>
+	<npc id="32703" level="80" type="L2Npc">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc>
+	<npc id="32704" level="80" type="L2Npc" name="Somulitan" title="Soul Fragment Annex">
+		<!-- Confirmed CT2.5 -->
+		<race>ELF</race>
+		<sex>MALE</sex>
+		<equipment rhand="6579" /> <!-- Arcana Mace -->
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="15" /> <!-- Elves -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="8" />
+			<height normal="23.5" />
+		</collision>
+	</npc>
+	<npc id="32705" level="80" type="L2Npc" name="Zaken's Candle">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai aggroRange="300" />
+		<collision>
+			<radius normal="8" />
+			<height normal="13.5" />
+		</collision>
+	</npc>
+	<npc id="32706" level="80" type="L2Npc" name="Lucien's Altar">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="90" />
+			<height normal="38.5" />
+		</collision>
+	</npc>
+	<npc id="32707" level="80" type="L2Npc" name="Lucien's Altar">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="90" />
+			<height normal="38.5" />
+		</collision>
+	</npc>
+	<npc id="32708" level="80" type="L2Npc" name="Lucien's Altar">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="90" />
+			<height normal="38.5" />
+		</collision>
+	</npc>
+	<npc id="32709" level="80" type="L2Npc" name="Lucien's Altar">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="90" />
+			<height normal="38.5" />
+		</collision>
+	</npc>
+	<npc id="32710" level="80" type="L2Npc" name="Lucien's Altar">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="90" />
+			<height normal="38.5" />
+		</collision>
+	</npc>
+	<npc id="32711" level="80" type="L2Teleporter" name="Droph" title="Dwarf Adventurer">
+		<!-- Confirmed CT2.5 -->
+		<race>DWARF</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="18" /> <!-- Dwarves -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="8" />
+			<height normal="18" />
+		</collision>
+	</npc>
+	<npc id="32712" level="80" type="L2Teleporter" name="Somulitan" title="Zaken Researcher">
+		<!-- Confirmed CT2.5 -->
+		<race>ELF</race>
+		<sex>MALE</sex>
+		<equipment rhand="6579" /> <!-- Arcana Mace -->
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="15" /> <!-- Elves -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="8" />
+			<height normal="23.5" />
+		</collision>
+	</npc>
+	<npc id="32713" level="80" type="L2Npc" name="Pathfinder Worker">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="40" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="14" /> <!-- Humans -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai aggroRange="300" />
+		<collision>
+			<radius normal="8" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="32714" level="80" type="L2Teleporter" name="Asher" title="Gatekeeper">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="7884" /> <!-- Infernal Master -->
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="40" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="14" /> <!-- Humans -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="8" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="32715" level="80" type="L2Npc" name="Lilith" title="Holy Mother of Abyss">
+		<!-- Confirmed CT2.5 -->
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="45" />
+				<run ground="200" />
+			</speed>
+			<hit_time>500</hit_time>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" talkable="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="6187" level="1" /> <!-- Presentation - Lilith Battle -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<drop_lists>
+			<death>
+				<group chance="100">
+					<item id="17343" min="2" max="2" chance="14.02851358918" /> <!-- Twilight Shield - Heavy Armor -->
+					<item id="17324" min="1" max="1" chance="7.8899082568807" /> <!-- Apocalypse Shaper -->
+					<item id="17326" min="1" max="1" chance="7.8502821208597" /> <!-- Apocalypse Slasher -->
+					<item id="17333" min="1" max="1" chance="7.8390834302451" /> <!-- Apocalypse Caster -->
+					<item id="17334" min="1" max="1" chance="7.82874617737" /> <!-- Apocalypse Retributer -->
+					<item id="17325" min="1" max="1" chance="7.8201317999742" /> <!-- Apocalypse Cutter -->
+					<item id="17330" min="1" max="1" chance="7.8097945470991" /> <!-- Apocalypse Thrower -->
+					<item id="17332" min="1" max="1" chance="7.8080716716199" /> <!-- Apocalypse Buster -->
+					<item id="17329" min="1" max="1" chance="7.789120041349" /> <!-- Apocalypse Stormer -->
+					<item id="17327" min="1" max="1" chance="7.7848128526511" /> <!-- Apocalypse Avenger -->
+					<item id="17328" min="1" max="1" chance="7.7796442262136" /> <!-- Apocalypse Fighter -->
+					<item id="17331" min="1" max="1" chance="7.7718912865573" /> <!-- Apocalypse Shooter -->
+				</group>
+				<group chance="100">
+					<item id="17346" min="2" max="2" chance="19.562575941677" /> <!-- Twilight Leather Leggings - Light Armor -->
+					<item id="17345" min="2" max="2" chance="17.95494906066" /> <!-- Twilight Leather Armor - Light Armor -->
+					<item id="17351" min="2" max="2" chance="16.300588840079" /> <!-- Twilight Stockings - Robe -->
+					<item id="17350" min="2" max="2" chance="15.98280213104" /> <!-- Twilight Tunic - Robe -->
+					<item id="17339" min="2" max="2" chance="15.347228712964" /> <!-- Twilight Breastplate - Heavy Armor -->
+					<item id="17340" min="2" max="2" chance="14.851855313581" /> <!-- Twilight Gaiters - Heavy Armor -->
+				</group>
+				<group chance="100">
+					<item id="37714" min="1" max="1" chance="18.51369565714" /> <!-- Talisman - Lilith -->
+					<item id="17347" min="2" max="2" chance="9.5675416352546" /> <!-- Twilight Leather Gloves - Light Armor -->
+					<item id="17348" min="2" max="2" chance="9.3345212802412" /> <!-- Twilight Leather Boots - Light Armor -->
+					<item id="17344" min="2" max="2" chance="8.9781372078679" /> <!-- Twilight Leather Helmet - Light Armor -->
+					<item id="17338" min="2" max="2" chance="7.9318301235922" /> <!-- Twilight Helmet - Heavy Armor -->
+					<item id="17342" min="2" max="2" chance="7.9089849907477" /> <!-- Twilight Boots - Heavy Armor -->
+					<item id="17352" min="2" max="2" chance="7.7353619811299" /> <!-- Twilight Gloves - Robe -->
+					<item id="17341" min="2" max="2" chance="7.7125168482855" /> <!-- Twilight Gauntlets - Heavy Armor -->
+					<item id="17349" min="2" max="2" chance="7.5754460512188" /> <!-- Twilight Circlet - Robe -->
+					<item id="17353" min="2" max="2" chance="7.3744088821876" /> <!-- Twilight Shoes - Robe -->
+					<item id="17354" min="2" max="2" chance="7.3675553423343" /> <!-- Twilight Sigil - Robe -->
+				</group>
+				<group chance="14.84">
+					<item id="36257" min="1" max="1" chance="100" /> <!-- Lilith's Soul Necklace -->
+				</group>
+				<group chance="100">
+					<item id="19447" min="10" max="10" chance="7.7830860252476" /> <!-- Blessed Scroll: Enchant Weapon (R-grade) -->
+					<item id="19448" min="5" max="5" chance="7.7182269750372" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
+					<item id="37779" min="1" max="1" chance="5.4418325054577" /> <!-- Scroll of Blessing: Armor (R-grade) -->
+					<item id="46505" min="1" max="2" chance="3.7934634732812" /> <!-- Lionel's Soul Crystal - Stage 2 -->
+					<item id="46475" min="1" max="2" chance="3.7333502072326" /> <!-- Leona's Soul Crystal - Stage 2 -->
+					<item id="46474" min="1" max="3" chance="3.7238586389091" /> <!-- Leona's Soul Crystal - Stage 1 -->
+					<item id="46489" min="1" max="3" chance="3.7191128547474" /> <!-- Pantheon's Soul Crystal - Stage 1 -->
+					<item id="46506" min="1" max="2" chance="3.6874742936691" /> <!-- Lionel's Soul Crystal - Stage 3 -->
+					<item id="46490" min="1" max="2" chance="3.6400164520518" /> <!-- Pantheon's Soul Crystal - Stage 2 -->
+					<item id="46491" min="1" max="2" chance="3.600468250704" /> <!-- Pantheon's Soul Crystal - Stage 3 -->
+					<item id="46476" min="1" max="2" chance="3.5973043945961" /> <!-- Leona's Soul Crystal - Stage 3 -->
+					<item id="46504" min="1" max="3" chance="3.5830670421109" /> <!-- Lionel's Soul Crystal - Stage 1 -->
+					<item id="46477" min="1" max="1" chance="2.7683740943462" /> <!-- Leona's Soul Crystal - Stage 4 -->
+					<item id="17700" min="1" max="1" chance="2.7557186699149" /> <!-- Lv. 5 Giant INT Dye - INT + 5 -->
+					<item id="17699" min="1" max="1" chance="2.6956054038662" /> <!-- Lv. 5 Giant CON Dye - CON + 5 -->
+					<item id="17698" min="1" max="1" chance="2.6054355047932" /> <!-- Lv. 5 Giant DEX Dye - DEX + 5 -->
+					<item id="46459" min="1" max="3" chance="2.5627234473376" /> <!-- Mermoden's Soul Crystal - Stage 1 -->
+					<item id="46507" min="1" max="1" chance="2.5706330876072" /> <!-- Lionel's Soul Crystal - Stage 4 -->
+					<item id="17702" min="1" max="1" chance="2.5706330876072" /> <!-- Lv. 5 Giant MEN Dye - Men + 5 -->
+					<item id="17697" min="1" max="1" chance="2.5643053753915" /> <!-- Lv. 5 Giant STR Dye - STR + 5 -->
+					<item id="46492" min="1" max="1" chance="2.5611415192837" /> <!-- Pantheon's Soul Crystal - Stage 4 -->
+					<item id="17701" min="1" max="1" chance="2.5421583826368" /> <!-- Lv. 5 Giant WIT Dye - Wit + 5 -->
+					<item id="46445" min="1" max="2" chance="2.501028253235" /> <!-- Kain's Soul Crystal - Stage 2 -->
+					<item id="46460" min="1" max="2" chance="2.4947005410194" /> <!-- Mermoden's Soul Crystal - Stage 2 -->
+					<item id="46446" min="1" max="2" chance="2.4440788432942" /> <!-- Kain's Soul Crystal - Stage 3 -->
+					<item id="46461" min="1" max="2" chance="2.3823836491916" /> <!-- Mermoden's Soul Crystal - Stage 3 -->
+					<item id="46444" min="1" max="3" chance="2.3475812320056" /> <!-- Kain's Soul Crystal - Stage 1 -->
+					<item id="37770" min="1" max="1" chance="2.3254342392508" /> <!-- Scroll of Blessing: Weapon (R-grade) -->
+					<item id="46462" min="1" max="1" chance="1.8587654633467" /> <!-- Mermoden's Soul Crystal - Stage 4 -->
+					<item id="46447" min="1" max="1" chance="1.8445281108615" /> <!-- Kain's Soul Crystal - Stage 4 -->
+					<item id="37716" min="1" max="1" chance="1.583509981966" /> <!-- Seven Signs' Energy -->
+				</group>
+			</death>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="42.5" />
+			<height normal="55" />
+		</collision>
+	</npc>
+	<npc id="32716" level="80" type="L2Npc" name="Lilith's Steward">
+		<!-- Confirmed CT2.5 -->
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="190" />
+			</speed>
+			<hit_time>500</hit_time>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" talkable="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="6188" level="1" /> <!-- Presentation - Lilith' Steward Battle1 -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="9" />
+			<height normal="34" />
+		</collision>
+	</npc>
+	<npc id="32717" level="80" type="L2Npc" name="Lilith's Elite">
+		<!-- Confirmed CT2.5 -->
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<equipment rhand="5800" lhand="5799" /> <!-- Nephilim Lord / Nephilim Lord -->
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="56" />
+				<run ground="220" />
+			</speed>
+			<hit_time>460</hit_time>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" talkable="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4273" level="3" /> <!-- Resist Daggers/Rapier Weapon -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="6190" level="1" /> <!-- Presentation - Lilith' Bodyguards Battle1 -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="12" />
+			<height normal="50" />
+		</collision>
+	</npc>
+	<npc id="32718" level="80" type="L2Npc" name="Anakim" title="Flames of Sacred Fire">
+		<!-- Confirmed CT2.5 -->
+		<race>DIVINE</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="45" />
+				<run ground="200" />
+			</speed>
+			<hit_time>560</hit_time>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" talkable="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="6191" level="1" /> <!-- Presentation - Anakim Battle -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<drop_lists>
+			<death>
+				<group chance="100">
+					<item id="17401" min="2" max="2" chance="14.37933693138" /> <!-- Seraph Shield - Heavy Armor -->
+					<item id="17388" min="1" max="1" chance="7.8326051572004" /> <!-- Specter Thrower -->
+					<item id="17385" min="1" max="1" chance="7.8291784459865" /> <!-- Specter Avenger -->
+					<item id="17391" min="1" max="1" chance="7.8223250235586" /> <!-- Specter Caster -->
+					<item id="17392" min="1" max="1" chance="7.8146149233273" /> <!-- Specter Retributer -->
+					<item id="17389" min="1" max="1" chance="7.8026214340786" /> <!-- Specter Shooter -->
+					<item id="17386" min="1" max="1" chance="7.7931979782404" /> <!-- Specter Fighter -->
+					<item id="17390" min="1" max="1" chance="7.7597875439047" /> <!-- Specter Buster -->
+					<item id="17383" min="1" max="1" chance="7.7597875439047" /> <!-- Specter Cutter -->
+					<item id="17384" min="1" max="1" chance="7.747794054656" /> <!-- Specter Slasher -->
+					<item id="17387" min="1" max="1" chance="7.729803820783" /> <!-- Specter Stormer -->
+					<item id="17382" min="1" max="1" chance="7.7289471429795" /> <!-- Specter Shaper -->
+				</group>
+				<group chance="100">
+					<item id="17403" min="2" max="2" chance="19.328661010697" /> <!-- Seraph Leather Armor - Light Armor -->
+					<item id="17404" min="2" max="2" chance="18.637034304685" /> <!-- Seraph Leather Leggings - Light Armor -->
+					<item id="17408" min="2" max="2" chance="15.944300995942" /> <!-- Seraph Tunic - Robe -->
+					<item id="17397" min="2" max="2" chance="15.759867207672" /> <!-- Seraph Breastplate - Heavy Armor -->
+					<item id="17409" min="2" max="2" chance="15.722980450018" /> <!-- Seraph Stockings - Robe -->
+					<item id="17398" min="2" max="2" chance="14.607156030985" /> <!-- Seraph Gaiters - Heavy Armor -->
+				</group>
+				<group chance="100">
+					<item id="37715" min="1" max="1" chance="18.510898962114" /> <!-- Talisman - Anakim -->
+					<item id="17406" min="2" max="2" chance="9.5559510875847" /> <!-- Seraph Leather Boots - Light Armor -->
+					<item id="17405" min="2" max="2" chance="9.3525346154735" /> <!-- Seraph Leather Gloves - Light Armor -->
+					<item id="17402" min="2" max="2" chance="8.8208779270012" /> <!-- Seraph Leather Helmet - Light Armor -->
+					<item id="17411" min="2" max="2" chance="8.0441968516678" /> <!-- Seraph Shoes - Robe -->
+					<item id="17396" min="2" max="2" chance="7.9702272254456" /> <!-- Seraph Helmet - Heavy Armor -->
+					<item id="17407" min="2" max="2" chance="7.7159566353066" /> <!-- Seraph Circlet - Robe -->
+					<item id="17412" min="2" max="2" chance="7.6442985599038" /> <!-- Seraph Sigil - Robe -->
+					<item id="17400" min="2" max="2" chance="7.6096252976122" /> <!-- Seraph Boots - Heavy Armor -->
+					<item id="17399" min="2" max="2" chance="7.4247012320566" /> <!-- Seraph Gauntlets - Heavy Armor -->
+					<item id="17410" min="2" max="2" chance="7.3507316058344" /> <!-- Seraph Gloves - Robe -->
+				</group>
+				<group chance="100">
+					<item id="19447" min="10" max="10" chance="7.6508856246479" /> <!-- Blessed Scroll: Enchant Weapon (R-grade) -->
+					<item id="19448" min="5" max="5" chance="7.5569813946472" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
+					<item id="37780" min="1" max="1" chance="5.4695365441396" /> <!-- Scroll of Blessing: Armor (R95-grade) -->
+					<item id="46476" min="1" max="2" chance="3.7022897237984" /> <!-- Leona's Soul Crystal - Stage 3 -->
+					<item id="46504" min="1" max="3" chance="3.6114643210108" /> <!-- Lionel's Soul Crystal - Stage 1 -->
+					<item id="46505" min="1" max="2" chance="3.5976095985517" /> <!-- Lionel's Soul Crystal - Stage 2 -->
+					<item id="46506" min="1" max="2" chance="3.5883731169123" /> <!-- Lionel's Soul Crystal - Stage 3 -->
+					<item id="46475" min="1" max="2" chance="3.5760578080598" /> <!-- Leona's Soul Crystal - Stage 2 -->
+					<item id="46491" min="1" max="2" chance="3.5668213264203" /> <!-- Pantheon's Soul Crystal - Stage 3 -->
+					<item id="46490" min="1" max="2" chance="3.4544441331408" /> <!-- Pantheon's Soul Crystal - Stage 2 -->
+					<item id="46489" min="1" max="3" chance="3.4067223113372" /> <!-- Pantheon's Soul Crystal - Stage 1 -->
+					<item id="46474" min="1" max="3" chance="3.3897887616649" /> <!-- Leona's Soul Crystal - Stage 1 -->
+					<item id="17701" min="1" max="1" chance="2.6508702305118" /> <!-- Lv. 5 Giant WIT Dye - Wit + 5 -->
+					<item id="17700" min="1" max="1" chance="2.6431731624789" /> <!-- Lv. 5 Giant INT Dye - INT + 5 -->
+					<item id="17702" min="1" max="1" chance="2.6277790264133" /> <!-- Lv. 5 Giant MEN Dye - Men + 5 -->
+					<item id="46507" min="1" max="1" chance="2.6154637175607" /> <!-- Lionel's Soul Crystal - Stage 4 -->
+					<item id="17699" min="1" max="1" chance="2.610845476741" /> <!-- Lv. 5 Giant CON Dye - CON + 5 -->
+					<item id="46477" min="1" max="1" chance="2.6093060631344" /> <!-- Leona's Soul Crystal - Stage 4 -->
+					<item id="46492" min="1" max="1" chance="2.5769783773965" /> <!-- Pantheon's Soul Crystal - Stage 4 -->
+					<item id="17697" min="1" max="1" chance="2.5692813093636" /> <!-- Lv. 5 Giant STR Dye - STR + 5 -->
+					<item id="17698" min="1" max="1" chance="2.5400324508388" /> <!-- Lv. 5 Giant DEX Dye - DEX + 5 -->
+					<item id="46444" min="1" max="3" chance="2.4907712154286" /> <!-- Kain's Soul Crystal - Stage 1 -->
+					<item id="46461" min="1" max="2" chance="2.4707588385432" /> <!-- Mermoden's Soul Crystal - Stage 3 -->
+					<item id="46459" min="1" max="3" chance="2.4091822942805" /> <!-- Mermoden's Soul Crystal - Stage 1 -->
+					<item id="46446" min="1" max="2" chance="2.3753151949359" /> <!-- Kain's Soul Crystal - Stage 3 -->
+					<item id="46460" min="1" max="2" chance="2.353763404444" /> <!-- Mermoden's Soul Crystal - Stage 2 -->
+					<item id="46445" min="1" max="2" chance="2.321435718706" /> <!-- Kain's Soul Crystal - Stage 2 -->
+					<item id="10296" min="1" max="1" chance="2.2906474465747" /> <!-- Transformation Sealbook: Anakim -->
+					<item id="37771" min="1" max="1" chance="2.2044402846068" /> <!-- Scroll of Blessing: Weapon (R95-grade) -->
+					<item id="46462" min="1" max="1" chance="1.8195868829645" /> <!-- Mermoden's Soul Crystal - Stage 4 -->
+					<item id="46447" min="1" max="1" chance="1.7149067577179" /> <!-- Kain's Soul Crystal - Stage 4 -->
+					<item id="37716" min="1" max="1" chance="1.534487483028" /> <!-- Seven Signs' Energy -->
+				</group>
+			</death>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="15.5" />
+			<height normal="29" />
+		</collision>
+	</npc>
+	<npc id="32719" level="80" type="L2Npc" name="Anakim's Guardian">
+		<!-- Confirmed CT2.5 -->
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="190" />
+			</speed>
+			<hit_time>480</hit_time>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" talkable="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="6192" level="1" /> <!-- Presentation - Anakim's Guardian Battle1 -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="23" />
+			<height normal="40.5" />
+		</collision>
+	</npc>
+	<npc id="32720" level="80" type="L2Npc" name="Anakim's Guard">
+		<!-- Confirmed CT2.5 -->
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="65" />
+				<run ground="220" />
+			</speed>
+			<hit_time>630</hit_time>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" talkable="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4273" level="3" /> <!-- Resist Daggers/Rapier Weapon -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="6194" level="1" /> <!-- Presentation - Anakim's Royal Guard Battle -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="12" grown="14.4" />
+			<height normal="43" grown="51.6" />
+		</collision>
+	</npc>
+	<npc id="32721" level="80" type="L2Npc" name="Anakim's Executor">
+		<!-- Confirmed CT2.5 -->
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="65" />
+				<run ground="190" />
+			</speed>
+			<hit_time>630</hit_time>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" talkable="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="6195" level="1" /> <!-- Presentation - Anakim's Executor Battle -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="12" />
+			<height normal="36" />
+		</collision>
+	</npc>
+	<npc id="32722" level="80" type="L2Npc" name="Battle League Helper">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="75" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="5" />
+			<height normal="12.5" />
+		</collision>
+	</npc>
+	<npc id="32723" level="80" type="L2Npc">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" showName="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc>
+	<npc id="32724" level="80" type="L2Npc">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" showName="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc>
+	<npc id="32725" level="80" type="L2Npc" name="Priest of Resurrection">
+		<!-- Confirmed CT2.5 -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="50" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="13" />
+			<height normal="26.5" />
+		</collision>
+	</npc>
+	<npc id="32726" level="80" type="L2Npc" name="Dr. Ice" title="Event manager">
+		<!-- Confirmed CT2.5 -->
+		<race>DWARF</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="18" /> <!-- Dwarves -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="8" />
+			<height normal="21.3" />
+		</collision>
+	</npc>
+	<npc id="32727" level="80" type="L2Npc" name="Puss the Cat" title="Event manager">
+		<!-- Confirmed CT2.5 -->
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="40" />
+				<run ground="120" />
+			</speed>
+			<hit_time>610</hit_time>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="20" /> <!-- Non-living Beings -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="9" />
+			<height normal="16" />
+		</collision>
+	</npc>
+	<npc id="32728" level="80" type="L2Npc" name="Heavenly Bridge Keeper" title="Event manager">
+		<!-- Confirmed CT2.5 -->
+		<race>DWARF</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="20" /> <!-- Non-living Beings -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="8" />
+			<height normal="17" />
+		</collision>
+	</npc>
+	<npc id="32729" level="80" type="L2Npc">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="20" /> <!-- Non-living Beings -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="0.1" />
+			<height normal="152" />
+		</collision>
+	</npc>
+	<npc id="32730" level="80" type="L2Npc">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="20" /> <!-- Non-living Beings -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="0.1" />
+			<height normal="365" />
+		</collision>
+	</npc>
+	<npc id="32731" level="80" type="L2Npc" name="Hardin">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="14" /> <!-- Humans -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="8" />
+			<height normal="22.5" />
+		</collision>
+	</npc>
+	<npc id="32732" level="80" type="L2Npc" name="6th Anniversary Party Manager" title="Event manager">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="160" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="14" /> <!-- Humans -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="5" />
+			<height normal="21" />
+		</collision>
+	</npc>
+	<npc id="32733" level="80" type="L2Npc" name="Kbaldir" title="Commander">
+		<!-- Confirmed CT2.5 -->
+		<race>ORC</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="57" />
+				<run ground="180" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="17" /> <!-- Orcs -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="15" />
+			<height normal="27.5" />
+		</collision>
+	</npc>
+	<npc id="32734" level="80" type="L2Npc" name="Klemis" title="Officer">
+		<!-- Confirmed CT2.5 -->
+		<race>ELF</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="15" /> <!-- Elves -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="12" />
+			<height normal="23.5" />
+		</collision>
+	</npc>
+	<npc id="32735" level="80" type="L2Npc" name="Nemo">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="13465" /> <!-- Vesper Caster -->
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="100" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="14" /> <!-- Humans -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="8" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="32736" level="80" type="L2Npc" name="Ermian" title="General">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="160" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="14" /> <!-- Humans -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="10" />
+			<height normal="21.5" />
+		</collision>
+	</npc>
+	<npc id="32737" level="80" type="L2Npc" name="Seyo">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="63" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="14" /> <!-- Humans -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="8" />
+			<height normal="23.5" />
+		</collision>
+	</npc>
+	<npc id="32738" level="80" type="L2Npc" name="Injured Soldier">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="40" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="14" /> <!-- Humans -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai aggroRange="300" />
+		<collision>
+			<radius normal="7" />
+			<height normal="22" />
+		</collision>
+	</npc>
+	<npc id="32739" level="80" type="L2Npc" name="Bomona">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="100" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="14" /> <!-- Humans -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="8" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="32740" level="80" type="L2Npc" name="Batracos" title="Gatekeeper">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="75" />
+				<run ground="150" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="29" />
+			<height normal="44" />
+		</collision>
+	</npc>
+	<npc id="32741" level="80" type="L2Npc" name="Ankumi" title="Researcher">
+		<!-- Confirmed CT2.5 -->
+		<race>DWARF</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="18" /> <!-- Dwarves -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="8" />
+			<height normal="17.5" />
+		</collision>
+	</npc>
+	<npc id="32742" level="80" type="L2Npc" name="Laki" title="Investigator">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="28" />
+				<run ground="160" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="14" /> <!-- Humans -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="9" />
+			<height normal="23.5" />
+		</collision>
+	</npc>
+	<npc id="32743" level="80" type="L2Npc" name="Sally" title="Investigator">
+		<!-- Confirmed CT2.5 -->
+		<race>ORC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="17" /> <!-- Orcs -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="8" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="32744" level="80" type="L2Npc" name="Johnny" title="Chief Investigator">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="14" /> <!-- Humans -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="8" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="32745" level="80" type="L2Npc" name="Teleport Device">
+		<!-- Confirmed CT2.5 -->
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="19" /> <!-- Others -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="9" />
+			<height normal="33.5" />
+		</collision>
+	</npc>
+	<npc id="32746" level="80" type="L2Npc" name="Teleport Device">
+		<!-- Confirmed CT2.5 -->
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="19" /> <!-- Others -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="9" />
+			<height normal="33.5" />
+		</collision>
+	</npc>
+	<npc id="32747" level="80" type="L2Npc" name="Teleport Device">
+		<!-- Confirmed CT2.5 -->
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="19" /> <!-- Others -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="9" />
+			<height normal="33.5" />
+		</collision>
+	</npc>
+	<npc id="32748" level="80" type="L2Npc" name="Teleport Device">
+		<!-- Confirmed CT2.5 -->
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="19" /> <!-- Others -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="9" />
+			<height normal="33.5" />
+		</collision>
+	</npc>
+	<npc id="32749" level="80" type="L2Npc" name="Teleport Device">
+		<!-- Confirmed CT2.5 -->
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="19" /> <!-- Others -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="9" />
+			<height normal="33.5" />
+		</collision>
+	</npc>
+	<npc id="32750" level="80" type="L2Npc" name="Teleport Device">
+		<!-- Confirmed CT2.5 -->
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="19" /> <!-- Others -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="9" />
+			<height normal="33.5" />
+		</collision>
+	</npc>
+	<npc id="32751" level="80" type="L2Npc" name="Teleport Device">
+		<!-- Confirmed CT2.5 -->
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="19" /> <!-- Others -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="9" />
+			<height normal="33.5" />
+		</collision>
+	</npc>
+	<npc id="32752" level="80" type="L2Npc" name="Teleport Device">
+		<!-- Confirmed CT2.5 -->
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="19" /> <!-- Others -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="9" />
+			<height normal="33.5" />
+		</collision>
+	</npc>
+	<npc id="32753" level="80" type="L2Npc" name="Floor Teleport Device">
+		<!-- Confirmed CT2.5 -->
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="19" /> <!-- Others -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="9" />
+			<height normal="33.5" />
+		</collision>
+	</npc>
+	<npc id="32754" level="80" type="L2Npc" name="Floor Teleport Device">
+		<!-- Confirmed CT2.5 -->
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="19" /> <!-- Others -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="9" />
+			<height normal="33.5" />
+		</collision>
+	</npc>
+	<npc id="32755" level="80" type="L2Npc" name="Floor Teleport Device">
+		<!-- Confirmed CT2.5 -->
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="19" /> <!-- Others -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="9" />
+			<height normal="33.5" />
+		</collision>
+	</npc>
+	<npc id="32756" level="80" type="L2Npc" name="Floor Teleport Device">
+		<!-- Confirmed CT2.5 -->
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="19" /> <!-- Others -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="9" />
+			<height normal="33.5" />
+		</collision>
+	</npc>
+	<npc id="32757" level="80" type="L2Npc" name="Greymore" title="Priest">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="14" /> <!-- Humans -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="8" />
+			<height normal="24.5" />
+		</collision>
+	</npc>
+	<npc id="32758" level="80" type="L2Npc" name="Sumiel" title="Treasure Seeker">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="40" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="14" /> <!-- Humans -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="15" />
+			<height normal="30" />
+		</collision>
+	</npc>
+	<npc id="32759" level="80" type="L2Npc" name="Gumiel" title="Treasure Seeker">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="40" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="14" /> <!-- Humans -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="15" />
+			<height normal="30" />
+		</collision>
+	</npc>
+	<npc id="32760" level="80" type="L2Npc" name="Jinia">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="40" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="14" /> <!-- Humans -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="11" />
+			<height normal="23.5" />
+		</collision>
+	</npc>
+	<npc id="32761" level="80" type="L2Npc" name="Kegor">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="40" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="14" /> <!-- Humans -->
+			<skill id="6643" level="1" /> <!-- Holy Strike -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="15" />
+			<height normal="27.5" />
+		</collision>
+	</npc>
+	<npc id="32762" level="80" type="L2Npc" name="Sirra">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="40" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="14" /> <!-- Humans -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="10" />
+			<height normal="22" />
+		</collision>
+	</npc>
+	<npc id="32763" level="80" type="L2Npc" name="Sirra" title="Ice Fairy">
+		<!-- Confirmed CT2.5 -->
+		<race>ELEMENTAL</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="30" />
+				<run ground="250" />
+			</speed>
+			<hit_time>430</hit_time>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="7" /> <!-- Spirits -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="16" />
+			<height normal="35.6" />
+		</collision>
+	</npc>
+	<npc id="32764" level="80" type="L2Npc">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc>
+	<npc id="32765" level="80" type="L2Npc" name="Box of Doubt">
+		<!-- Confirmed CT2.5 -->
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="19" /> <!-- Others -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="18" />
+			<height normal="14" />
+		</collision>
+	</npc>
+	<npc id="32766" level="80" type="L2Npc" name="Ilvenis" title="Soldier">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="13524" lhand="13525" /> <!-- Gracian Soldier One-handed Sword / Gracian Soldier Shield -->
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="160" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="14" /> <!-- Humans -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="11" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="32767" level="80" type="L2Npc" name="McLaren" title="Soldier">
+		<!-- Confirmed CT2.5 -->
+		<race>ELF</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="34" />
+				<run ground="180" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="15" /> <!-- Elves -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="8" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="32768" level="80" type="L2Npc" name="Kelleyia">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="14" /> <!-- Humans -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="8" />
+			<height normal="22.5" />
+		</collision>
+	</npc>
+	<npc id="32769" level="80" type="L2Npc" name="Gracian Soldier's Corpse">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="14" /> <!-- Humans -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="15" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="32770" level="80" type="L2Npc" name="Gracian Soldier's Corpse">
+		<!-- Confirmed CT2.5 -->
+		<race>ELF</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="15" /> <!-- Elves -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="15" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="32771" level="80" type="L2Npc" name="Gracian Soldier's Corpse">
+		<!-- Confirmed CT2.5 -->
+		<race>ELF</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="15" /> <!-- Elves -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="15" />
+			<height normal="23.5" />
+		</collision>
+	</npc>
+	<npc id="32772" level="80" type="L2Npc" name="Gracian Soldier's Corpse">
+		<!-- Confirmed CT2.5 -->
+		<race>ORC</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="17" /> <!-- Orcs -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="25" />
+			<height normal="27.5" />
+		</collision>
+	</npc>
+	<npc id="32773" level="80" type="L2Npc" name="Jakan" title="Officer">
+		<!-- Confirmed CT2.5 -->
+		<race>ORC</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="43" />
+				<run ground="180" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="17" /> <!-- Orcs -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="15" />
+			<height normal="27.5" />
+		</collision>
+	</npc>
+	<npc id="32774" level="80" type="L2Teleporter" name="Elmina" title="Soldier">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="48" />
+				<run ground="180" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="14" /> <!-- Humans -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="8" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="32775" level="80" type="L2TerrainObject" name="Gracian Soldier">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="160" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="14" /> <!-- Humans -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai type="CORPSE" />
+		<collision>
+			<radius normal="9.5" />
+			<height normal="22.5" />
+		</collision>
+	</npc>
+	<npc id="32776" level="80" type="L2TerrainObject" name="Gracian Soldier">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="160" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="14" /> <!-- Humans -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai type="CORPSE" />
+		<collision>
+			<radius normal="9.5" />
+			<height normal="22.5" />
+		</collision>
+	</npc>
+	<npc id="32777" level="80" type="L2Npc" name="Battalion Leader" title="Jinia Guild">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="80" lhand="641" /> <!-- Tallum Blade / Dark Crystal Shield -->
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="30" />
+				<run ground="160" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="14" /> <!-- Humans -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="10" />
+			<height normal="23.75" />
+		</collision>
+	</npc>
+	<npc id="32778" level="80" type="L2Npc" name="Legionnaire" title="Jinia Guild">
+		<!-- Confirmed CT2.5 -->
+		<race>ORC</race>
+		<sex>MALE</sex>
+		<equipment rhand="9813" lhand="9813" /> <!-- Orc Officer / Orc Officer -->
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="40" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="17" /> <!-- Orcs -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="14.5" />
+			<height normal="30" />
+		</collision>
+	</npc>
+	<npc id="32779" level="80" type="L2Npc" name="Airship Controller">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="19" />
+			<height normal="28" />
+		</collision>
+	</npc>
+	<npc id="32780" level="80" type="L2Npc" name="Aquilani">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="14" /> <!-- Humans -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="8" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="32781" level="80" type="L2Npc" name="Jinia">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="40" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="14" /> <!-- Humans -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="11" />
+			<height normal="23.5" />
+		</collision>
+	</npc>
+	<npc id="32782" level="80" type="L2Teleporter" name="Lionel" title="Transmitter">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="19" />
+			<height normal="28" />
+		</collision>
+	</npc>
+	<npc id="32783" level="80" type="L2Npc" name="Priest of Blessing">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="14" /> <!-- Humans -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<collision>
+			<radius normal="8" />
+			<height normal="24.5" />
+		</collision>
+	</npc>
+	<npc id="32784" level="80" type="L2Npc" name="Elcadia" title="Abyssal Saintess">
+		<!-- TODO: Must be confirmed -->
+		<race>DARK_ELF</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290" mp="1674" hpRegen="8.5" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" critical="4" accuracy="5" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="37.5" />
+				<run ground="150" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<skill_list>
+			<skill id="6792" level="1" /> <!-- Presentation - Dialogue with Elcadia 2 -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="16" /> <!-- Dark Elves -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+		</skill_list>
+		<ai aggroRange="300" />
+		<collision>
+			<radius normal="10" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="32785" level="80" type="L2Npc" name="Elcadia" title="Abyssal Saintess">
+		<!-- TODO: Must be confirmed -->
+		<race>DARK_ELF</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290" mp="1674" hpRegen="8.5" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" critical="4" accuracy="5" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="37.5" />
+				<run ground="150" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<skill_list>
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="16" /> <!-- Dark Elves -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+		</skill_list>
+		<ai aggroRange="300" />
+		<collision>
+			<radius normal="10" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="32786" level="80" type="L2Npc" name="Elcadia" title="Abyssal Saintess">
+		<!-- TODO: Must be confirmed -->
+		<race>DARK_ELF</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290" mp="1674" hpRegen="8.5" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" critical="4" accuracy="5" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="37.5" />
+				<run ground="150" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<skill_list>
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="16" /> <!-- Dark Elves -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+		</skill_list>
+		<collision>
+			<radius normal="10" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="32787" level="80" type="L2Npc" name="Elcadia" title="Abyssal Saintess">
+		<!-- TODO: Must be confirmed -->
+		<race>DARK_ELF</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290" mp="1674" hpRegen="8.5" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" critical="4" accuracy="5" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="37.5" />
+				<run ground="150" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<skill_list>
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="16" /> <!-- Dark Elves -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="6725" level="1" /> <!-- Blessed Blood of Elcadia -->
+		</skill_list>
+		<ai aggroRange="300" />
+		<collision>
+			<radius normal="10" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="32788" level="80" type="L2Npc" name="Elcadia" title="Abyssal Saintess">
+		<!-- TODO: Must be confirmed -->
+		<race>DARK_ELF</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290" mp="1674" hpRegen="8.5" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" critical="4" accuracy="5" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="37.5" />
+				<run ground="150" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<skill_list>
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="16" /> <!-- Dark Elves -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+		</skill_list>
+		<ai aggroRange="300" />
+		<collision>
+			<radius normal="10" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="32789" level="80" type="L2Npc" name="Elcadia" title="Abyssal Saintess">
+		<!-- TODO: Must be confirmed -->
+		<race>DARK_ELF</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290" mp="1674" hpRegen="8.5" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" critical="4" accuracy="5" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="37.5" />
+				<run ground="150" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<skill_list>
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="16" /> <!-- Dark Elves -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+		</skill_list>
+		<ai aggroRange="300" />
+		<collision>
+			<radius normal="10" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="32790" level="80" type="L2Npc" name="Elcadia" title="Abyssal Saintess">
+		<!-- TODO: Must be confirmed -->
+		<race>DARK_ELF</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290" mp="1674" hpRegen="8.5" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" critical="4" accuracy="5" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="37.5" />
+				<run ground="150" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<skill_list>
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="16" /> <!-- Dark Elves -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+		</skill_list>
+		<ai aggroRange="300" />
+		<collision>
+			<radius normal="10" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="32791" level="80" type="L2Npc" name="Elcadia" title="Abyssal Saintess">
+		<!-- TODO: Must be confirmed -->
+		<race>DARK_ELF</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290" mp="1674" hpRegen="8.5" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" critical="4" accuracy="5" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="37.5" />
+				<run ground="150" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<skill_list>
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="16" /> <!-- Dark Elves -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+		</skill_list>
+		<ai aggroRange="300" />
+		<collision>
+			<radius normal="10" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="32792" level="80" type="L2Npc" name="Eris' Evil Thoughts" title="Director">
+		<!-- TODO: Must be confirmed -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290" mp="1674" hpRegen="8.5" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" critical="4" accuracy="5" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<skill_list>
+			<skill id="6784" level="1" /> <!-- Presentation - Eris' Suffering -->
+			<skill id="4416" level="14" /> <!-- Humans -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+		</skill_list>
+		<collision>
+			<radius normal="11" />
+			<height normal="22" />
+		</collision>
+	</npc>
+	<npc id="32793" level="80" type="L2Npc" name="Solina's Evil Thoughts" title="Elmoreden's Saintess">
+		<!-- TODO: Must be confirmed -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290" mp="1674" hpRegen="8.5" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" critical="4" accuracy="5" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<skill_list>
+			<skill id="4416" level="14" /> <!-- Humans -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+		</skill_list>
+		<collision>
+			<radius normal="12" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="32794" level="80" type="L2Npc" name="Solina" title="Elmoreden's Saintess">
+		<!-- TODO: Must be confirmed -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290" mp="1674" hpRegen="8.5" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" critical="4" accuracy="5" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<skill_list>
+			<skill id="4416" level="14" /> <!-- Humans -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+		</skill_list>
+		<collision>
+			<radius normal="12" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="32795" level="80" type="L2Npc" name="Eris" title="Solina's Disciple">
+		<!-- TODO: Must be confirmed -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290" mp="1674" hpRegen="8.5" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" critical="4" accuracy="5" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<skill_list>
+			<skill id="4416" level="14" /> <!-- Humans -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+		</skill_list>
+		<collision>
+			<radius normal="11" />
+			<height normal="22" />
+		</collision>
+	</npc>
+	<npc id="32796" level="80" type="L2Npc" name="Anais" title="Solina's Disciple">
+		<!-- TODO: Must be confirmed -->
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290" mp="1674" hpRegen="8.5" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" critical="4" accuracy="5" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<skill_list>
+			<skill id="4416" level="14" /> <!-- Humans -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="1.16">
+					<item id="14111" min="1" max="1" chance="100" /> <!-- Sealed Vesper Shield -->
+				</group>
+				<group chance="15.053">
+					<item id="15484" min="1" max="1" chance="30.791204411081" /> <!-- Archangel Circlet -->
+					<item id="14110" min="1" max="1" chance="8.1312695143825" /> <!-- Sealed Vesper Boots -->
+					<item id="14109" min="1" max="1" chance="7.9984056334286" /> <!-- Sealed Vesper Gauntlets -->
+					<item id="14113" min="1" max="1" chance="7.7526074536637" /> <!-- Sealed Vesper Leather Gloves -->
+					<item id="14117" min="1" max="1" chance="7.745964259616" /> <!-- Sealed Vesper Shoes -->
+					<item id="14116" min="1" max="1" chance="7.6197435727098" /> <!-- Sealed Vesper Gloves -->
+					<item id="14114" min="1" max="1" chance="7.5400252441374" /> <!-- Sealed Vesper Leather Boots -->
+					<item id="13887" min="1" max="1" chance="7.4735933036604" /> <!-- Sealed Vesper Sigil -->
+					<item id="13145" min="1" max="1" chance="4.9823955357736" /> <!-- Sealed Vesper Circlet -->
+					<item id="13144" min="1" max="1" chance="4.9823955357736" /> <!-- Sealed Vesper Leather Helmet -->
+					<item id="13143" min="1" max="1" chance="4.9823955357736" /> <!-- Sealed Vesper Helmet -->
+				</group>
+				<group chance="22.17">
+					<item id="960" min="1" max="1" chance="71.447902571042" /> <!-- Scroll: Enchant Armor (S-grade) -->
+					<item id="959" min="1" max="1" chance="6.9012178619756" /> <!-- Scroll: Enchant Weapon (S-grade) -->
+					<item id="46505" min="1" max="1" chance="1.3531799729364" /> <!-- Lionel's Soul Crystal - Stage 2 -->
+					<item id="46504" min="1" max="1" chance="1.3531799729364" /> <!-- Lionel's Soul Crystal - Stage 1 -->
+					<item id="46491" min="1" max="1" chance="1.3531799729364" /> <!-- Pantheon's Soul Crystal - Stage 3 -->
+					<item id="46490" min="1" max="1" chance="1.3531799729364" /> <!-- Pantheon's Soul Crystal - Stage 2 -->
+					<item id="46489" min="1" max="1" chance="1.3531799729364" /> <!-- Pantheon's Soul Crystal - Stage 1 -->
+					<item id="46476" min="1" max="1" chance="1.3531799729364" /> <!-- Leona's Soul Crystal - Stage 3 -->
+					<item id="46475" min="1" max="1" chance="1.3531799729364" /> <!-- Leona's Soul Crystal - Stage 2 -->
+					<item id="46474" min="1" max="1" chance="1.3531799729364" /> <!-- Leona's Soul Crystal - Stage 1 -->
+					<item id="46461" min="1" max="1" chance="1.3531799729364" /> <!-- Mermoden's Soul Crystal - Stage 3 -->
+					<item id="46460" min="1" max="1" chance="1.3531799729364" /> <!-- Mermoden's Soul Crystal - Stage 2 -->
+					<item id="46459" min="1" max="1" chance="1.3531799729364" /> <!-- Mermoden's Soul Crystal - Stage 1 -->
+					<item id="46446" min="1" max="1" chance="1.3531799729364" /> <!-- Kain's Soul Crystal - Stage 3 -->
+					<item id="46445" min="1" max="1" chance="1.3531799729364" /> <!-- Kain's Soul Crystal - Stage 2 -->
+					<item id="46444" min="1" max="1" chance="1.3531799729364" /> <!-- Kain's Soul Crystal - Stage 1 -->
+					<item id="6577" min="1" max="1" chance="1.3531799729364" /> <!-- Blessed Scroll: Enchant Weapon (S-grade) -->
+					<item id="46506" min="1" max="1" chance="1.3531799729364" /> <!-- Lionel's Soul Crystal - Stage 3 -->
+				</group>
+			</death>
+			<luck>
+				<item id="39629" min="1" max="1" chance="88.67" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="14" />
+			<height normal="27" />
+		</collision>
+	</npc>
+	<npc id="32797" level="80" type="L2Npc" name="Jude van Etina" title="Solina's Disciple">
+		<!-- TODO: Must be confirmed -->
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290" mp="1674" hpRegen="8.5" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" critical="4" accuracy="5" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<skill_list>
+			<skill id="4416" level="14" /> <!-- Humans -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+		</skill_list>
+		<collision>
+			<radius normal="13" />
+			<height normal="20" />
+		</collision>
+	</npc>
+	<npc id="32798" level="80" type="L2Npc" name="Elcadia" title="Abyssal Saintess">
+		<!-- TODO: Must be confirmed -->
+		<race>DARK_ELF</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290" mp="1674" hpRegen="8.5" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" critical="4" accuracy="5" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="37.5" />
+				<run ground="150" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<skill_list>
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="16" /> <!-- Dark Elves -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+		</skill_list>
+		<collision>
+			<radius normal="10" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="32799" level="80" type="L2Npc" name="Hardin" title="Grand Wizard">
+		<!-- TODO: Must be confirmed -->
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3290" mp="1674" hpRegen="8.5" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" critical="4" accuracy="5" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="100" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<skill_list>
+			<skill id="4416" level="14" /> <!-- Humans -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+		</skill_list>
+		<collision>
+			<radius normal="8" />
+			<height normal="22.5" />
+		</collision>
+	</npc>
+</list>

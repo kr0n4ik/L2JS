@@ -1,0 +1,4560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
+	<npc id="23400" level="99" type="L2Monster" name="Lavisys" title="Magical">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>BEAST</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="499.43679216406" sp="11747" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="139406" hpRegen="10.5" mp="23550" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="300" />
+			</speed>
+			<attack physical="47220.306466714" magical="8304.9029160715" critical="4" attackSpeed="253" range="40" />
+			<defence physical="526.06382978723" magical="305.10497858296" />
+			<attribute>
+				<defence fire="250" water="200" wind="250" earth="250" holy="250" dark="250" />
+				<attack type="FIRE" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5462" level="1" /> <!-- Fire Attack -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4416" level="3" /> <!-- Beast -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="100">
+					<item id="57" min="8810" max="20521" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="4.96">
+					<item id="37776" min="1" max="1" chance="47.61904761904762" /> <!-- Scroll of Blessing Scraps: Weapon (R-grade) -->
+					<item id="37791" min="1" max="1" chance="47.61904761904762" /> <!-- Sealed Demonic Tome -->
+					<item id="37773" min="1" max="1" chance="4.761904761904762" /> <!-- Recipe: Scroll of Blessing: Weapon (R-grade) -->
+				</group>
+			</death>
+			<corpse>
+				<item id="40049" min="1" max="1" chance="50.15" /> <!-- Scroll: 1,000 SP -->
+				<item id="40050" min="1" max="1" chance="5.117" /> <!-- Scroll: 10,000 SP -->
+				<item id="40051" min="1" max="1" chance="0.75" /> <!-- Scroll: 100,000 SP -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="12" />
+			<height normal="30" />
+		</collision>
+	</npc>
+	<npc id="23401" level="99" type="L2Monster" name="Bridget" title="Fire Slave">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="2080.9799000102" sp="48949" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="190100" hpRegen="10.5" mp="23550" mpRegen="3.6" />
+			<speed>
+				<walk ground="46" />
+				<run ground="160" />
+			</speed>
+			<attack physical="47220.557386874" magical="8305.0410766139" critical="4" attackSpeed="253" range="40" />
+			<defence physical="526.06382978723" magical="305.10497858296" />
+			<attribute>
+				<defence fire="250" water="200" wind="250" earth="250" holy="250" dark="250" />
+				<attack type="FIRE" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" randomWalk="false" />
+		<skill_list>
+			<skill id="5462" level="1" /> <!-- Fire Attack -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="50">
+					<item id="57" min="1932" max="4501" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.075">
+					<item id="37791" min="1" max="1" chance="100" /> <!-- Sealed Demonic Tome -->
+				</group>
+			</death>
+			<corpse>
+				<item id="40049" min="1" max="1" chance="11.28" /> <!-- Scroll: 1,000 SP -->
+				<item id="40050" min="1" max="1" chance="1.092" /> <!-- Scroll: 10,000 SP -->
+				<item id="40051" min="1" max="1" chance="0.3" /> <!-- Scroll: 100,000 SP -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="35" />
+			<height normal="47.5" />
+		</collision>
+	</npc>
+	<npc id="23402" level="99" type="L2Monster" name="Disorder Avatar" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>BEAST</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="220.62616059586" sp="5189" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="9409" hpRegen="10.5" mp="23550" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attack physical="47220.557386874" magical="8305.0410766139" critical="4" attackSpeed="253" range="40" />
+			<defence physical="526.14714175852" magical="305.10497858296" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="EARTH" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="4412" level="9" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4458" level="3" /> <!-- Spear Vulnerability -->
+			<skill id="4416" level="3" /> <!-- Beast -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="50">
+					<item id="57" min="899" max="2095" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.075">
+					<item id="37791" min="1" max="1" chance="100" /> <!-- Sealed Demonic Tome -->
+				</group>
+			</death>
+			<corpse>
+				<item id="40049" min="1" max="1" chance="4.322" /> <!-- Scroll: 1,000 SP -->
+				<item id="40050" min="1" max="1" chance="0.3" /> <!-- Scroll: 10,000 SP -->
+				<item id="40051" min="1" max="1" chance="0.03" /> <!-- Scroll: 100,000 SP -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="25" />
+			<height normal="42" />
+		</collision>
+	</npc>
+	<npc id="23403" level="97" type="L2Monster" name="Suffering Fanatic" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="355923.798767211" hpRegen="10.5" mp="22800.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="92" />
+				<run ground="200" />
+			</speed>
+			<attack physical="42273.078491016" magical="7578.7049610443" critical="4" attackSpeed="253" range="40" />
+			<defence physical="505.37634408602" magical="290.28709322545" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+				<attack type="DARK" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
+			<skill id="4410" level="18" /> <!-- Extremely Strong P. Atk. -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+		</skill_list>
+		<collision>
+			<radius normal="27" />
+			<height normal="48.5" />
+		</collision>
+	</npc>
+	<npc id="23404" level="97" type="L2Monster" name="Suffering Herald" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="355923.798767211" hpRegen="10.5" mp="34200.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="45" />
+				<run ground="160" />
+			</speed>
+			<attack physical="42936.994949205" magical="7578.6935767101" critical="4" attackSpeed="253" range="40" />
+			<defence physical="505.37634408602" magical="290.28709322545" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+				<attack type="DARK" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="18" /> <!-- Extremely Strong M. Atk. -->
+			<skill id="4416" level="1" /> <!-- Undead -->
+		</skill_list>
+		<collision>
+			<radius normal="14.4" />
+			<height normal="22" />
+		</collision>
+	</npc>
+	<npc id="23405" level="97" type="L2Monster" name="Suffering Zealot" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="355923.798767211" hpRegen="10.5" mp="34200.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="73" />
+				<run ground="170" />
+			</speed>
+			<attack physical="42936.994949205" magical="7578.6935767101" critical="4" attackSpeed="253" range="40" />
+			<defence physical="505.37634408602" magical="290.28709322545" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+				<attack type="DARK" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="18" /> <!-- Extremely Strong M. Atk. -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+		</skill_list>
+		<collision>
+			<radius normal="19" />
+			<height normal="44" />
+		</collision>
+	</npc>
+	<npc id="23406" level="97" type="L2Monster" name="Suffering Mutant" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="355923.798767211" hpRegen="10.5" mp="22800.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="200" />
+			</speed>
+			<attack physical="42273.078491016" magical="7578.7049610443" critical="4" attackSpeed="253" range="40" />
+			<defence physical="505.37634408602" magical="290.28709322545" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+				<attack type="DARK" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
+			<skill id="4410" level="18" /> <!-- Extremely Strong P. Atk. -->
+			<skill id="4416" level="1" /> <!-- Undead -->
+		</skill_list>
+		<collision>
+			<radius normal="43" />
+			<height normal="47.5" />
+		</collision>
+	</npc>
+	<npc id="23407" level="97" type="L2Monster" name="Suffering Hacker" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="355923.798767211" hpRegen="10.5" mp="22800.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="200" />
+			</speed>
+			<attack physical="42273.078491016" magical="7578.7049610443" critical="4" attackSpeed="253" range="40" />
+			<defence physical="505.37634408602" magical="290.28709322545" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="EARTH" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="4410" level="18" /> <!-- Extremely Strong P. Atk. -->
+			<skill id="4416" level="1" /> <!-- Undead -->
+		</skill_list>
+		<collision>
+			<radius normal="34" />
+			<height normal="34" />
+		</collision>
+	</npc>
+	<npc id="23408" level="99" type="L2Monster" name="Emergency Caller" title="Dexterous">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15841.7282909073" hpRegen="10.5" mp="2355.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="92" />
+				<run ground="200" />
+			</speed>
+			<attack physical="47220.557386874" magical="8305.0410766139" critical="4" attackSpeed="253" range="40" />
+			<defence physical="526.06382978723" magical="305.10497858296" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+				<attack type="DARK" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+		</skill_list>
+		<collision>
+			<radius normal="27" />
+			<height normal="48.5" />
+		</collision>
+	</npc>
+	<npc id="23409" level="99" type="L2Monster" name="Erosion Herald" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15841.7282909073" hpRegen="10.5" mp="3532.5" mpRegen="3.6" />
+			<speed>
+				<walk ground="45" />
+				<run ground="160" />
+			</speed>
+			<attack physical="47220.557386874" magical="8305.0410766139" critical="4" attackSpeed="253" range="40" />
+			<defence physical="526.06382978723" magical="305.10497858296" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+				<attack type="DARK" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
+			<skill id="4416" level="1" /> <!-- Undead -->
+		</skill_list>
+		<collision>
+			<radius normal="14.4" />
+			<height normal="22" />
+		</collision>
+	</npc>
+	<npc id="23410" level="99" type="L2Monster" name="Hiding Tracker" title="Swift">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15841.7282909073" hpRegen="10.5" mp="3532.5" mpRegen="3.6" />
+			<speed>
+				<walk ground="73" />
+				<run ground="170" />
+			</speed>
+			<attack physical="47220.557386874" magical="8305.0410766139" critical="4" attackSpeed="253" range="40" />
+			<defence physical="526.06382978723" magical="305.10497858296" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+				<attack type="DARK" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+		</skill_list>
+		<collision>
+			<radius normal="19" />
+			<height normal="44" />
+		</collision>
+	</npc>
+	<npc id="23411" level="99" type="L2Monster" name="Erosion Mutant" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15841.7282909073" hpRegen="10.5" mp="2355.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="200" />
+			</speed>
+			<attack physical="47220.557386874" magical="8305.0410766139" critical="4" attackSpeed="253" range="40" />
+			<defence physical="526.06382978723" magical="305.10497858296" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+				<attack type="DARK" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
+			<skill id="4416" level="1" /> <!-- Undead -->
+		</skill_list>
+		<collision>
+			<radius normal="43" />
+			<height normal="47.5" />
+		</collision>
+	</npc>
+	<npc id="23412" level="99" type="L2Monster" name="Erosion Hacker" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15841.7282909073" hpRegen="10.5" mp="2355.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="200" />
+			</speed>
+			<attack physical="47220.557386874" magical="8305.0410766139" critical="4" attackSpeed="253" range="40" />
+			<defence physical="526.06382978723" magical="305.10497858296" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="EARTH" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="4416" level="1" /> <!-- Undead -->
+		</skill_list>
+		<collision>
+			<radius normal="34" />
+			<height normal="34" />
+		</collision>
+	</npc>
+	<npc id="23413" level="99" type="L2Monster" name="Erosion Ark" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>CONSTRUCT</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15841.7282909073" hpRegen="10.5" mp="2355.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="30" />
+				<run ground="80" />
+			</speed>
+			<attack physical="47220.557386874" magical="8305.0410766139" critical="4" attackSpeed="253" range="40" />
+			<defence physical="526.06382978723" magical="305.10497858296" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+				<attack type="DARK" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+		</skill_list>
+		<collision>
+			<radius normal="20" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="23414" level="21" type="L2Monster" name="Windima" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ELEMENTAL</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="2.1224489795918" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="364.30351" hpRegen="3.5" mp="205.2" mpRegen="1.5" />
+			<speed>
+				<walk ground="12" />
+				<run ground="30" />
+			</speed>
+			<attack physical="48.209366391185" magical="32.864268526099" critical="4" attackSpeed="253" range="40" />
+			<defence physical="90" magical="66.35700066357" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4416" level="7" /> <!-- Spirits -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="6" max="14" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="20.31">
+					<item id="36526" min="1" max="1" chance="100" /> <!-- Fiber -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36532" min="1" max="1" chance="0.3" /> <!-- Thin Braid -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="23" />
+			<height normal="90" />
+		</collision>
+	</npc>
+	<npc id="23415" level="23" type="L2Monster" name="Windima Feri" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ELEMENTAL</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="2.2381852551985" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="410.70422" hpRegen="3.5" mp="231.96" mpRegen="1.5" />
+			<speed>
+				<walk ground="12" />
+				<run ground="30" />
+			</speed>
+			<attack physical="56.058382257012" magical="38.745696400438" critical="4" attackSpeed="253" range="40" />
+			<defence physical="95.779220779221" magical="70.438482847242" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4416" level="7" /> <!-- Spirits -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="7" max="16" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="22.64">
+					<item id="36526" min="1" max="1" chance="100" /> <!-- Fiber -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36532" min="1" max="1" chance="0.3" /> <!-- Thin Braid -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="23" />
+			<height normal="90" />
+		</collision>
+	</npc>
+	<npc id="23416" level="25" type="L2Monster" name="Windima Resh" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ELEMENTAL</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="3.0304" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="460.96247" hpRegen="3.5" mp="259.2" mpRegen="1.5" />
+			<speed>
+				<walk ground="12" />
+				<run ground="30" />
+			</speed>
+			<attack physical="65.088520387727" magical="44.483749519552" critical="4" attackSpeed="253" range="40" />
+			<defence physical="102.22925735391" magical="74.887350702705" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
+			<skill id="4416" level="7" /> <!-- Spirits -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="8" max="18" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="1.033">
+					<item id="36551" min="1" max="1" chance="100" /> <!-- Armor Fragment (Low-grade) -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36532" min="1" max="1" chance="0.3" /> <!-- Thin Braid -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="23" />
+			<height normal="90" />
+		</collision>
+	</npc>
+	<npc id="23417" level="26" type="L2Monster" name="Wind Vortex" title="Cyclone">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="3.1449704142012" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="487.5704" hpRegen="3.5" mp="273.0" mpRegen="1.5" />
+			<speed>
+				<walk ground="1" />
+				<run ground="100" />
+			</speed>
+			<attack physical="70.289855072464" magical="47.887079504669" critical="4" attackSpeed="253" range="40" />
+			<defence physical="105.21739130435" magical="76.87153989915" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="8" max="19" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="28.41">
+					<item id="36526" min="1" max="1" chance="100" /> <!-- Fiber -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36532" min="1" max="1" chance="0.3" /> <!-- Thin Braid -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="10" />
+			<height normal="20" />
+		</collision>
+	</npc>
+	<npc id="23418" level="35" type="L2Monster" name="Marionette Spirit" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>PLANT</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="2.1812244897959" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="772.73802" hpRegen="4.5" mp="402.6" mpRegen="1.8" />
+			<speed>
+				<walk ground="60" />
+				<run ground="100" />
+			</speed>
+			<attack physical="129.70430107527" magical="89.081014598074" critical="4" attackSpeed="253" range="40" />
+			<defence physical="137.09677419355" magical="100.07063809748" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4416" level="5" /> <!-- Plants -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="13" max="30" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="1.514">
+					<item id="36561" min="1" max="1" chance="100" /> <!-- Cokes -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36532" min="1" max="1" chance="0.3" /> <!-- Thin Braid -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="32" />
+			<height normal="32" />
+		</collision>
+	</npc>
+	<npc id="23419" level="25" type="L2Monster" name="Giant Windima" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>PLANT</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="4.7296" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="772.73802" hpRegen="3.5" mp="402.6" mpRegen="1.5" />
+			<speed>
+				<walk ground="60" />
+				<run ground="100" />
+			</speed>
+			<attack physical="65.058479532164" magical="45.33105903421" critical="4" attackSpeed="253" range="40" />
+			<defence physical="103.10864881502" magical="74.700132325949" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4412" level="5" /> <!-- Very Weak P. Def. -->
+			<skill id="4416" level="5" /> <!-- Plants -->
+			<skill id="4066" level="2" /> <!-- Twister -->
+			<skill id="4001" level="2" /> <!-- Gust -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="8" max="18" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.75">
+					<item id="36527" min="1" max="1" chance="100" /> <!-- Synthetic Fiber -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36532" min="1" max="1" chance="0.3" /> <!-- Thin Braid -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="60" />
+			<height normal="47" />
+		</collision>
+	</npc>
+	<npc id="23420" level="25" type="L2Monster" name="Immense Windima" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>PLANT</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="4.7296" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="772.73802" hpRegen="3.5" mp="402.6" mpRegen="1.5" />
+			<speed>
+				<walk ground="60" />
+				<run ground="100" />
+			</speed>
+			<attack physical="65.058479532164" magical="45.33105903421" critical="4" attackSpeed="253" range="40" />
+			<defence physical="102.63157894737" magical="74.887350702705" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4413" level="5" /> <!-- Very Weak M. Def. -->
+			<skill id="4416" level="5" /> <!-- Plants -->
+			<skill id="4066" level="2" /> <!-- Twister -->
+			<skill id="4001" level="2" /> <!-- Gust -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="8" max="18" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.75">
+					<item id="36527" min="1" max="1" chance="100" /> <!-- Synthetic Fiber -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36532" min="1" max="1" chance="0.3" /> <!-- Thin Braid -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="60" />
+			<height normal="47" />
+		</collision>
+	</npc>
+	<npc id="23421" level="35" type="L2Monster" name="Chertuba Mirage" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="5.9395918367347" sp="1" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="1183.80594" hpRegen="4.5" mp="610.8" mpRegen="1.8" />
+			<speed>
+				<walk ground="36" />
+				<run ground="170" />
+			</speed>
+			<attack physical="129.70430107527" magical="89.081014598074" critical="4" attackSpeed="253" range="40" />
+			<defence physical="137.23825693265" magical="100.07063809748" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4412" level="5" /> <!-- Very Weak P. Def. -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4737" level="3" /> <!-- Spinning Slasher -->
+			<skill id="4173" level="3" /> <!-- Might -->
+			<skill id="4722" level="3" /> <!-- Power Strike -->
+			<skill id="4177" level="3" /> <!-- Cancellation -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="13" max="30" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.03">
+					<item id="36562" min="1" max="1" chance="100" /> <!-- Greater Cokes -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36516" min="1" max="1" chance="41.39" /> <!-- Worn Leather -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="24" />
+			<height normal="51" />
+		</collision>
+	</npc>
+	<npc id="23422" level="35" type="L2Monster" name="Chertuba Illusion" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="5.9395918367347" sp="1" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="1183.80594" hpRegen="4.5" mp="610.8" mpRegen="1.8" />
+			<speed>
+				<walk ground="36" />
+				<run ground="170" />
+			</speed>
+			<attack physical="129.70430107527" magical="89.081014598074" critical="4" attackSpeed="253" range="40" />
+			<defence physical="137.09677419355" magical="100.97713739913" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4413" level="5" /> <!-- Very Weak M. Def. -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4737" level="3" /> <!-- Spinning Slasher -->
+			<skill id="4173" level="3" /> <!-- Might -->
+			<skill id="4722" level="3" /> <!-- Power Strike -->
+			<skill id="4177" level="3" /> <!-- Cancellation -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="13" max="30" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.03">
+					<item id="36552" min="1" max="1" chance="100" /> <!-- Armor Fragment -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36532" min="1" max="1" chance="0.3" /> <!-- Thin Braid -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="24" />
+			<height normal="51" />
+		</collision>
+	</npc>
+	<npc id="23423" level="77" type="L2Monster" name="Mesmer Dragon" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="46.240175409007" sp="65" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="9870.33920633081" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<speed>
+				<walk ground="46" />
+				<run ground="170" />
+			</speed>
+			<attack physical="856.50236230318" magical="585.03293260884" critical="4" attackSpeed="253" range="40" />
+			<defence physical="328.31325301205" magical="240.56622529723" />
+			<attribute>
+				<defence fire="100" water="100" wind="100" earth="100" holy="50" dark="100" />
+				<attack type="DARK" value="100" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
+			<skill id="4416" level="10" /> <!-- Dragons -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="18" max="43" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.0078">
+					<item id="9548" min="1" max="1" chance="38.461538461538" /> <!-- Earth Stone -->
+					<item id="45929" min="1" max="3" chance="38.461538461538" /> <!-- Spirit Stone -->
+					<item id="9554" min="1" max="1" chance="11.538461538462" /> <!-- Earth Crystal -->
+					<item id="17248" min="1" max="1" chance="11.538461538462" /> <!-- Large Dragon Bone -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36532" min="1" max="1" chance="0.75" /> <!-- Thin Braid -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="40" />
+			<height normal="44" />
+		</collision>
+	</npc>
+	<npc id="23424" level="78" type="L2Monster" name="Gargoyle Dragon" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>CONSTRUCT</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="48.826101249178" sp="71" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="10385.3175964752" hpRegen="8.5" mp="1708.8" mpRegen="3" />
+			<speed>
+				<walk ground="100" />
+				<run ground="170" />
+			</speed>
+			<attack physical="890.59699860337" magical="608.15416942607" critical="4" attackSpeed="253" range="40" />
+			<defence physical="333.15187806206" magical="243.61717608887" />
+			<attribute>
+				<defence fire="50" water="100" wind="100" earth="100" holy="100" dark="100" />
+				<attack type="WATER" value="100" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5463" level="1" /> <!-- Water Attack -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="24" max="55" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.0123">
+					<item id="9548" min="1" max="1" chance="60.975609756098" /> <!-- Earth Stone -->
+					<item id="45929" min="1" max="3" chance="24.390243902439" /> <!-- Spirit Stone -->
+					<item id="9554" min="1" max="1" chance="7.3170731707317" /> <!-- Earth Crystal -->
+					<item id="17248" min="1" max="1" chance="7.3170731707317" /> <!-- Large Dragon Bone -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36532" min="1" max="1" chance="0.75" /> <!-- Thin Braid -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="25" />
+			<height normal="65" />
+		</collision>
+	</npc>
+	<npc id="23425" level="78" type="L2Monster" name="Black Dragon" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="48.120808678501" sp="70" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="10385.3175964752" hpRegen="8.5" mp="1708.8" mpRegen="3" />
+			<speed>
+				<walk ground="55" />
+				<run ground="170" />
+			</speed>
+			<attack physical="890.87947159795" magical="608.15416942607" critical="4" attackSpeed="253" range="40" />
+			<defence physical="333.15187806206" magical="243.61717608887" />
+			<attribute>
+				<defence fire="100" water="50" wind="100" earth="100" holy="100" dark="100" />
+				<attack type="FIRE" value="100" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5462" level="1" /> <!-- Fire Attack -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4416" level="10" /> <!-- Dragons -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="24" max="55" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.0123">
+					<item id="9548" min="1" max="1" chance="60.975609756098" /> <!-- Earth Stone -->
+					<item id="45929" min="1" max="3" chance="24.390243902439" /> <!-- Spirit Stone -->
+					<item id="9554" min="1" max="1" chance="7.3170731707317" /> <!-- Earth Crystal -->
+					<item id="17248" min="1" max="1" chance="7.3170731707317" /> <!-- Large Dragon Bone -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36532" min="1" max="1" chance="0.75" /> <!-- Thin Braid -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="28" />
+			<height normal="51" />
+		</collision>
+	</npc>
+	<npc id="23426" level="79" type="L2Monster" name="Emerald Dragon" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="51.435346899535" sp="77" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="10930.1693000498" hpRegen="8.5" mp="1743.0" mpRegen="3" />
+			<speed>
+				<walk ground="60" />
+				<run ground="170" />
+			</speed>
+			<attack physical="930.14225705108" magical="635.13464757312" critical="4" attackSpeed="253" range="40" />
+			<defence physical="337.46556473829" magical="246.7779245457" />
+			<attribute>
+				<defence fire="100" water="100" wind="100" earth="50" holy="100" dark="100" />
+				<attack type="WIND" value="100" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5464" level="1" /> <!-- Wind Attack -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4416" level="10" /> <!-- Dragons -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="30" max="70" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.0168">
+					<item id="9548" min="1" max="1" chance="44.642857142857" /> <!-- Earth Stone -->
+					<item id="45929" min="1" max="3" chance="44.642857142857" /> <!-- Spirit Stone -->
+					<item id="9554" min="1" max="1" chance="5.3571428571429" /> <!-- Earth Crystal -->
+					<item id="17248" min="1" max="1" chance="5.3571428571429" /> <!-- Large Dragon Bone -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36532" min="1" max="1" chance="1.234" /> <!-- Thin Braid -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="30" />
+			<height normal="50" />
+		</collision>
+	</npc>
+	<npc id="23427" level="80" type="L2Monster" name="Sand Dragon" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="52.7284375" sp="80" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="11506.7718176101" hpRegen="8.5" mp="1777.4" mpRegen="3" />
+			<speed>
+				<walk ground="60" />
+				<run ground="170" />
+			</speed>
+			<attack physical="970.59928454004" magical="662.87666622077" critical="4" attackSpeed="253" range="40" />
+			<defence physical="341.82600616167" magical="249.83671040584" />
+			<attribute>
+				<defence fire="100" water="100" wind="50" earth="100" holy="100" dark="100" />
+				<attack type="EARTH" value="100" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4416" level="10" /> <!-- Dragons -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="31" max="72" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.0168">
+					<item id="9548" min="1" max="1" chance="44.642857142857" /> <!-- Earth Stone -->
+					<item id="45929" min="1" max="3" chance="44.642857142857" /> <!-- Spirit Stone -->
+					<item id="9554" min="1" max="1" chance="5.3571428571429" /> <!-- Earth Crystal -->
+					<item id="17248" min="1" max="1" chance="5.3571428571429" /> <!-- Large Dragon Bone -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36532" min="1" max="1" chance="1.342" /> <!-- Thin Braid -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="38" />
+			<height normal="63" />
+		</collision>
+	</npc>
+	<npc id="23428" level="80" type="L2Monster" name="Dragonblood Captain" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="55.73734375" sp="85" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="11506.7718176101" hpRegen="8.5" mp="1777.4" mpRegen="3" />
+			<speed>
+				<walk ground="56" />
+				<run ground="170" />
+			</speed>
+			<attack physical="970.59928454004" magical="662.87666622077" critical="4" attackSpeed="253" range="40" />
+			<defence physical="341.68260888909" magical="249.90709241321" />
+			<attribute>
+				<defence fire="100" water="100" wind="50" earth="100" holy="100" dark="100" />
+				<attack type="EARTH" value="100" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
+			<skill id="4416" level="10" /> <!-- Dragons -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="39" max="91" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.0168">
+					<item id="9549" min="1" max="1" chance="44.642857142857" /> <!-- Wind Stone -->
+					<item id="45929" min="1" max="3" chance="44.642857142857" /> <!-- Spirit Stone -->
+					<item id="959" min="1" max="1" chance="5.3571428571429" /> <!-- Scroll: Enchant Weapon (S-grade) -->
+					<item id="17248" min="1" max="1" chance="5.3571428571429" /> <!-- Large Dragon Bone -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36532" min="1" max="1" chance="1.646" /> <!-- Thin Braid -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="22" />
+			<height normal="42" />
+		</collision>
+	</npc>
+	<npc id="23429" level="79" type="L2Monster" name="Dragonblood Minion" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="24.871334722" sp="37" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="10930.1693000498" hpRegen="8.5" mp="1743.0" mpRegen="3" />
+			<speed>
+				<walk ground="80" />
+				<run ground="170" />
+			</speed>
+			<attack physical="930.14225705108" magical="635.09238576197" critical="4" attackSpeed="253" range="40" />
+			<defence physical="337.5" magical="246.73895961025" />
+			<attribute>
+				<defence fire="100" water="100" wind="50" earth="100" holy="100" dark="100" />
+				<attack type="EARTH" value="100" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="4416" level="9" /> <!-- Demons -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="16" max="38" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.0078">
+					<item id="9549" min="1" max="1" chance="38.461538461538" /> <!-- Wind Stone -->
+					<item id="45929" min="1" max="3" chance="38.461538461538" /> <!-- Spirit Stone -->
+					<item id="959" min="1" max="1" chance="11.538461538462" /> <!-- Scroll: Enchant Weapon (S-grade) -->
+					<item id="17248" min="1" max="1" chance="11.538461538462" /> <!-- Large Dragon Bone -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36532" min="1" max="1" chance="0.75" /> <!-- Thin Braid -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="14" />
+			<height normal="36" />
+		</collision>
+	</npc>
+	<npc id="23430" level="81" type="L2Monster" name="Prey Drake" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="63.20454199055" sp="99" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="10385.3175964752" hpRegen="9.5" mp="1708.8" mpRegen="3.3" />
+			<speed>
+				<walk ground="100" />
+				<run ground="170" />
+			</speed>
+			<attack physical="1012.5147167837" magical="691.47164483324" critical="4" attackSpeed="253" range="40" />
+			<defence physical="345.88235294118" magical="253.15472723743" />
+			<attribute>
+				<defence fire="100" water="50" wind="100" earth="100" holy="100" dark="100" />
+				<attack type="FIRE" value="100" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5462" level="1" /> <!-- Fire Attack -->
+			<skill id="4416" level="10" /> <!-- Dragons -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="21" max="48" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.0078">
+					<item id="9547" min="1" max="1" chance="38.461538461538" /> <!-- Water Stone -->
+					<item id="45929" min="1" max="3" chance="38.461538461538" /> <!-- Spirit Stone -->
+					<item id="9553" min="1" max="1" chance="11.538461538462" /> <!-- Water Crystal -->
+					<item id="17248" min="1" max="1" chance="11.538461538462" /> <!-- Large Dragon Bone -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36532" min="1" max="1" chance="0.75" /> <!-- Thin Braid -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="27" />
+			<height normal="47" />
+		</collision>
+	</npc>
+	<npc id="23431" level="82" type="L2Monster" name="Beast Drake" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="78.078822129685" sp="126" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="10930.1693000498" hpRegen="9.5" mp="1743.0" mpRegen="3.3" />
+			<speed>
+				<walk ground="60" />
+				<run ground="170" />
+			</speed>
+			<attack physical="1055.4001301226" magical="720.63055725761" critical="4" attackSpeed="253" range="40" />
+			<defence physical="349.99780152135" magical="255.98127679804" />
+			<attribute>
+				<defence fire="100" water="100" wind="100" earth="100" holy="50" dark="100" />
+				<attack type="DARK" value="100" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
+			<skill id="4416" level="10" /> <!-- Dragons -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="41" max="95" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.0189">
+					<item id="9547" min="1" max="1" chance="39.68253968254" /> <!-- Water Stone -->
+					<item id="45929" min="1" max="3" chance="39.68253968254" /> <!-- Spirit Stone -->
+					<item id="9553" min="1" max="1" chance="15.873015873016" /> <!-- Water Crystal -->
+					<item id="17248" min="1" max="1" chance="4.7619047619048" /> <!-- Large Dragon Bone -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36532" min="1" max="1" chance="1.758" /> <!-- Thin Braid -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="24" />
+			<height normal="44" />
+		</collision>
+	</npc>
+	<npc id="23432" level="82" type="L2Monster" name="Dust Drake" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="72.05249851279" sp="116" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="10930.1693000498" hpRegen="9.5" mp="1743.0" mpRegen="3.3" />
+			<speed>
+				<walk ground="46" />
+				<run ground="170" />
+			</speed>
+			<attack physical="1055.5793982114" magical="720.70631373288" critical="4" attackSpeed="253" range="40" />
+			<defence physical="349.91058914504" magical="256.16596747394" />
+			<attribute>
+				<defence fire="100" water="100" wind="50" earth="100" holy="100" dark="100" />
+				<attack type="EARTH" value="100" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4416" level="10" /> <!-- Dragons -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="33" max="76" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.0168">
+					<item id="9547" min="1" max="1" chance="44.642857142857" /> <!-- Water Stone -->
+					<item id="45929" min="1" max="3" chance="44.642857142857" /> <!-- Spirit Stone -->
+					<item id="9553" min="1" max="1" chance="5.3571428571429" /> <!-- Water Crystal -->
+					<item id="17248" min="1" max="1" chance="5.3571428571429" /> <!-- Large Dragon Bone -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36532" min="1" max="1" chance="1.376" /> <!-- Thin Braid -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="33" />
+			<height normal="41" />
+		</collision>
+	</npc>
+	<npc id="23433" level="83" type="L2Monster" name="Vampiric Drake" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="79.994774277834" sp="132" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="11506.7718176101" hpRegen="9.5" mp="1777.4" mpRegen="3.3" />
+			<speed>
+				<walk ground="60" />
+				<run ground="170" />
+			</speed>
+			<attack physical="1099.4913629169" magical="750.95869354616" critical="4" attackSpeed="253" range="40" />
+			<defence physical="354.08288162266" magical="259.10966686807" />
+			<attribute>
+				<defence fire="100" water="100" wind="100" earth="50" holy="100" dark="100" />
+				<attack type="WIND" value="100" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5464" level="1" /> <!-- Wind Attack -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
+			<skill id="4416" level="10" /> <!-- Dragons -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="42" max="98" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.0189">
+					<item id="9547" min="1" max="1" chance="39.68253968254" /> <!-- Water Stone -->
+					<item id="45929" min="1" max="3" chance="39.68253968254" /> <!-- Spirit Stone -->
+					<item id="9553" min="1" max="1" chance="15.873015873016" /> <!-- Water Crystal -->
+					<item id="17248" min="1" max="1" chance="4.7619047619048" /> <!-- Large Dragon Bone -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36532" min="1" max="1" chance="1.727" /> <!-- Thin Braid -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="33" />
+			<height normal="70" />
+		</collision>
+	</npc>
+	<npc id="23434" level="81" type="L2Monster" name="Dragon Hatchling" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="32.035970126505" sp="50" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="10385.3175964752" hpRegen="9.5" mp="1708.8" mpRegen="3.3" />
+			<speed>
+				<walk ground="80" />
+				<run ground="170" />
+			</speed>
+			<attack physical="1012.5147167837" magical="691.47164483324" critical="4" attackSpeed="253" range="40" />
+			<defence physical="345.88235294118" magical="253.15472723743" />
+			<attribute>
+				<defence fire="100" water="50" wind="100" earth="100" holy="100" dark="100" />
+				<attack type="FIRE" value="100" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5462" level="1" /> <!-- Fire Attack -->
+			<skill id="4416" level="10" /> <!-- Dragons -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="21" max="48" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.0078">
+					<item id="9547" min="1" max="1" chance="38.461538461538" /> <!-- Water Stone -->
+					<item id="45929" min="1" max="3" chance="38.461538461538" /> <!-- Spirit Stone -->
+					<item id="9553" min="1" max="1" chance="11.538461538462" /> <!-- Water Crystal -->
+					<item id="17248" min="1" max="1" chance="11.538461538462" /> <!-- Large Dragon Bone -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36532" min="1" max="1" chance="0.75" /> <!-- Thin Braid -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="12" />
+			<height normal="18" />
+		</collision>
+	</npc>
+	<npc id="23435" level="83" type="L2Monster" name="Leopard Dragon" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="59.573523007693" sp="98" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="11506.7718176101" hpRegen="9.5" mp="1777.4" mpRegen="3.3" />
+			<speed>
+				<walk ground="57" />
+				<run ground="170" />
+			</speed>
+			<attack physical="1099.4362749323" magical="750.95869354616" critical="4" attackSpeed="253" range="40" />
+			<defence physical="354.06976744186" magical="259.03753166014" />
+			<attribute>
+				<defence fire="100" water="50" wind="100" earth="100" holy="100" dark="100" />
+				<attack type="FIRE" value="100" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5462" level="1" /> <!-- Fire Attack -->
+			<skill id="4416" level="10" /> <!-- Dragons -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="18" max="42" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.0078">
+					<item id="9547" min="1" max="1" chance="38.461538461538" /> <!-- Water Stone -->
+					<item id="45929" min="1" max="3" chance="38.461538461538" /> <!-- Spirit Stone -->
+					<item id="9553" min="1" max="1" chance="11.538461538462" /> <!-- Water Crystal -->
+					<item id="17248" min="1" max="1" chance="11.538461538462" /> <!-- Large Dragon Bone -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36532" min="1" max="1" chance="0.75" /> <!-- Thin Braid -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="18" />
+			<height normal="20" />
+		</collision>
+	</npc>
+	<npc id="23436" level="77" type="L2Monster" name="Cave Servant Archer" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="46.240175409007" sp="65" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="9870.33920633081" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="170" />
+			</speed>
+			<attack physical="856.50236230318" magical="585.03293260884" critical="4" attackSpeed="253" range="1100" />
+			<defence physical="328.31325301205" magical="240.56622529723" />
+			<attribute>
+				<defence fire="100" water="100" wind="100" earth="100" holy="50" dark="100" />
+				<attack type="DARK" value="100" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
+			<skill id="4416" level="1" /> <!-- Undead -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="18" max="43" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.0078">
+					<item id="9549" min="1" max="1" chance="38.461538461538" /> <!-- Wind Stone -->
+					<item id="45929" min="1" max="3" chance="38.461538461538" /> <!-- Spirit Stone -->
+					<item id="9555" min="1" max="1" chance="11.538461538462" /> <!-- Wind Crystal -->
+					<item id="17248" min="1" max="1" chance="11.538461538462" /> <!-- Large Dragon Bone -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36532" min="1" max="1" chance="0.75" /> <!-- Thin Braid -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="12" />
+			<height normal="31" />
+		</collision>
+	</npc>
+	<npc id="23437" level="78" type="L2Monster" name="Cave Servant Warrior" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="50.377547666009" sp="73" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="10385.3175964752" hpRegen="8.5" mp="1708.8" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="170" />
+			</speed>
+			<attack physical="890.87947159795" magical="608.15416942607" critical="4" attackSpeed="253" range="40" />
+			<defence physical="333.05290245954" magical="243.68250651957" />
+			<attribute>
+				<defence fire="100" water="100" wind="100" earth="100" holy="50" dark="100" />
+				<attack type="DARK" value="100" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4416" level="1" /> <!-- Undead -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="29" max="68" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.0168">
+					<item id="9549" min="1" max="1" chance="44.642857142857" /> <!-- Wind Stone -->
+					<item id="45929" min="1" max="3" chance="44.642857142857" /> <!-- Spirit Stone -->
+					<item id="9555" min="1" max="1" chance="5.3571428571429" /> <!-- Wind Crystal -->
+					<item id="17248" min="1" max="1" chance="5.3571428571429" /> <!-- Large Dragon Bone -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36532" min="1" max="1" chance="1.183" /> <!-- Thin Braid -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="15" />
+			<height normal="31" />
+		</collision>
+	</npc>
+	<npc id="23438" level="78" type="L2Monster" name="Metallic Cave Servant" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="59.639710716634" sp="87" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="10385.3175964752" hpRegen="8.5" mp="1708.8" mpRegen="3" />
+			<speed>
+				<walk ground="80" />
+				<run ground="170" />
+			</speed>
+			<attack physical="890.50855304734" magical="608.15416942607" critical="4" attackSpeed="253" range="40" />
+			<defence physical="333.03256500697" magical="243.64670902329" />
+			<attribute>
+				<defence fire="100" water="100" wind="100" earth="100" holy="50" dark="100" />
+				<attack type="DARK" value="100" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4412" level="15" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="15" /> <!-- Strong M. Def. -->
+			<skill id="4416" level="1" /> <!-- Undead -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="42" max="99" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.0189">
+					<item id="9549" min="1" max="1" chance="39.68253968254" /> <!-- Wind Stone -->
+					<item id="45929" min="1" max="3" chance="39.68253968254" /> <!-- Spirit Stone -->
+					<item id="9555" min="1" max="1" chance="15.873015873016" /> <!-- Wind Crystal -->
+					<item id="17248" min="1" max="1" chance="4.7619047619048" /> <!-- Large Dragon Bone -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36532" min="1" max="1" chance="1.773" /> <!-- Thin Braid -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="12" />
+			<height normal="34.5" />
+		</collision>
+	</npc>
+	<npc id="23439" level="79" type="L2Monster" name="Iron Cave Servant" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="59.63964108316" sp="89" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="10930.1693000498" hpRegen="8.5" mp="1743.0" mpRegen="3" />
+			<speed>
+				<walk ground="45" />
+				<run ground="170" />
+			</speed>
+			<attack physical="929.93674616795" magical="635.09238576197" critical="4" attackSpeed="253" range="40" />
+			<defence physical="337.16568819309" magical="246.77125246771" />
+			<attribute>
+				<defence fire="100" water="100" wind="100" earth="100" holy="50" dark="100" />
+				<attack type="DARK" value="100" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4412" level="15" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="15" /> <!-- Strong M. Def. -->
+			<skill id="4416" level="1" /> <!-- Undead -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="44" max="102" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.0189">
+					<item id="9549" min="1" max="1" chance="39.68253968254" /> <!-- Wind Stone -->
+					<item id="45929" min="1" max="3" chance="39.68253968254" /> <!-- Spirit Stone -->
+					<item id="9555" min="1" max="1" chance="15.873015873016" /> <!-- Wind Crystal -->
+					<item id="17248" min="1" max="1" chance="4.7619047619048" /> <!-- Large Dragon Bone -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36532" min="1" max="1" chance="1.814" /> <!-- Thin Braid -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="14" />
+			<height normal="39" />
+		</collision>
+	</npc>
+	<npc id="23440" level="80" type="L2Monster" name="Headless Knight" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="46.24015625" sp="71" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="11506.7718176101" hpRegen="8.5" mp="1777.4" mpRegen="3" />
+			<speed>
+				<walk ground="70" />
+				<run ground="170" />
+			</speed>
+			<attack physical="970.69492633158" magical="662.87666622077" critical="4" attackSpeed="253" range="40" />
+			<defence physical="341.4201183432" magical="249.96582498487" />
+			<attribute>
+				<defence fire="100" water="100" wind="100" earth="100" holy="50" dark="100" />
+				<attack type="DARK" value="100" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
+			<skill id="4416" level="1" /> <!-- Undead -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="20" max="47" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.0078">
+					<item id="9549" min="1" max="1" chance="38.461538461538" /> <!-- Wind Stone -->
+					<item id="45929" min="1" max="3" chance="38.461538461538" /> <!-- Spirit Stone -->
+					<item id="9555" min="1" max="1" chance="11.538461538462" /> <!-- Wind Crystal -->
+					<item id="17248" min="1" max="1" chance="11.538461538462" /> <!-- Large Dragon Bone -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36532" min="1" max="1" chance="0.75" /> <!-- Thin Braid -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="21" grown="24" />
+			<height normal="31" grown="38" />
+		</collision>
+	</npc>
+	<npc id="23441" level="81" type="L2Monster" name="Bloody Grave Warrior" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="81.520042676421" sp="128" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="10385.3175964752" hpRegen="9.5" mp="1708.8" mpRegen="3.3" />
+			<speed>
+				<walk ground="68" />
+				<run ground="170" />
+			</speed>
+			<attack physical="1012.4788768234" magical="691.47164483324" critical="4" attackSpeed="253" range="40" />
+			<defence physical="345.68896051571" magical="252.91006135263" />
+			<attribute>
+				<defence fire="100" water="100" wind="100" earth="100" holy="50" dark="100" />
+				<attack type="DARK" value="100" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4412" level="15" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="15" /> <!-- Strong M. Def. -->
+			<skill id="4416" level="1" /> <!-- Undead -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="46" max="107" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.0414">
+					<item id="9546" min="1" max="1" chance="72.463768115942" /> <!-- Fire Stone -->
+					<item id="45929" min="1" max="3" chance="18.115942028986" /> <!-- Spirit Stone -->
+					<item id="9552" min="1" max="1" chance="7.2463768115942" /> <!-- Fire Crystal -->
+					<item id="17248" min="1" max="1" chance="2.1739130434783" /> <!-- Large Dragon Bone -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36532" min="1" max="1" chance="1.884" /> <!-- Thin Braid -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="20" />
+			<height normal="34" />
+		</collision>
+	</npc>
+	<npc id="23442" level="82" type="L2Monster" name="Dark Grave Warrior" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="83.545359904819" sp="134" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="10930.1693000498" hpRegen="9.5" mp="1743.0" mpRegen="3.3" />
+			<speed>
+				<walk ground="42.5" />
+				<run ground="170" />
+			</speed>
+			<attack physical="1055.5497062365" magical="720.63055725761" critical="4" attackSpeed="253" range="40" />
+			<defence physical="350.07610350076" magical="256.1900025619" />
+			<attribute>
+				<defence fire="100" water="100" wind="100" earth="100" holy="50" dark="100" />
+				<attack type="DARK" value="100" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4412" level="15" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="15" /> <!-- Strong M. Def. -->
+			<skill id="4416" level="1" /> <!-- Undead -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="47" max="110" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.0414">
+					<item id="9546" min="1" max="1" chance="72.463768115942" /> <!-- Fire Stone -->
+					<item id="45929" min="1" max="3" chance="18.115942028986" /> <!-- Spirit Stone -->
+					<item id="9552" min="1" max="1" chance="7.2463768115942" /> <!-- Fire Crystal -->
+					<item id="17248" min="1" max="1" chance="2.1739130434783" /> <!-- Large Dragon Bone -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36532" min="1" max="1" chance="2.007" /> <!-- Thin Braid -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="22.88" />
+			<height normal="41.6" />
+		</collision>
+	</npc>
+	<npc id="23443" level="82" type="L2Monster" name="Dark Grave Wizard" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="77.255502676978" sp="124" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="10930.1693000498" hpRegen="9.5" mp="1743.0" mpRegen="3.3" />
+			<speed>
+				<walk ground="46" />
+				<run ground="170" />
+			</speed>
+			<attack physical="1055.5793982114" magical="720.65939805393" critical="4" attackSpeed="253" range="40" />
+			<defence physical="349.99780152135" magical="255.98127679804" />
+			<attribute>
+				<defence fire="100" water="100" wind="100" earth="100" holy="50" dark="100" />
+				<attack type="DARK" value="100" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
+			<skill id="4416" level="1" /> <!-- Undead -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="41" max="95" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.0189">
+					<item id="9546" min="1" max="1" chance="39.68253968254" /> <!-- Fire Stone -->
+					<item id="45929" min="1" max="3" chance="39.68253968254" /> <!-- Spirit Stone -->
+					<item id="9552" min="1" max="1" chance="15.873015873016" /> <!-- Fire Crystal -->
+					<item id="17248" min="1" max="1" chance="4.7619047619048" /> <!-- Large Dragon Bone -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36532" min="1" max="1" chance="1.707" /> <!-- Thin Braid -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="21.12" />
+			<height normal="40.48" />
+		</collision>
+	</npc>
+	<npc id="23444" level="83" type="L2Monster" name="Dark Grave Knight" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="85.595442009" sp="141" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="11506.7718176101" hpRegen="9.5" mp="1777.4" mpRegen="3.3" />
+			<speed>
+				<walk ground="45" />
+				<run ground="170" />
+			</speed>
+			<attack physical="1099.5956794067" magical="750.95869354616" critical="4" attackSpeed="253" range="40" />
+			<defence physical="354.01401720293" magical="259.16895608006" />
+			<attribute>
+				<defence fire="100" water="100" wind="100" earth="100" holy="50" dark="100" />
+				<attack type="DARK" value="100" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4412" level="15" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="15" /> <!-- Strong M. Def. -->
+			<skill id="4416" level="1" /> <!-- Undead -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="48" max="113" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.0414">
+					<item id="9546" min="1" max="1" chance="72.463768115942" /> <!-- Fire Stone -->
+					<item id="45929" min="1" max="3" chance="18.115942028986" /> <!-- Spirit Stone -->
+					<item id="9552" min="1" max="1" chance="7.2463768115942" /> <!-- Fire Crystal -->
+					<item id="17248" min="1" max="1" chance="2.1739130434783" /> <!-- Large Dragon Bone -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36532" min="1" max="1" chance="2.101" /> <!-- Thin Braid -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="25" />
+			<height normal="40" />
+		</collision>
+	</npc>
+	<npc id="23445" level="77" type="L2Monster" name="Chaos Dragon" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="61.653567212009" sp="87" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4154.127" hpRegen="8.5" mp="1708.8" mpRegen="3" />
+			<speed>
+				<walk ground="200" />
+				<run ground="170" />
+			</speed>
+			<attack physical="856.50236230318" magical="585.03293260884" critical="4" attackSpeed="253" range="40" />
+			<defence physical="328.31325301205" magical="240.56622529723" />
+			<attribute>
+				<defence fire="50" water="100" wind="100" earth="100" holy="100" dark="100" />
+				<attack type="WATER" value="100" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5463" level="1" /> <!-- Water Attack -->
+			<skill id="4416" level="10" /> <!-- Dragons -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="18" max="43" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.0078">
+					<item id="9546" min="1" max="1" chance="38.461538461538" /> <!-- Fire Stone -->
+					<item id="45929" min="1" max="3" chance="38.461538461538" /> <!-- Spirit Stone -->
+					<item id="9552" min="1" max="1" chance="11.538461538462" /> <!-- Fire Crystal -->
+					<item id="17248" min="1" max="1" chance="11.538461538462" /> <!-- Large Dragon Bone -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36532" min="1" max="1" chance="0.75" /> <!-- Thin Braid -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="24" />
+			<height normal="20" />
+		</collision>
+	</npc>
+	<npc id="23446" level="81" type="L2Monster" name="Crag Dragon" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="63.20454199055" sp="99" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4154.127" hpRegen="9.5" mp="1708.8" mpRegen="3.3" />
+			<speed>
+				<walk ground="180" />
+				<run ground="170" />
+			</speed>
+			<attack physical="1012.5147167837" magical="691.47164483324" critical="4" attackSpeed="253" range="40" />
+			<defence physical="345.88235294118" magical="253.15472723743" />
+			<attribute>
+				<defence fire="50" water="100" wind="100" earth="100" holy="100" dark="100" />
+				<attack type="WATER" value="100" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5463" level="1" /> <!-- Water Attack -->
+			<skill id="4416" level="10" /> <!-- Dragons -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="21" max="48" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.0078">
+					<item id="9546" min="1" max="1" chance="38.461538461538" /> <!-- Fire Stone -->
+					<item id="45929" min="1" max="3" chance="38.461538461538" /> <!-- Spirit Stone -->
+					<item id="9552" min="1" max="1" chance="11.538461538462" /> <!-- Fire Crystal -->
+					<item id="17248" min="1" max="1" chance="11.538461538462" /> <!-- Large Dragon Bone -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36532" min="1" max="1" chance="0.75" /> <!-- Thin Braid -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="32" />
+			<height normal="32" />
+		</collision>
+	</npc>
+	<npc id="23447" level="81" type="L2Npc" name="Gust Spiral" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="35.249199817101" sp="55" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="10385" hpRegen="9.5" mp="1708" mpRegen="3.3" />
+			<speed>
+				<walk ground="39" />
+				<run ground="170" />
+			</speed>
+			<attack physical="1012.4294733695" magical="691.47164483324" critical="4" attackSpeed="253" range="40" />
+			<defence physical="345.88235294118" magical="253.15472723743" />
+			<attribute>
+				<defence fire="100" water="100" wind="100" earth="50" holy="100" dark="100" />
+				<attack type="WIND" value="100" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5464" level="1" /> <!-- Wind Attack -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4416" level="1" /> <!-- Undead -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="17" max="40" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.0412">
+					<item id="10483" min="1" max="1" chance="72.815533980583" /> <!-- Life Stone - Lv. 82 -->
+					<item id="9546" min="1" max="1" chance="7.2815533980583" /> <!-- Fire Stone -->
+					<item id="10484" min="1" max="1" chance="13.349514563107" /> <!-- Mid-grade Life Stone - Lv. 82 -->
+					<item id="9552" min="1" max="1" chance="2.1844660194175" /> <!-- Fire Crystal -->
+					<item id="10485" min="1" max="1" chance="2.1844660194175" /> <!-- High-grade Life Stone - Lv. 82 -->
+					<item id="17248" min="1" max="1" chance="2.1844660194175" /> <!-- Large Dragon Bone -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36532" min="1" max="1" chance="0.75" /> <!-- Thin Braid -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="7" />
+			<height normal="30" />
+		</collision>
+	</npc>
+	<npc id="23448" level="2" type="L2Monster" name="Floato" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire expRate="22" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="48.09168" hpRegen="2" mp="47.28" mpRegen="0.9" />
+			<attack physical="9.32203" magical="6.36574" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="46.15385" magical="30.7297498930634" />
+			<speed>
+				<walk ground="39" />
+				<run ground="170" />
+			</speed>
+			<hit_time>370</hit_time>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skill_list>
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4416" level="7" /> <!-- Animals -->
+		</skill_list>
+		<ex_crt_effect>false</ex_crt_effect>
+		<ai clanHelpRange="300" />
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="1" max="1" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.075">
+					<item id="8" min="1" max="1" chance="100" /> <!-- Willow Staff -->
+				</group>
+				<group chance="0.3">
+					<item id="36526" min="1" max="1" chance="100" /> <!-- Fiber -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36516" min="1" max="1" chance="1.284" /> <!-- Worn Leather -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="10" />
+			<height normal="14" />
+		</collision>
+	</npc>
+	<npc id="23449" level="5" type="L2Monster" name="Keen Floato" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire expRate="7.32" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="80.17319" hpRegen="2" mp="69.6" mpRegen="0.9" />
+			<attack physical="12.34006" magical="8.42666" random="50" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="51.60553" magical="37.76269" />
+			<speed>
+				<walk ground="39" />
+				<run ground="170" />
+			</speed>
+			<hit_time>320</hit_time>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skill_list>
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4416" level="7" /> <!-- Animals -->
+		</skill_list>
+		<ex_crt_effect>false</ex_crt_effect>
+		<ai clanHelpRange="300" />
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="1" max="3" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.3">
+					<item id="8" min="1" max="1" chance="100" /> <!-- Willow Staff -->
+				</group>
+				<group chance="0.75">
+					<item id="36526" min="1" max="1" chance="100" /> <!-- Fiber -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36516" min="1" max="1" chance="4.058" /> <!-- Worn Leather -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="10" />
+			<height normal="14" />
+		</collision>
+	</npc>
+	<npc id="23450" level="7" type="L2Monster" name="Ratel" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire expRate="5.1428571428571" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="108.42254" hpRegen="2" mp="84.88" mpRegen="0.9" />
+			<attack physical="14.80956" magical="10.11301" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="55.51894" magical="40.62635" />
+			<speed>
+				<walk ground="39" />
+				<run ground="170" />
+			</speed>
+			<hit_time>340</hit_time>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skill_list>
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4416" level="4" /> <!-- Animals -->
+		</skill_list>
+		<ex_crt_effect>false</ex_crt_effect>
+		<ai clanHelpRange="300" />
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="2" max="5" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.075">
+					<item id="9" min="1" max="1" chance="100" /> <!-- Cedar Staff -->
+				</group>
+				<group chance="1.402">
+					<item id="36526" min="1" max="1" chance="100" /> <!-- Fiber -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36532" min="1" max="1" chance="0.075" /> <!-- Thin Braid -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="10" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="23451" level="9" type="L2Monster" name="Robust Ratel" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire expRate="5.9382716049383" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="143.17564" hpRegen="2" mp="100.48" mpRegen="0.9" />
+			<attack physical="17.70841" magical="12.09255" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="59.66387" magical="43.65943" />
+			<speed>
+				<walk ground="39" />
+				<run ground="170" />
+			</speed>
+			<hit_time>410</hit_time>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skill_list>
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Average P. Def. -->
+			<skill id="4413" level="13" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4416" level="4" /> <!-- Animals -->
+		</skill_list>
+		<ex_crt_effect>false</ex_crt_effect>
+		<ai clanHelpRange="300" />
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="3" max="7" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.075">
+					<item id="9" min="1" max="1" chance="100" /> <!-- Cedar Staff -->
+				</group>
+				<group chance="1.987">
+					<item id="36516" min="1" max="1" chance="100" /> <!-- Worn Leather -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36516" min="1" max="1" chance="11.17" /> <!-- Worn Leather -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="10" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="23452" level="10" type="L2Monster" name="Honeybee" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire expRate="4.13" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="163.28607" hpRegen="2" mp="108.4" mpRegen="0.9" />
+			<attack physical="19.33758" magical="13.20506" random="50" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="61.82527" magical="45.24105" evasion="10" />
+			<speed>
+				<walk ground="39" />
+				<run ground="170" />
+			</speed>
+			<hit_time>370</hit_time>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skill_list>
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4416" level="4" /> <!-- Animals -->
+		</skill_list>
+		<ex_crt_effect>false</ex_crt_effect>
+		<ai clanHelpRange="300" />
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="4" max="9" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.75">
+					<item id="23" min="1" max="1" chance="100" /> <!-- Wooden Breastplate -->
+				</group>
+				<group chance="2.663">
+					<item id="36526" min="1" max="1" chance="100" /> <!-- Fiber -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36532" min="1" max="1" chance="0.075" /> <!-- Thin Braid -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="8" />
+			<height normal="20" />
+		</collision>
+	</npc>
+	<npc id="23453" level="12" type="L2Monster" name="Kiku" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire expRate="3.6597222222222" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="199.62322" hpRegen="2.5" mp="124.48" mpRegen="1.2" />
+			<attack physical="22.99606" magical="15.70333" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="66.32989" magical="48.53733" />
+			<speed>
+				<walk ground="39" />
+				<run ground="170" />
+			</speed>
+			<hit_time>370</hit_time>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skill_list>
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4416" level="4" /> <!-- Animals -->
+		</skill_list>
+		<ex_crt_effect>false</ex_crt_effect>
+		<ai clanHelpRange="300" />
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="5" max="11" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="4.916">
+					<item id="29" min="1" max="1" chance="100" /> <!-- Leather Pants -->
+				</group>
+				<group chance="2.795">
+					<item id="36516" min="1" max="1" chance="100" /> <!-- Worn Leather -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36516" min="1" max="1" chance="15.29" /> <!-- Worn Leather -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="6" />
+			<height normal="10.5" />
+		</collision>
+	</npc>
+	<npc id="23454" level="13" type="L2Monster" name="Robust Kiku" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ANIMAL</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="3.1360946745562" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="214.61578" hpRegen="2.5" mp="132.64" mpRegen="1.2" />
+			<attack physical="25.04271" magical="17.10092" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="68.67458" magical="50.25308" />
+			<speed>
+				<walk ground="39" />
+				<run ground="170" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4416" level="4" /> <!-- Animals -->
+		</skill_list>
+		<ex_crt_effect>false</ex_crt_effect>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="5" max="11" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="5.058">
+					<item id="29" min="1" max="1" chance="100" /> <!-- Leather Pants -->
+				</group>
+				<group chance="0.3">
+					<item id="36551" min="1" max="1" chance="100" /> <!-- Armor Fragment (Low-grade) -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36516" min="1" max="1" chance="15.23" /> <!-- Worn Leather -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="6" />
+			<height normal="10.5" />
+		</collision>
+	</npc>
+	<npc id="23455" level="15" type="L2Monster" name="Growler" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire expRate="2.7511111111111" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="246.95422" hpRegen="2.5" mp="149.2" mpRegen="1.2" />
+			<attack physical="29.61691" magical="20.22451" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="73.55216" magical="53.82228" />
+			<speed>
+				<walk ground="39" />
+				<run ground="170" />
+			</speed>
+			<hit_time>370</hit_time>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skill_list>
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="13" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Average P. Def. -->
+			<skill id="4413" level="13" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4416" level="7" /> <!-- Animals -->
+		</skill_list>
+		<ex_crt_effect>false</ex_crt_effect>
+		<ai clanHelpRange="300" />
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="5" max="12" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="1.069">
+					<item id="23" min="1" max="1" chance="100" /> <!-- Wooden Breastplate -->
+				</group>
+				<group chance="0.3">
+					<item id="36551" min="1" max="1" chance="100" /> <!-- Armor Fragment (Low-grade) -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36516" min="1" max="1" chance="16.46" /> <!-- Worn Leather -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="6" />
+			<height normal="17" />
+		</collision>
+	</npc>
+	<npc id="23456" level="17" type="L2Monster" name="Evolved Growler" title="Quest Monster">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire expRate="2.4359861591696" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="282.57403" hpRegen="2.5" mp="166.08" mpRegen="1.2" />
+			<attack physical="34.8979" magical="23.83074" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="78.68469" magical="57.57804" />
+			<speed>
+				<walk ground="39" />
+				<run ground="170" />
+			</speed>
+			<hit_time>370</hit_time>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skill_list>
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Average P. Def. -->
+			<skill id="4413" level="14" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4416" level="7" /> <!-- Animals -->
+		</skill_list>
+		<ex_crt_effect>false</ex_crt_effect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="14" />
+			<height normal="28" />
+		</collision>
+	</npc>
+	<npc id="23457" level="19" type="L2Monster" name="Treant" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire expRate="2.4349030470914" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="321.63954" hpRegen="2.5" mp="183.28" mpRegen="1.2" />
+			<attack physical="40.96915" magical="27.97662" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="84.07638" magical="61.52345" />
+			<speed>
+				<walk ground="39" />
+				<run ground="170" />
+			</speed>
+			<hit_time>370</hit_time>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skill_list>
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Average P. Def. -->
+			<skill id="4413" level="13" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4416" level="7" /> <!-- Animals -->
+		</skill_list>
+		<ex_crt_effect>false</ex_crt_effect>
+		<ai clanHelpRange="300" />
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="6" max="13" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="6.058">
+					<item id="29" min="1" max="1" chance="100" /> <!-- Leather Pants -->
+				</group>
+				<group chance="3.556">
+					<item id="36516" min="1" max="1" chance="100" /> <!-- Worn Leather -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36516" min="1" max="1" chance="19.41" /> <!-- Worn Leather -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="8" />
+			<height normal="27" />
+		</collision>
+	</npc>
+	<npc id="23458" level="18" type="L2Monster" name="Leafie" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire expRate="2.4351851851852" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="301.66622" hpRegen="2.5" mp="174.64" mpRegen="1.2" />
+			<attack physical="37.82932" magical="25.83252" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="81.34791" magical="54.1623558855199" />
+			<speed>
+				<walk ground="45" />
+				<run ground="170" />
+			</speed>
+			<hit_time>370</hit_time>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skill_list>
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Average P. Def. -->
+			<skill id="4413" level="13" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4416" level="13" /> <!-- Animals -->
+		</skill_list>
+		<ex_crt_effect>false</ex_crt_effect>
+		<ai clanHelpRange="300" />
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="6" max="13" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="3.355">
+					<item id="37" min="1" max="1" chance="100" /> <!-- Leather Shoes -->
+				</group>
+				<group chance="3.411">
+					<item id="36516" min="1" max="1" chance="100" /> <!-- Worn Leather -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36516" min="1" max="1" chance="17.77" /> <!-- Worn Leather -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="12" />
+			<height normal="20" />
+		</collision>
+	</npc>
+	<npc id="23459" level="19" type="L2Monster" name="Karaphon" title="Earth Spirit">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ELEMENTAL</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="23.86703601108" sp="2" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="321.63954" hpRegen="2.5" mp="183.28" mpRegen="1.2" />
+			<attack physical="37.82932" magical="25.83252" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="81.34791" magical="54.1623558855199" />
+			<speed>
+				<walk ground="39" />
+				<run ground="170" />
+			</speed>
+			<hit_time>370</hit_time>
+		</stats>
+		<status undying="false" canBeSown="true" randomWalk="false" />
+		<skill_list>
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="16" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="16" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="15" /> <!-- Average P. Def. -->
+			<skill id="4413" level="15" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="4296" level="1" /> <!-- Spirits -->
+		</skill_list>
+		<ex_crt_effect>false</ex_crt_effect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="12" />
+			<height normal="55" />
+		</collision>
+	</npc>
+	<npc id="23460" level="18" type="L2Monster" name="Keen Honeybee" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire expRate="0.63271604938272" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="301.66622" hpRegen="1.5" mp="174.64" mpRegen="0.5" />
+			<attack physical="37.82932" magical="25.83252" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="81.34791" magical="54.1623558855199" />
+			<speed>
+				<walk ground="39" />
+				<run ground="170" />
+			</speed>
+			<hit_time>370</hit_time>
+		</stats>
+		<status undying="false" canBeSown="true" randomWalk="false" />
+		<skill_list>
+			<skill id="4410" level="13" /> <!-- Average P. Atk. -->
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4293" level="1" /> <!-- Animals -->
+		</skill_list>
+		<ex_crt_effect>false</ex_crt_effect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="8" />
+			<height normal="20" />
+		</collision>
+	</npc>
+	<npc id="23461" level="19" type="L2Monster" name="Keen Growler" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<acquire expRate="0.601108033241" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="321.63954" hpRegen="1.5" mp="183.28" mpRegen="0.5" />
+			<attack physical="37.82932" magical="25.83252" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="81.34791" magical="54.1623558855199" />
+			<speed>
+				<walk ground="39" />
+				<run ground="170" />
+			</speed>
+			<hit_time>370</hit_time>
+		</stats>
+		<status undying="false" canBeSown="true" randomWalk="false" />
+		<skill_list>
+			<skill id="4410" level="13" /> <!-- Average P. Atk. -->
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="4296" level="1" /> <!-- Spirits -->
+		</skill_list>
+		<ex_crt_effect>false</ex_crt_effect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="14" />
+			<height normal="28" />
+		</collision>
+	</npc>
+	<npc id="23462" level="99" type="L2Monster" name="Dimensional Orc Butcher" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="8544" sp="301463" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="454075.0" hpRegen="10.5" mp="23550.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="48" />
+				<run ground="150" />
+			</speed>
+			<attack physical="47220.557386874" magical="8305.0410766139" critical="4" attackSpeed="253" range="40" />
+			<defence physical="526.06382978723" magical="305.10497858296" />
+			<attribute>
+				<defence fire="250" water="200" wind="250" earth="250" holy="250" dark="250" />
+				<attack type="FIRE" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5462" level="1" /> <!-- Fire Attack -->
+			<skill id="16357" level="2" /> <!-- Dimensional Barrier -->
+			<skill id="16358" level="1" /> <!-- Dimensional Armor -->
+			<skill id="16361" level="1" /> <!-- Dimensional Warp Stun -->
+			<skill id="16364" level="1" /> <!-- Dimensional Warp Pull -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="16365" level="1" /> <!-- Dimensional Defense Decrease -->
+			<skill id="16368" level="1" /> <!-- Dimensional Strike -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="34.36">
+					<item id="39597" min="1" max="1" chance="97.817229336438" /> <!-- Warp Crystal -->
+					<item id="40051" min="1" max="1" chance="2.1827706635623" /> <!-- Scroll: 100,000 SP -->
+				</group>
+			</death>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="15" />
+			<height normal="33" />
+		</collision>
+	</npc>
+	<npc id="23463" level="99" type="L2Monster" name="Dimensional Orc Hunter" title="Scout">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="12816" sp="452194" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="851391.0" hpRegen="10.5" mp="23550.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="40" />
+				<run ground="120" />
+			</speed>
+			<attack physical="47220.557386874" magical="8305.0410766139" critical="4" attackSpeed="253" range="1100" />
+			<defence physical="526.06382978723" magical="305.10497858296" />
+			<attribute>
+				<defence fire="250" water="200" wind="250" earth="250" holy="250" dark="250" />
+				<attack type="FIRE" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5462" level="1" /> <!-- Fire Attack -->
+			<skill id="16357" level="2" /> <!-- Dimensional Barrier -->
+			<skill id="16358" level="2" /> <!-- Dimensional Armor -->
+			<skill id="16361" level="1" /> <!-- Dimensional Warp Stun -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="16367" level="1" /> <!-- Dimensional Speed Decrease -->
+			<skill id="16380" level="1" /> <!-- Dimensional Recoil Shot -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="100">
+					<item id="39597" min="1" max="1" chance="98.099806743381" /> <!-- Warp Crystal -->
+					<item id="40051" min="1" max="1" chance="1.9001932566193" /> <!-- Scroll: 100,000 SP -->
+				</group>
+			</death>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="15" />
+			<height normal="26.5" />
+		</collision>
+	</npc>
+	<npc id="23464" level="99" type="L2Monster" name="Dimensional Shaman" title="Watcher">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="12816" sp="452194" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="851391.0" hpRegen="10.5" mp="23550.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="47220.557386874" magical="8305.0410766139" critical="4" attackSpeed="253" range="40" />
+			<defence physical="526.06382978723" magical="305.10497858296" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+				<attack type="DARK" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
+			<skill id="16357" level="2" /> <!-- Dimensional Barrier -->
+			<skill id="16358" level="1" /> <!-- Dimensional Armor -->
+			<skill id="16360" level="1" /> <!-- Dimensional Warp Paralysis -->
+			<skill id="16363" level="1" /> <!-- Dimensioal Warp Aerial Yoke -->
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="16383" level="1" /> <!-- Dimensional Silence -->
+			<skill id="16382" level="1" /> <!-- Dimensional Death Ring -->
+			<skill id="16366" level="1" /> <!-- Dimensional Resistance Decrease -->
+			<skill id="16372" level="1" /> <!-- Dimensional Spike -->
+			<skill id="16381" level="1" /> <!-- Dimensional Shield -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="100">
+					<item id="39597" min="1" max="1" chance="98.02672208444" /> <!-- Warp Crystal -->
+					<item id="40051" min="1" max="1" chance="1.9732779155598" /> <!-- Scroll: 100,000 SP -->
+				</group>
+			</death>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="24" />
+			<height normal="45" />
+		</collision>
+	</npc>
+	<npc id="23465" level="99" type="L2Monster" name="Dimensional Bugbear" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>GIANT</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="12816" sp="452194" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="851391.0" hpRegen="10.5" mp="23550.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="55" />
+				<run ground="150" />
+			</speed>
+			<attack physical="47220.557386874" magical="8305.0410766139" critical="4" attackSpeed="253" range="40" />
+			<defence physical="526.06382978723" magical="305.10497858296" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="EARTH" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="16357" level="1" /> <!-- Dimensional Barrier -->
+			<skill id="16358" level="2" /> <!-- Dimensional Armor -->
+			<skill id="16359" level="1" /> <!-- Dimensional Warp Hold -->
+			<skill id="16362" level="1" /> <!-- Dimensional Warp Knock Back / Knock Down -->
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="16371" level="1" /> <!-- Dimensional Storm -->
+			<skill id="16375" level="1" /> <!-- Dimensional Hammer -->
+			<skill id="16368" level="1" /> <!-- Dimensional Strike -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="100">
+					<item id="39597" min="1" max="1" chance="97.997902844879" /> <!-- Warp Crystal -->
+					<item id="40051" min="1" max="1" chance="2.0020971551209" /> <!-- Scroll: 100,000 SP -->
+				</group>
+			</death>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="15" />
+			<height normal="40" />
+		</collision>
+	</npc>
+	<npc id="23466" level="99" type="L2Monster" name="Dimensional Salamander" title="Hunter">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ELEMENTAL</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="567594.0" hpRegen="10.5" mp="23550.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="64" />
+				<run ground="180" />
+			</speed>
+			<attack physical="47220.557386874" magical="8305.0410766139" critical="4" attackSpeed="253" range="40" />
+			<defence physical="526.06382978723" magical="305.10497858296" />
+			<attribute>
+				<defence fire="250" water="200" wind="250" earth="250" holy="250" dark="250" />
+				<attack type="FIRE" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5462" level="1" /> <!-- Fire Attack -->
+			<skill id="16357" level="2" /> <!-- Dimensional Barrier -->
+			<skill id="16358" level="1" /> <!-- Dimensional Armor -->
+			<skill id="16359" level="1" /> <!-- Dimensional Warp Hold -->
+			<skill id="16361" level="1" /> <!-- Dimensional Warp Stun -->
+			<skill id="16363" level="1" /> <!-- Dimensioal Warp Aerial Yoke -->
+			<skill id="4416" level="7" /> <!-- Spirits -->
+		</skill_list>
+		<drop_lists>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="16" />
+			<height normal="6.8" />
+		</collision>
+	</npc>
+	<npc id="23467" level="99" type="L2Monster" name="Dimensional Binder" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="12816" sp="452194" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="851391.0" hpRegen="10.5" mp="23550.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="20" />
+				<run ground="150" />
+			</speed>
+			<attack physical="47220.557386874" magical="8305.0410766139" critical="4" attackSpeed="253" range="40" />
+			<defence physical="526.06382978723" magical="305.10497858296" />
+			<attribute>
+				<defence fire="200" water="250" wind="250" earth="250" holy="250" dark="250" />
+				<attack type="WATER" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5463" level="1" /> <!-- Water Attack -->
+			<skill id="16357" level="1" /> <!-- Dimensional Barrier -->
+			<skill id="16358" level="2" /> <!-- Dimensional Armor -->
+			<skill id="16359" level="1" /> <!-- Dimensional Warp Hold -->
+			<skill id="16362" level="1" /> <!-- Dimensional Warp Knock Back / Knock Down -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="16371" level="1" /> <!-- Dimensional Storm -->
+			<skill id="16365" level="1" /> <!-- Dimensional Defense Decrease -->
+			<skill id="16367" level="1" /> <!-- Dimensional Speed Decrease -->
+			<skill id="16368" level="1" /> <!-- Dimensional Strike -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="100">
+					<item id="39597" min="1" max="1" chance="97.993101285669" /> <!-- Warp Crystal -->
+					<item id="40051" min="1" max="1" chance="2.0068987143305" /> <!-- Scroll: 100,000 SP -->
+				</group>
+			</death>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="15" />
+			<height normal="31" />
+		</collision>
+	</npc>
+	<npc id="23468" level="99" type="L2Monster" name="Dimensional Demon" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="8544" sp="301463" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="454075.0" hpRegen="10.5" mp="23550.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="25" />
+				<run ground="150" />
+			</speed>
+			<attack physical="47220.557386874" magical="8305.0410766139" critical="4" attackSpeed="253" range="40" />
+			<defence physical="526.06382978723" magical="305.10497858296" />
+			<attribute>
+				<defence fire="250" water="200" wind="250" earth="250" holy="250" dark="250" />
+				<attack type="FIRE" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5462" level="1" /> <!-- Fire Attack -->
+			<skill id="16357" level="2" /> <!-- Dimensional Barrier -->
+			<skill id="16358" level="1" /> <!-- Dimensional Armor -->
+			<skill id="16361" level="1" /> <!-- Dimensional Warp Stun -->
+			<skill id="16364" level="1" /> <!-- Dimensional Warp Pull -->
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="16371" level="1" /> <!-- Dimensional Storm -->
+			<skill id="16384" level="1" /> <!-- Dimensional Bleed -->
+			<skill id="16365" level="1" /> <!-- Dimensional Defense Decrease -->
+			<skill id="16367" level="1" /> <!-- Dimensional Speed Decrease -->
+			<skill id="16368" level="1" /> <!-- Dimensional Strike -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="33.26">
+					<item id="39597" min="1" max="1" chance="97.745039085989" /> <!-- Warp Crystal -->
+					<item id="40051" min="1" max="1" chance="2.2549609140108" /> <!-- Scroll: 100,000 SP -->
+				</group>
+			</death>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="30" />
+			<height normal="31.5" />
+		</collision>
+	</npc>
+	<npc id="23469" level="99" type="L2Monster" name="Dimensional Archon" title="Slaughterer">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="25632" sp="904389" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2270376.0" hpRegen="10.5" mp="23550.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="63" />
+				<run ground="150" />
+			</speed>
+			<attack physical="47220.557386874" magical="8305.0410766139" critical="4" attackSpeed="253" range="40" />
+			<defence physical="526.06382978723" magical="305.10497858296" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+				<attack type="DARK" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
+			<skill id="16357" level="1" /> <!-- Dimensional Barrier -->
+			<skill id="16358" level="3" /> <!-- Dimensional Armor -->
+			<skill id="16359" level="1" /> <!-- Dimensional Warp Hold -->
+			<skill id="16360" level="1" /> <!-- Dimensional Warp Paralysis -->
+			<skill id="16361" level="1" /> <!-- Dimensional Warp Stun -->
+			<skill id="16364" level="1" /> <!-- Dimensional Warp Pull -->
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="16371" level="1" /> <!-- Dimensional Storm -->
+			<skill id="16383" level="1" /> <!-- Dimensional Silence -->
+			<skill id="16365" level="1" /> <!-- Dimensional Defense Decrease -->
+			<skill id="16367" level="1" /> <!-- Dimensional Speed Decrease -->
+			<skill id="16368" level="1" /> <!-- Dimensional Strike -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="100">
+					<item id="39597" min="2" max="2" chance="96.121497572932" /> <!-- Warp Crystal -->
+					<item id="40051" min="1" max="1" chance="3.8785024270678" /> <!-- Scroll: 100,000 SP -->
+				</group>
+			</death>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="25" />
+			<height normal="72" />
+		</collision>
+	</npc>
+	<npc id="23470" level="99" type="L2Monster" name="Unworldly Demon" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="8544" sp="301463" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="454075.0" hpRegen="10.5" mp="23550.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="150" />
+			</speed>
+			<attack physical="47220.557386874" magical="8305.0410766139" critical="4" attackSpeed="253" range="40" />
+			<defence physical="526.06382978723" magical="305.10497858296" />
+			<attribute>
+				<defence fire="250" water="200" wind="250" earth="250" holy="250" dark="250" />
+				<attack type="FIRE" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5462" level="1" /> <!-- Fire Attack -->
+			<skill id="16357" level="2" /> <!-- Dimensional Barrier -->
+			<skill id="16358" level="1" /> <!-- Dimensional Armor -->
+			<skill id="16361" level="1" /> <!-- Dimensional Warp Stun -->
+			<skill id="16364" level="1" /> <!-- Dimensional Warp Pull -->
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="16371" level="1" /> <!-- Dimensional Storm -->
+			<skill id="16369" level="1" /> <!-- Dimensional Crush -->
+			<skill id="16365" level="1" /> <!-- Dimensional Defense Decrease -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="33.59">
+					<item id="39597" min="1" max="1" chance="97.76719261685" /> <!-- Warp Crystal -->
+					<item id="40051" min="1" max="1" chance="2.2328073831497" /> <!-- Scroll: 100,000 SP -->
+				</group>
+			</death>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="21" />
+			<height normal="40" />
+		</collision>
+	</npc>
+	<npc id="23471" level="99" type="L2Monster" name="Unworldly Etin" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>GIANT</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="12816" sp="452194" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="851391.0" hpRegen="10.5" mp="23550.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="30" />
+				<run ground="150" />
+			</speed>
+			<attack physical="47220.557386874" magical="8305.0410766139" critical="4" attackSpeed="253" range="40" />
+			<defence physical="526.06382978723" magical="305.10497858296" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="EARTH" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="16357" level="1" /> <!-- Dimensional Barrier -->
+			<skill id="16358" level="2" /> <!-- Dimensional Armor -->
+			<skill id="16359" level="1" /> <!-- Dimensional Warp Hold -->
+			<skill id="16362" level="1" /> <!-- Dimensional Warp Knock Back / Knock Down -->
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="16371" level="1" /> <!-- Dimensional Storm -->
+			<skill id="16369" level="1" /> <!-- Dimensional Crush -->
+			<skill id="16365" level="1" /> <!-- Dimensional Defense Decrease -->
+			<skill id="16375" level="1" /> <!-- Dimensional Hammer -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="100">
+					<item id="39597" min="1" max="1" chance="98.010389101245" /> <!-- Warp Crystal -->
+					<item id="40051" min="1" max="1" chance="1.9896108987553" /> <!-- Scroll: 100,000 SP -->
+				</group>
+			</death>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="24" />
+			<height normal="40" />
+		</collision>
+	</npc>
+	<npc id="23472" level="99" type="L2Monster" name="Unworldly Shaman" title="Watcher">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="12816" sp="452194" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="851391.0" hpRegen="10.5" mp="23550.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="80" />
+				<run ground="120" />
+			</speed>
+			<attack physical="47220.557386874" magical="8305.0410766139" critical="4" attackSpeed="253" range="40" />
+			<defence physical="526.06382978723" magical="305.10497858296" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+				<attack type="DARK" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
+			<skill id="16357" level="2" /> <!-- Dimensional Barrier -->
+			<skill id="16358" level="1" /> <!-- Dimensional Armor -->
+			<skill id="16360" level="1" /> <!-- Dimensional Warp Paralysis -->
+			<skill id="16363" level="1" /> <!-- Dimensioal Warp Aerial Yoke -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="16383" level="1" /> <!-- Dimensional Silence -->
+			<skill id="16382" level="1" /> <!-- Dimensional Death Ring -->
+			<skill id="16373" level="1" /> <!-- Dimensional Crash -->
+			<skill id="16366" level="1" /> <!-- Dimensional Resistance Decrease -->
+			<skill id="16381" level="1" /> <!-- Dimensional Shield -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="100">
+					<item id="39597" min="1" max="1" chance="98.058442831928" /> <!-- Warp Crystal -->
+					<item id="40051" min="1" max="1" chance="1.9415571680722" /> <!-- Scroll: 100,000 SP -->
+				</group>
+			</death>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="18" />
+			<height normal="42" />
+		</collision>
+	</npc>
+	<npc id="23473" level="99" type="L2Monster" name="Unworldly Salamander" title="Hunter">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ELEMENTAL</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="567594.0" hpRegen="10.5" mp="23550.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="39" />
+				<run ground="180" />
+			</speed>
+			<attack physical="47220.557386874" magical="8305.0410766139" critical="4" attackSpeed="253" range="40" />
+			<defence physical="526.06382978723" magical="305.10497858296" />
+			<attribute>
+				<defence fire="250" water="200" wind="250" earth="250" holy="250" dark="250" />
+				<attack type="FIRE" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5462" level="1" /> <!-- Fire Attack -->
+			<skill id="16357" level="2" /> <!-- Dimensional Barrier -->
+			<skill id="16358" level="1" /> <!-- Dimensional Armor -->
+			<skill id="16359" level="1" /> <!-- Dimensional Warp Hold -->
+			<skill id="16361" level="1" /> <!-- Dimensional Warp Stun -->
+			<skill id="16363" level="1" /> <!-- Dimensioal Warp Aerial Yoke -->
+			<skill id="4416" level="7" /> <!-- Spirits -->
+		</skill_list>
+		<drop_lists>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="20" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="23474" level="99" type="L2Monster" name="Unworldly Golem" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>CONSTRUCT</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="12816" sp="452194" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="851391.0" hpRegen="10.5" mp="23550.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="150" />
+			</speed>
+			<attack physical="47220.557386874" magical="8305.0410766139" critical="4" attackSpeed="253" range="40" />
+			<defence physical="526.06382978723" magical="305.10497858296" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="EARTH" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="16357" level="1" /> <!-- Dimensional Barrier -->
+			<skill id="16358" level="2" /> <!-- Dimensional Armor -->
+			<skill id="16359" level="1" /> <!-- Dimensional Warp Hold -->
+			<skill id="16361" level="1" /> <!-- Dimensional Warp Stun -->
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="16371" level="1" /> <!-- Dimensional Storm -->
+			<skill id="16369" level="1" /> <!-- Dimensional Crush -->
+			<skill id="16367" level="1" /> <!-- Dimensional Speed Decrease -->
+			<skill id="16375" level="1" /> <!-- Dimensional Hammer -->
+			<skill id="16386" level="1" /> <!-- Dimensional Stun -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="100">
+					<item id="39597" min="1" max="1" chance="98.02672208444" /> <!-- Warp Crystal -->
+					<item id="40051" min="1" max="1" chance="1.9732779155598" /> <!-- Scroll: 100,000 SP -->
+				</group>
+			</death>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="10" />
+			<height normal="37" />
+		</collision>
+	</npc>
+	<npc id="23475" level="99" type="L2Monster" name="Unworldly Archon" title="Slaughterer">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="25632" sp="904389" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2270376.0" hpRegen="10.5" mp="23550.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="80" />
+				<run ground="150" />
+			</speed>
+			<attack physical="47220.557386874" magical="8305.0410766139" critical="4" attackSpeed="253" range="40" />
+			<defence physical="526.06382978723" magical="305.10497858296" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+				<attack type="DARK" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
+			<skill id="16357" level="1" /> <!-- Dimensional Barrier -->
+			<skill id="16358" level="3" /> <!-- Dimensional Armor -->
+			<skill id="16359" level="1" /> <!-- Dimensional Warp Hold -->
+			<skill id="16360" level="1" /> <!-- Dimensional Warp Paralysis -->
+			<skill id="16361" level="1" /> <!-- Dimensional Warp Stun -->
+			<skill id="16364" level="1" /> <!-- Dimensional Warp Pull -->
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="16371" level="1" /> <!-- Dimensional Storm -->
+			<skill id="16369" level="1" /> <!-- Dimensional Crush -->
+			<skill id="16365" level="1" /> <!-- Dimensional Defense Decrease -->
+			<skill id="16375" level="1" /> <!-- Dimensional Hammer -->
+			<skill id="16386" level="1" /> <!-- Dimensional Stun -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="100">
+					<item id="39597" min="2" max="2" chance="96.193618515348" /> <!-- Warp Crystal -->
+					<item id="40051" min="1" max="1" chance="3.8063814846523" /> <!-- Scroll: 100,000 SP -->
+				</group>
+			</death>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="23" />
+			<height normal="64" />
+		</collision>
+	</npc>
+	<npc id="23476" level="99" type="L2Monster" name="Unworldly Harpy" title="Avenger">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>BEAST</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="12816" sp="452194" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="851391.0" hpRegen="10.5" mp="23550.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="39" />
+				<run ground="120" />
+			</speed>
+			<attack physical="47220.557386874" magical="8305.0410766139" critical="4" attackSpeed="253" range="40" />
+			<defence physical="526.06382978723" magical="305.10497858296" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="250" dark="200" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5466" level="1" /> <!-- Holy Attack -->
+			<skill id="16357" level="2" /> <!-- Dimensional Barrier -->
+			<skill id="16358" level="1" /> <!-- Dimensional Armor -->
+			<skill id="16362" level="1" /> <!-- Dimensional Warp Knock Back / Knock Down -->
+			<skill id="16363" level="1" /> <!-- Dimensioal Warp Aerial Yoke -->
+			<skill id="4416" level="3" /> <!-- Beast -->
+			<skill id="16371" level="1" /> <!-- Dimensional Storm -->
+			<skill id="16384" level="1" /> <!-- Dimensional Bleed -->
+			<skill id="16369" level="1" /> <!-- Dimensional Crush -->
+			<skill id="16367" level="1" /> <!-- Dimensional Speed Decrease -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="100">
+					<item id="39597" min="1" max="1" chance="98.062289166078" /> <!-- Warp Crystal -->
+					<item id="40051" min="1" max="1" chance="1.9377108339217" /> <!-- Scroll: 100,000 SP -->
+				</group>
+			</death>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="13" />
+			<height normal="43" />
+		</collision>
+	</npc>
+	<npc id="23477" level="99" type="L2Monster" name="Abyssal Shaman" title="Watcher">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="12816" sp="452194" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="851391.0" hpRegen="10.5" mp="23550.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="39" />
+				<run ground="120" />
+			</speed>
+			<attack physical="47220.557386874" magical="8305.0410766139" critical="4" attackSpeed="253" range="40" />
+			<defence physical="526.06382978723" magical="305.10497858296" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+				<attack type="DARK" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
+			<skill id="16357" level="2" /> <!-- Dimensional Barrier -->
+			<skill id="16358" level="1" /> <!-- Dimensional Armor -->
+			<skill id="16360" level="1" /> <!-- Dimensional Warp Paralysis -->
+			<skill id="16363" level="1" /> <!-- Dimensioal Warp Aerial Yoke -->
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="16379" level="1" /> <!-- Dimensional Remedy -->
+			<skill id="16383" level="1" /> <!-- Dimensional Silence -->
+			<skill id="16382" level="1" /> <!-- Dimensional Death Ring -->
+			<skill id="16367" level="1" /> <!-- Dimensional Speed Decrease -->
+			<skill id="16366" level="1" /> <!-- Dimensional Resistance Decrease -->
+			<skill id="16374" level="1" /> <!-- Dimensional Destruction -->
+			<skill id="16381" level="1" /> <!-- Dimensional Shield -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="100">
+					<item id="39597" min="1" max="1" chance="98.044983038218" /> <!-- Warp Crystal -->
+					<item id="40051" min="1" max="1" chance="1.9550169617821" /> <!-- Scroll: 100,000 SP -->
+				</group>
+			</death>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="12" />
+			<height normal="26" />
+		</collision>
+	</npc>
+	<npc id="23478" level="99" type="L2Monster" name="Abyssal Berserker" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="12816" sp="452194" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="851391.0" hpRegen="10.5" mp="23550.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="39" />
+				<run ground="150" />
+			</speed>
+			<attack physical="47220.557386874" magical="8305.0410766139" critical="4" attackSpeed="253" range="40" />
+			<defence physical="526.06382978723" magical="305.10497858296" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+				<attack type="DARK" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
+			<skill id="16357" level="1" /> <!-- Dimensional Barrier -->
+			<skill id="16358" level="2" /> <!-- Dimensional Armor -->
+			<skill id="16359" level="1" /> <!-- Dimensional Warp Hold -->
+			<skill id="16364" level="1" /> <!-- Dimensional Warp Pull -->
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="16385" level="1" /> <!-- Dimesional Devil -->
+			<skill id="16370" level="1" /> <!-- Dimensional Slasher -->
+			<skill id="16386" level="1" /> <!-- Dimensional Stun -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="100">
+					<item id="39597" min="1" max="1" chance="98.054596799498" /> <!-- Warp Crystal -->
+					<item id="40051" min="1" max="1" chance="1.945403200502" /> <!-- Scroll: 100,000 SP -->
+				</group>
+			</death>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="12" />
+			<height normal="28.5" />
+		</collision>
+	</npc>
+	<npc id="23479" level="99" type="L2Monster" name="Abyssal Salamander" title="Hunter">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ELEMENTAL</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="567594.0" hpRegen="10.5" mp="23550.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="39" />
+				<run ground="180" />
+			</speed>
+			<attack physical="47220.557386874" magical="8305.0410766139" critical="4" attackSpeed="253" range="40" />
+			<defence physical="526.06382978723" magical="305.10497858296" />
+			<attribute>
+				<defence fire="250" water="200" wind="250" earth="250" holy="250" dark="250" />
+				<attack type="FIRE" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5462" level="1" /> <!-- Fire Attack -->
+			<skill id="16357" level="2" /> <!-- Dimensional Barrier -->
+			<skill id="16358" level="1" /> <!-- Dimensional Armor -->
+			<skill id="16359" level="1" /> <!-- Dimensional Warp Hold -->
+			<skill id="16361" level="1" /> <!-- Dimensional Warp Stun -->
+			<skill id="16363" level="1" /> <!-- Dimensioal Warp Aerial Yoke -->
+			<skill id="4416" level="7" /> <!-- Spirits -->
+		</skill_list>
+		<drop_lists>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="20" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="23480" level="99" type="L2Monster" name="Abyssal Harpy" title="Avenger">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>BEAST</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="12816" sp="452194" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="851391.0" hpRegen="10.5" mp="23550.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="39" />
+				<run ground="120" />
+			</speed>
+			<attack physical="47220.557386874" magical="8305.0410766139" critical="4" attackSpeed="253" range="40" />
+			<defence physical="526.06382978723" magical="305.10497858296" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="250" dark="200" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5466" level="1" /> <!-- Holy Attack -->
+			<skill id="16357" level="2" /> <!-- Dimensional Barrier -->
+			<skill id="16358" level="1" /> <!-- Dimensional Armor -->
+			<skill id="16362" level="1" /> <!-- Dimensional Warp Knock Back / Knock Down -->
+			<skill id="16363" level="1" /> <!-- Dimensioal Warp Aerial Yoke -->
+			<skill id="4416" level="3" /> <!-- Beast -->
+			<skill id="16371" level="1" /> <!-- Dimensional Storm -->
+			<skill id="16385" level="1" /> <!-- Dimesional Devil -->
+			<skill id="16384" level="1" /> <!-- Dimensional Bleed -->
+			<skill id="16370" level="1" /> <!-- Dimensional Slasher -->
+			<skill id="16367" level="1" /> <!-- Dimensional Speed Decrease -->
+			<skill id="16386" level="1" /> <!-- Dimensional Stun -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="100">
+					<item id="39597" min="1" max="1" chance="98.068059233108" /> <!-- Warp Crystal -->
+					<item id="40051" min="1" max="1" chance="1.9319407668922" /> <!-- Scroll: 100,000 SP -->
+				</group>
+			</death>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="16" />
+			<height normal="69" />
+		</collision>
+	</npc>
+	<npc id="23481" level="99" type="L2Monster" name="Abyssal Binder" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ELEMENTAL</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="12816" sp="452194" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="851391.0" hpRegen="10.5" mp="23550.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="38" />
+				<run ground="150" />
+			</speed>
+			<attack physical="47220.557386874" magical="8305.0410766139" critical="4" attackSpeed="253" range="40" />
+			<defence physical="526.06382978723" magical="305.10497858296" />
+			<attribute>
+				<defence fire="250" water="200" wind="250" earth="250" holy="250" dark="250" />
+				<attack type="FIRE" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5462" level="1" /> <!-- Fire Attack -->
+			<skill id="16357" level="1" /> <!-- Dimensional Barrier -->
+			<skill id="16358" level="2" /> <!-- Dimensional Armor -->
+			<skill id="16359" level="1" /> <!-- Dimensional Warp Hold -->
+			<skill id="16361" level="1" /> <!-- Dimensional Warp Stun -->
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="16385" level="1" /> <!-- Dimesional Devil -->
+			<skill id="16384" level="1" /> <!-- Dimensional Bleed -->
+			<skill id="16370" level="1" /> <!-- Dimensional Slasher -->
+			<skill id="16367" level="1" /> <!-- Dimensional Speed Decrease -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="100">
+					<item id="39597" min="1" max="1" chance="98.069982739683" /> <!-- Warp Crystal -->
+					<item id="40051" min="1" max="1" chance="1.930017260317" /> <!-- Scroll: 100,000 SP -->
+				</group>
+			</death>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="10" />
+			<height normal="34" />
+		</collision>
+	</npc>
+	<npc id="23482" level="99" type="L2Monster" name="Abyssal Archon" title="Slaughterer">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="25632" sp="904389" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2270376.0" hpRegen="10.5" mp="23550.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="39" />
+				<run ground="120" />
+			</speed>
+			<attack physical="47220.557386874" magical="8305.0410766139" critical="4" attackSpeed="253" range="40" />
+			<defence physical="526.06382978723" magical="305.10497858296" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+				<attack type="DARK" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
+			<skill id="16357" level="2" /> <!-- Dimensional Barrier -->
+			<skill id="16358" level="3" /> <!-- Dimensional Armor -->
+			<skill id="16359" level="1" /> <!-- Dimensional Warp Hold -->
+			<skill id="16360" level="1" /> <!-- Dimensional Warp Paralysis -->
+			<skill id="16361" level="1" /> <!-- Dimensional Warp Stun -->
+			<skill id="16364" level="1" /> <!-- Dimensional Warp Pull -->
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="16385" level="1" /> <!-- Dimesional Devil -->
+			<skill id="16384" level="1" /> <!-- Dimensional Bleed -->
+			<skill id="16370" level="1" /> <!-- Dimensional Slasher -->
+			<skill id="16365" level="1" /> <!-- Dimensional Defense Decrease -->
+			<skill id="16386" level="1" /> <!-- Dimensional Stun -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="100">
+					<item id="39597" min="2" max="2" chance="96.123345476916" /> <!-- Warp Crystal -->
+					<item id="40051" min="1" max="1" chance="3.876654523084" /> <!-- Scroll: 100,000 SP -->
+				</group>
+			</death>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="24" />
+			<height normal="61" />
+		</collision>
+	</npc>
+	<npc id="23483" level="99" type="L2Monster" name="Abyssal Golem" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>CONSTRUCT</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="12816" sp="452194" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="851391.0" hpRegen="10.5" mp="23550.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="150" />
+			</speed>
+			<attack physical="47220.557386874" magical="8305.0410766139" critical="4" attackSpeed="253" range="40" />
+			<defence physical="526.06382978723" magical="305.10497858296" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="EARTH" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="16357" level="1" /> <!-- Dimensional Barrier -->
+			<skill id="16358" level="2" /> <!-- Dimensional Armor -->
+			<skill id="16359" level="1" /> <!-- Dimensional Warp Hold -->
+			<skill id="16361" level="1" /> <!-- Dimensional Warp Stun -->
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="16385" level="1" /> <!-- Dimesional Devil -->
+			<skill id="16370" level="1" /> <!-- Dimensional Slasher -->
+			<skill id="16367" level="1" /> <!-- Dimensional Speed Decrease -->
+			<skill id="16386" level="1" /> <!-- Dimensional Stun -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="100">
+					<item id="39597" min="1" max="1" chance="98.076715606948" /> <!-- Warp Crystal -->
+					<item id="40051" min="1" max="1" chance="1.9232843930522" /> <!-- Scroll: 100,000 SP -->
+				</group>
+			</death>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="10" />
+			<height normal="37" />
+		</collision>
+	</npc>
+	<npc id="23484" level="11" type="L2Monster" name="Robust Honeybee" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire expRate="3.6611570247934" sp="0" />
+		<stats str="70" int="28" dex="40" wit="65" con="74" men="20">
+			<vitals hp="185.38552" hpRegen="2.5" mp="116.4" mpRegen="1.2" />
+			<attack physical="21.0973" magical="14.40672" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="64.04702" magical="42.6432286072855" />
+			<speed>
+				<walk ground="39" />
+				<run ground="170" />
+			</speed>
+			<hit_time>370</hit_time>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skill_list>
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Average P. Def. -->
+			<skill id="4413" level="13" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4416" level="4" /> <!-- Animals -->
+		</skill_list>
+		<ex_crt_effect>false</ex_crt_effect>
+		<ai clanHelpRange="300" />
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="4" max="10" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.75">
+					<item id="44" min="1" max="1" chance="100" /> <!-- Leather Helmet -->
+				</group>
+				<group chance="2.751">
+					<item id="36516" min="1" max="1" chance="100" /> <!-- Worn Leather -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36516" min="1" max="1" chance="14.07" /> <!-- Worn Leather -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="8" />
+			<height normal="20" />
+		</collision>
+	</npc>
+	<npc id="23485" level="14" type="L2Monster" name="Evolved Kiku" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ANIMAL</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="2.75" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="230.38548" hpRegen="2.5" mp="140.88" mpRegen="1.2" />
+			<speed>
+				<walk ground="39" />
+				<run ground="170" />
+			</speed>
+			<attack physical="27.707585228532" magical="19.435654173156" critical="4" attackSpeed="253" range="40" />
+			<defence physical="71.538068472151" magical="52.099161043657" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
+			<skill id="4416" level="4" /> <!-- Animals -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="5" max="11" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="2.91">
+					<item id="49" min="1" max="1" chance="100" /> <!-- Gloves -->
+				</group>
+				<group chance="0.3">
+					<item id="36561" min="1" max="1" chance="100" /> <!-- Cokes -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36532" min="1" max="1" chance="0.3" /> <!-- Thin Braid -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="6" />
+			<height normal="10.5" />
+		</collision>
+	</npc>
+	<npc id="23486" level="17" type="L2Monster" name="Robust Growler" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire expRate="2.4359861591696" sp="0" />
+		<stats str="70" int="28" dex="40" wit="65" con="74" men="20">
+			<vitals hp="282.57403" hpRegen="2.5" mp="166.08" mpRegen="1.2" />
+			<attack physical="34.8979" magical="23.83074" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="78.68469" magical="52.3891528929827" />
+			<speed>
+				<walk ground="39" />
+				<run ground="170" />
+			</speed>
+			<hit_time>370</hit_time>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skill_list>
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="13" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Average P. Def. -->
+			<skill id="4413" level="13" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4416" level="7" /> <!-- Animals -->
+		</skill_list>
+		<ex_crt_effect>false</ex_crt_effect>
+		<ai clanHelpRange="300" />
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="5" max="13" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="1.304">
+					<item id="50" min="1" max="1" chance="100" /> <!-- Leather Gloves -->
+				</group>
+				<group chance="3.331">
+					<item id="36516" min="1" max="1" chance="100" /> <!-- Worn Leather -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36516" min="1" max="1" chance="17.79" /> <!-- Worn Leather -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="6" />
+			<height normal="17" />
+		</collision>
+	</npc>
+	<npc id="23487" level="98" type="L2Monster" name="Magma Ailith" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="732.58069554352" sp="4502" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15761.780463869" hpRegen="10.5" mp="2317.4" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="170" />
+			</speed>
+			<attack physical="45027.439862948" magical="7933.4451512287" critical="4" attackSpeed="253" range="40" />
+			<defence physical="515.75551332479" magical="297.55916768147" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="EARTH" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="4410" level="17" /> <!-- Very Strong P. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4379" level="5" /> <!-- Spear Resistance -->
+			<skill id="23568" level="1" /> <!-- Monster Dueling -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+			<skill id="4416" level="9" /> <!-- Demons -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="845" max="1969" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.408">
+					<item id="36538" min="1" max="1" chance="73.529411764706" /> <!-- Durable Leather Braid -->
+					<item id="35347" min="1" max="1" chance="18.382352941176" /> <!-- Eternal Leather Glove Ingredient -->
+					<item id="36539" min="1" max="1" chance="7.3529411764706" /> <!-- Quality Leather Braid -->
+					<item id="17526" min="1" max="1" chance="0.73529411764706" /> <!-- Scroll: Enchant Weapon (R-grade) -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36518" min="1" max="1" chance="8.722" /> <!-- Durable Leather -->
+				<item id="36519" min="1" max="1" chance="0.75" /> <!-- Quality Leather -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="34" />
+			<height normal="35" />
+		</collision>
+	</npc>
+	<npc id="23488" level="98" type="L2Monster" name="Magma Apophis" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="1360.4334652228" sp="8361" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15761.780463869" hpRegen="10.5" mp="2317.4" mpRegen="3.6" />
+			<speed>
+				<walk ground="25" />
+				<run ground="170" />
+			</speed>
+			<attack physical="45027.550797101" magical="7933.4451512287" critical="4" attackSpeed="253" range="40" />
+			<defence physical="515.49473544358" magical="297.50874247089" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="EARTH" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="4410" level="19" /> <!-- Extremely Strong P. Atk. -->
+			<skill id="4412" level="16" /> <!-- Very Strong P. Def. -->
+			<skill id="4413" level="16" /> <!-- Very Strong M. Def. -->
+			<skill id="4379" level="5" /> <!-- Spear Resistance -->
+			<skill id="23568" level="1" /> <!-- Monster Dueling -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+			<skill id="4416" level="9" /> <!-- Demons -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="1689" max="3937" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.03">
+					<item id="35345" min="1" max="1" chance="100" /> <!-- Eternal Leather Armor Ingredient -->
+				</group>
+				<group chance="0.8289">
+					<item id="36538" min="1" max="1" chance="90.481360839667" /> <!-- Durable Leather Braid -->
+					<item id="36539" min="1" max="1" chance="9.0481360839667" /> <!-- Quality Leather Braid -->
+					<item id="17526" min="1" max="1" chance="0.36192544335867" /> <!-- Scroll: Enchant Weapon (R-grade) -->
+					<item id="35460" min="1" max="1" chance="0.1085776330076" /> <!-- Recipe: Amaranthine Caster (60%) -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36543" min="1" max="1" chance="3.144" /> <!-- Adamantite Wire -->
+				<item id="36544" min="1" max="1" chance="0.3" /> <!-- Orichalcum Wire -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="30" />
+			<height normal="31.5" />
+		</collision>
+	</npc>
+	<npc id="23489" level="98" type="L2Monster" name="Lava Wyrm" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="661.96897126197" sp="4068" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15761.780463869" hpRegen="10.5" mp="2317.4" mpRegen="3.6" />
+			<speed>
+				<walk ground="70" />
+				<run ground="170" />
+			</speed>
+			<attack physical="45027.610073614" magical="7933.4485848194" critical="4" attackSpeed="253" range="40" />
+			<defence physical="515.50802139037" magical="297.55916768147" />
+			<attribute>
+				<defence fire="250" water="200" wind="250" earth="250" holy="250" dark="250" />
+				<attack type="FIRE" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5462" level="1" /> <!-- Fire Attack -->
+			<skill id="4411" level="16" /> <!-- Very Strong M. Atk. -->
+			<skill id="4379" level="4" /> <!-- Spear Resistance -->
+			<skill id="23568" level="1" /> <!-- Monster Dueling -->
+			<skill id="16547" level="8" /> <!-- Danger Zone Attack Resistance -->
+			<skill id="4416" level="10" /> <!-- Dragons -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="845" max="1969" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="1.1259">
+					<item id="36543" min="1" max="1" chance="66.613375965894" /> <!-- Adamantite Wire -->
+					<item id="17527" min="1" max="1" chance="26.645350386358" /> <!-- Scroll: Enchant Armor (R-grade) -->
+					<item id="36544" min="1" max="1" chance="6.6613375965894" /> <!-- Orichalcum Wire -->
+					<item id="35469" min="1" max="1" chance="0.079936051159073" /> <!-- Recipe: Eternal Leather Armor (60%) -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36518" min="1" max="1" chance="8.645" /> <!-- Durable Leather -->
+				<item id="36539" min="1" max="1" chance="0.3" /> <!-- Quality Leather Braid -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="29" />
+			<height normal="72" />
+		</collision>
+	</npc>
+	<npc id="23490" level="98" type="L2Monster" name="Lava Drake" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="661.96897126197" sp="4068" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15761.780463869" hpRegen="10.5" mp="2317.4" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="70" />
+			</speed>
+			<attack physical="45027.442645077" magical="7933.4451512287" critical="4" attackSpeed="253" range="40" />
+			<defence physical="515.50802139037" magical="297.55916768147" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="EARTH" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
+			<skill id="4379" level="4" /> <!-- Spear Resistance -->
+			<skill id="23568" level="1" /> <!-- Monster Dueling -->
+			<skill id="16547" level="8" /> <!-- Danger Zone Attack Resistance -->
+			<skill id="4416" level="10" /> <!-- Dragons -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="845" max="1969" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="1.128">
+					<item id="36543" min="1" max="1" chance="66.489361702128" /> <!-- Adamantite Wire -->
+					<item id="17527" min="1" max="1" chance="26.595744680851" /> <!-- Scroll: Enchant Armor (R-grade) -->
+					<item id="36544" min="1" max="1" chance="6.6489361702128" /> <!-- Orichalcum Wire -->
+					<item id="35471" min="1" max="1" chance="0.26595744680851" /> <!-- Recipe: Eternal Leather Gloves (60%) -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36518" min="1" max="1" chance="8.625" /> <!-- Durable Leather -->
+				<item id="36539" min="1" max="1" chance="0.3" /> <!-- Quality Leather Braid -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="38" />
+			<height normal="63" />
+		</collision>
+	</npc>
+	<npc id="23491" level="98" type="L2Monster" name="Lava Wendigo" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>BEAST</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="661.96897126197" sp="4068" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15761.780463869" hpRegen="10.5" mp="2317.4" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="70" />
+			</speed>
+			<attack physical="45027.442645077" magical="7933.4451512287" critical="4" attackSpeed="253" range="40" />
+			<defence physical="515.50802139037" magical="297.55916768147" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="EARTH" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
+			<skill id="4379" level="4" /> <!-- Spear Resistance -->
+			<skill id="23568" level="1" /> <!-- Monster Dueling -->
+			<skill id="16547" level="8" /> <!-- Danger Zone Attack Resistance -->
+			<skill id="4416" level="3" /> <!-- Beast -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="845" max="1969" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="1.128">
+					<item id="36543" min="1" max="1" chance="66.489361702128" /> <!-- Adamantite Wire -->
+					<item id="17527" min="1" max="1" chance="26.595744680851" /> <!-- Scroll: Enchant Armor (R-grade) -->
+					<item id="36544" min="1" max="1" chance="6.6489361702128" /> <!-- Orichalcum Wire -->
+					<item id="35472" min="1" max="1" chance="0.26595744680851" /> <!-- Recipe: Eternal Leather Boots (60%) -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36518" min="1" max="1" chance="8.712" /> <!-- Durable Leather -->
+				<item id="36539" min="1" max="1" chance="0.3" /> <!-- Quality Leather Braid -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="26" />
+			<height normal="31" />
+		</collision>
+	</npc>
+	<npc id="23492" level="98" type="L2Monster" name="Lava Stone Golem" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>CONSTRUCT</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="972.65024989588" sp="5978" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15761.780463869" hpRegen="10.5" mp="2317.4" mpRegen="3.6" />
+			<speed>
+				<walk ground="13" />
+				<run ground="30" />
+			</speed>
+			<attack physical="45027.610073614" magical="7933.4485848194" critical="4" attackSpeed="253" range="40" />
+			<defence physical="515.49473544358" magical="297.50874247089" />
+			<attribute>
+				<defence fire="250" water="200" wind="250" earth="250" holy="250" dark="250" />
+				<attack type="FIRE" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5462" level="1" /> <!-- Fire Attack -->
+			<skill id="4411" level="16" /> <!-- Very Strong M. Atk. -->
+			<skill id="4412" level="16" /> <!-- Very Strong P. Def. -->
+			<skill id="4413" level="16" /> <!-- Very Strong M. Def. -->
+			<skill id="4379" level="4" /> <!-- Spear Resistance -->
+			<skill id="23568" level="1" /> <!-- Monster Dueling -->
+			<skill id="16547" level="8" /> <!-- Danger Zone Attack Resistance -->
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="845" max="1969" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="1.128">
+					<item id="36543" min="1" max="1" chance="66.489361702128" /> <!-- Adamantite Wire -->
+					<item id="17527" min="1" max="1" chance="26.595744680851" /> <!-- Scroll: Enchant Armor (R-grade) -->
+					<item id="36544" min="1" max="1" chance="6.6489361702128" /> <!-- Orichalcum Wire -->
+					<item id="35477" min="1" max="1" chance="0.26595744680851" /> <!-- Recipe: Eternal Shoes (60%) -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36538" min="1" max="1" chance="2.228" /> <!-- Durable Leather Braid -->
+				<item id="36519" min="1" max="1" chance="0.75" /> <!-- Quality Leather -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="38" />
+			<height normal="45" />
+		</collision>
+	</npc>
+	<npc id="23493" level="98" type="L2Monster" name="Lava Leviah" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="661.96897126197" sp="4068" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15761.780463869" hpRegen="10.5" mp="2317.4" mpRegen="3.6" />
+			<speed>
+				<walk ground="70" />
+				<run ground="170" />
+			</speed>
+			<attack physical="45027.442645077" magical="7933.4451512287" critical="4" attackSpeed="253" range="40" />
+			<defence physical="515.50802139037" magical="297.55916768147" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="EARTH" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
+			<skill id="4379" level="4" /> <!-- Spear Resistance -->
+			<skill id="23568" level="1" /> <!-- Monster Dueling -->
+			<skill id="16547" level="8" /> <!-- Danger Zone Attack Resistance -->
+			<skill id="4416" level="9" /> <!-- Demons -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="845" max="1969" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="1.883">
+					<item id="36543" min="1" max="1" chance="68.135953266065" /> <!-- Adamantite Wire -->
+					<item id="17527" min="1" max="1" chance="15.932023366968" /> <!-- Scroll: Enchant Armor (R-grade) -->
+					<item id="36544" min="1" max="1" chance="15.932023366968" /> <!-- Orichalcum Wire -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36538" min="1" max="1" chance="2.211" /> <!-- Durable Leather Braid -->
+				<item id="36519" min="1" max="1" chance="0.75" /> <!-- Quality Leather -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="12" />
+			<height normal="40" />
+		</collision>
+	</npc>
+	<npc id="23494" level="99" type="L2Monster" name="Magma Salamander" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ELEMENTAL</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="732.62463013978" sp="11488" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15841.7282909073" hpRegen="10.5" mp="2355.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="39" />
+				<run ground="170" />
+			</speed>
+			<attack physical="47220.35912147" magical="8305.0410766139" critical="4" attackSpeed="253" range="40" />
+			<defence physical="525.76050641815" magical="305.10497858296" />
+			<attribute>
+				<defence fire="250" water="200" wind="250" earth="250" holy="250" dark="250" />
+				<attack type="FIRE" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5462" level="1" /> <!-- Fire Attack -->
+			<skill id="4410" level="17" /> <!-- Very Strong P. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4379" level="5" /> <!-- Spear Resistance -->
+			<skill id="23568" level="1" /> <!-- Monster Dueling -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+			<skill id="4416" level="7" /> <!-- Spirits -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="872" max="2030" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.408">
+					<item id="36538" min="1" max="1" chance="73.529411764706" /> <!-- Durable Leather Braid -->
+					<item id="35348" min="1" max="1" chance="18.382352941176" /> <!-- Eternal Leather Boot Ingredient -->
+					<item id="36539" min="1" max="1" chance="7.3529411764706" /> <!-- Quality Leather Braid -->
+					<item id="17526" min="1" max="1" chance="0.73529411764706" /> <!-- Scroll: Enchant Weapon (R-grade) -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36538" min="1" max="1" chance="2.254" /> <!-- Durable Leather Braid -->
+				<item id="36539" min="1" max="1" chance="0.3" /> <!-- Quality Leather Braid -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="20" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="23495" level="99" type="L2Monster" name="Magma Dre Vanul" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="678.34731149883" sp="10637" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15841.7282909073" hpRegen="10.5" mp="2355.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="80" />
+				<run ground="170" />
+			</speed>
+			<attack physical="47220.557386874" magical="8304.9089563844" critical="4" attackSpeed="253" range="40" />
+			<defence physical="526.06382978723" magical="305.10497858296" />
+			<attribute>
+				<defence fire="250" water="200" wind="250" earth="250" holy="250" dark="250" />
+				<attack type="FIRE" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5462" level="1" /> <!-- Fire Attack -->
+			<skill id="4411" level="17" /> <!-- Very Strong M. Atk. -->
+			<skill id="4379" level="5" /> <!-- Spear Resistance -->
+			<skill id="23568" level="1" /> <!-- Monster Dueling -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+			<skill id="4416" level="9" /> <!-- Demons -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="872" max="2030" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.408">
+					<item id="36538" min="1" max="1" chance="73.529411764706" /> <!-- Durable Leather Braid -->
+					<item id="35353" min="1" max="1" chance="18.382352941176" /> <!-- Eternal Shoe Ingredient -->
+					<item id="36539" min="1" max="1" chance="7.3529411764706" /> <!-- Quality Leather Braid -->
+					<item id="17526" min="1" max="1" chance="0.73529411764706" /> <!-- Scroll: Enchant Weapon (R-grade) -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36538" min="1" max="1" chance="2.174" /> <!-- Durable Leather Braid -->
+				<item id="36539" min="1" max="1" chance="0.3" /> <!-- Quality Leather Braid -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="20" />
+			<height normal="42" />
+		</collision>
+	</npc>
+	<npc id="23496" level="99" type="L2Monster" name="Magma Ifrit" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="1360.5149474543" sp="21335" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15841.7282909073" hpRegen="10.5" mp="2355.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="39" />
+				<run ground="170" />
+			</speed>
+			<attack physical="47220.376818161" magical="8305.0410766139" critical="4" attackSpeed="253" range="40" />
+			<defence physical="525.96801903" magical="304.86727805858" />
+			<attribute>
+				<defence fire="250" water="200" wind="250" earth="250" holy="250" dark="250" />
+				<attack type="FIRE" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5462" level="1" /> <!-- Fire Attack -->
+			<skill id="4410" level="19" /> <!-- Extremely Strong P. Atk. -->
+			<skill id="4412" level="16" /> <!-- Very Strong P. Def. -->
+			<skill id="4413" level="16" /> <!-- Very Strong M. Def. -->
+			<skill id="4379" level="5" /> <!-- Spear Resistance -->
+			<skill id="23568" level="1" /> <!-- Monster Dueling -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="1743" max="4060" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.03">
+					<item id="35328" min="1" max="1" chance="100" /> <!-- Amaranthine Cutter Fragment -->
+				</group>
+				<group chance="0.03">
+					<item id="35345" min="1" max="1" chance="100" /> <!-- Eternal Leather Armor Ingredient -->
+				</group>
+				<group chance="0.8289">
+					<item id="36538" min="1" max="1" chance="90.481360839667" /> <!-- Durable Leather Braid -->
+					<item id="36539" min="1" max="1" chance="9.0481360839667" /> <!-- Quality Leather Braid -->
+					<item id="17526" min="1" max="1" chance="0.36192544335867" /> <!-- Scroll: Enchant Weapon (R-grade) -->
+					<item id="35452" min="1" max="1" chance="0.1085776330076" /> <!-- Recipe: Amaranthine Cutter (60%) -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36543" min="1" max="1" chance="3.177" /> <!-- Adamantite Wire -->
+				<item id="36544" min="1" max="1" chance="0.3" /> <!-- Orichalcum Wire -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="13" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="23497" level="99" type="L2Monster" name="Blazing Saurus" title="Flaming Stigma">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>CONSTRUCT</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="1569.8250178553" sp="24617" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15841.7282909073" hpRegen="10.5" mp="2355.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="47220.557386874" magical="8304.8858064068" critical="4" attackSpeed="253" range="40" />
+			<defence physical="525.96801903" magical="304.86727805858" />
+			<attribute>
+				<defence fire="250" water="200" wind="250" earth="250" holy="250" dark="250" />
+				<attack type="FIRE" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5462" level="1" /> <!-- Fire Attack -->
+			<skill id="4411" level="19" /> <!-- Extremely Strong M. Atk. -->
+			<skill id="4412" level="16" /> <!-- Very Strong P. Def. -->
+			<skill id="4413" level="16" /> <!-- Very Strong M. Def. -->
+			<skill id="4379" level="5" /> <!-- Spear Resistance -->
+			<skill id="23568" level="1" /> <!-- Monster Dueling -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="2179" max="5075" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.075">
+					<item id="35332" min="1" max="1" chance="100" /> <!-- Amaranthine Stormer Fragment -->
+				</group>
+				<group chance="0.3423">
+					<item id="36538" min="1" max="1" chance="87.642418930762" /> <!-- Durable Leather Braid -->
+					<item id="36539" min="1" max="1" chance="8.7642418930762" /> <!-- Quality Leather Braid -->
+					<item id="36549" min="1" max="1" chance="2.1910604732691" /> <!-- Weapon Fragment (High-grade) -->
+					<item id="17526" min="1" max="1" chance="0.87642418930762" /> <!-- Scroll: Enchant Weapon (R-grade) -->
+					<item id="35456" min="1" max="1" chance="0.26292725679229" /> <!-- Recipe: Amaranthine Stormer (60%) -->
+					<item id="35471" min="1" max="1" chance="0.26292725679229" /> <!-- Recipe: Eternal Leather Gloves (60%) -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36539" min="1" max="1" chance="0.75" /> <!-- Quality Leather Braid -->
+				<item id="36544" min="1" max="1" chance="0.3" /> <!-- Orichalcum Wire -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="15" />
+			<height normal="75" />
+		</collision>
+	</npc>
+	<npc id="23498" level="99" type="L2Monster" name="Blazing Wizard" title="Flaming Stigma">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="1569.8250178553" sp="24617" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15841.7282909073" hpRegen="10.5" mp="2355.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="45" />
+				<run ground="170" />
+			</speed>
+			<attack physical="47220.557386874" magical="8304.8858064068" critical="4" attackSpeed="253" range="40" />
+			<defence physical="525.96801903" magical="304.86727805858" />
+			<attribute>
+				<defence fire="250" water="200" wind="250" earth="250" holy="250" dark="250" />
+				<attack type="FIRE" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5462" level="1" /> <!-- Fire Attack -->
+			<skill id="4411" level="19" /> <!-- Extremely Strong M. Atk. -->
+			<skill id="4412" level="16" /> <!-- Very Strong P. Def. -->
+			<skill id="4413" level="16" /> <!-- Very Strong M. Def. -->
+			<skill id="4379" level="5" /> <!-- Spear Resistance -->
+			<skill id="23568" level="1" /> <!-- Monster Dueling -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+			<skill id="4416" level="1" /> <!-- Undead -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="2179" max="5075" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.075">
+					<item id="35335" min="1" max="1" chance="100" /> <!-- Amaranthine Buster Fragment -->
+				</group>
+				<group chance="0.3693">
+					<item id="36543" min="1" max="1" chance="81.23476848091" /> <!-- Adamantite Wire -->
+					<item id="17527" min="1" max="1" chance="8.123476848091" /> <!-- Scroll: Enchant Armor (R-grade) -->
+					<item id="36544" min="1" max="1" chance="8.123476848091" /> <!-- Orichalcum Wire -->
+					<item id="36554" min="1" max="1" chance="2.0308692120227" /> <!-- Armor Fragment (High-grade) -->
+					<item id="35459" min="1" max="1" chance="0.24370430544273" /> <!-- Recipe: Amaranthine Buster (60%) -->
+					<item id="35472" min="1" max="1" chance="0.24370430544273" /> <!-- Recipe: Eternal Leather Boots (60%) -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36539" min="1" max="1" chance="0.75" /> <!-- Quality Leather Braid -->
+				<item id="36544" min="1" max="1" chance="0.3" /> <!-- Orichalcum Wire -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="18" />
+			<height normal="27.5" />
+		</collision>
+	</npc>
+	<npc id="23499" level="99" type="L2Monster" name="Flame Preta" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="662.00857055403" sp="10381" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15841.7282909073" hpRegen="10.5" mp="2355.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="130" />
+				<run ground="70" />
+			</speed>
+			<attack physical="47220.368807127" magical="8305.0410766139" critical="4" attackSpeed="253" range="40" />
+			<defence physical="526.06382978723" magical="305.10497858296" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="EARTH" value="330" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
+			<skill id="4379" level="4" /> <!-- Spear Resistance -->
+			<skill id="23568" level="1" /> <!-- Monster Dueling -->
+			<skill id="16547" level="8" /> <!-- Danger Zone Attack Resistance -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+		</skill_list>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="872" max="2030" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.03">
+					<item id="35336" min="1" max="1" chance="100" /> <!-- Amaranthine Caster Fragment -->
+				</group>
+				<group chance="0.3609">
+					<item id="36543" min="1" max="1" chance="83.125519534497" /> <!-- Adamantite Wire -->
+					<item id="17527" min="1" max="1" chance="8.3125519534497" /> <!-- Scroll: Enchant Armor (R-grade) -->
+					<item id="36544" min="1" max="1" chance="8.3125519534497" /> <!-- Orichalcum Wire -->
+					<item id="35477" min="1" max="1" chance="0.24937655860349" /> <!-- Recipe: Eternal Shoes (60%) -->
+				</group>
+			</death>
+			<corpse>
+				<item id="36518" min="1" max="1" chance="8.988" /> <!-- Durable Leather -->
+				<item id="36539" min="1" max="1" chance="0.3" /> <!-- Quality Leather Braid -->
+			</corpse>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="15" />
+			<height normal="37" />
+		</collision>
+	</npc>
+</list>

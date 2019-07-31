@@ -1,0 +1,3722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
+	<npc id="15000" level="99" type="L2Servitor" name="Unison of Lights" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="35708" /> <!-- Lumi Exclusive Weapon -->
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="9728.0" hpRegen="9" mp="1175.0" mpRegen="6.5" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1818.717" magical="1035.302" critical="4" attackSpeed="378" range="900" type="BOW" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="962" magical="660.495964566658" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4415" level="9" /> <!-- Bows -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="5038" level="16" /> <!-- Servitor PvP Penalty -->
+			<skill id="11836" level="101" /> <!-- Summon Lumi Power Passive -->
+		</skill_list>
+		<shots soul="1" spirit="1" />
+		<collision>
+			<radius normal="9" />
+			<height normal="18" />
+		</collision>
+	</npc>
+	<npc id="15001" level="99" type="L2Servitor" name="Unison of Lights" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="35708" /> <!-- Lumi Exclusive Weapon -->
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="9728.0" hpRegen="9" mp="1175.0" mpRegen="6.5" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1818.717" magical="1035.302" critical="4" attackSpeed="378" range="900" type="BOW" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="962" magical="660.495964566658" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4415" level="9" /> <!-- Bows -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="5038" level="16" /> <!-- Servitor PvP Penalty -->
+			<skill id="11836" level="102" /> <!-- Summon Lumi Power Passive -->
+		</skill_list>
+		<shots soul="1" spirit="1" />
+		<collision>
+			<radius normal="9" />
+			<height normal="18" />
+		</collision>
+	</npc>
+	<npc id="15002" level="99" type="L2Servitor" name="Unison of Lights" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="35708" /> <!-- Lumi Exclusive Weapon -->
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="9728.0" hpRegen="9" mp="1175.0" mpRegen="6.5" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1818.717" magical="1035.302" critical="4" attackSpeed="378" range="900" type="BOW" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="962" magical="660.495964566658" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4415" level="9" /> <!-- Bows -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="5038" level="16" /> <!-- Servitor PvP Penalty -->
+			<skill id="11836" level="103" /> <!-- Summon Lumi Power Passive -->
+		</skill_list>
+		<shots soul="1" spirit="1" />
+		<collision>
+			<radius normal="9" />
+			<height normal="18" />
+		</collision>
+	</npc>
+	<npc id="15003" level="99" type="L2Servitor" name="Unison of Lights" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="35708" /> <!-- Lumi Exclusive Weapon -->
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="9728.0" hpRegen="9" mp="1175.0" mpRegen="6.5" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1818.717" magical="1035.302" critical="4" attackSpeed="378" range="900" type="BOW" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="962" magical="660.495964566658" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4415" level="9" /> <!-- Bows -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="5038" level="16" /> <!-- Servitor PvP Penalty -->
+			<skill id="11836" level="104" /> <!-- Summon Lumi Power Passive -->
+		</skill_list>
+		<shots soul="1" spirit="1" />
+		<collision>
+			<radius normal="9" />
+			<height normal="18" />
+		</collision>
+	</npc>
+	<npc id="15004" level="99" type="L2Servitor" name="Unison of Lights" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="35708" /> <!-- Lumi Exclusive Weapon -->
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="9728.0" hpRegen="9" mp="1175.0" mpRegen="6.5" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1818.717" magical="1035.302" critical="4" attackSpeed="378" range="900" type="BOW" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="962" magical="660.495964566658" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4415" level="9" /> <!-- Bows -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="5038" level="16" /> <!-- Servitor PvP Penalty -->
+			<skill id="11836" level="105" /> <!-- Summon Lumi Power Passive -->
+		</skill_list>
+		<shots soul="1" spirit="1" />
+		<collision>
+			<radius normal="9" />
+			<height normal="18" />
+		</collision>
+	</npc>
+	<npc id="15005" level="99" type="L2Servitor" name="Unison of Lights" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="35708" /> <!-- Lumi Exclusive Weapon -->
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="9728.0" hpRegen="9" mp="1175.0" mpRegen="6.5" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1818.717" magical="1035.302" critical="4" attackSpeed="378" range="900" type="BOW" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="962" magical="660.495964566658" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4415" level="9" /> <!-- Bows -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="5038" level="16" /> <!-- Servitor PvP Penalty -->
+			<skill id="11836" level="106" /> <!-- Summon Lumi Power Passive -->
+		</skill_list>
+		<shots soul="1" spirit="1" />
+		<collision>
+			<radius normal="9" />
+			<height normal="18" />
+		</collision>
+	</npc>
+	<npc id="15006" level="99" type="L2Servitor" name="Unison of Lights" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="35708" /> <!-- Lumi Exclusive Weapon -->
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="9728.0" hpRegen="9" mp="1175.0" mpRegen="6.5" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1818.717" magical="1035.302" critical="4" attackSpeed="378" range="900" type="BOW" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="962" magical="660.495964566658" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4415" level="9" /> <!-- Bows -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="5038" level="16" /> <!-- Servitor PvP Penalty -->
+			<skill id="11836" level="107" /> <!-- Summon Lumi Power Passive -->
+		</skill_list>
+		<shots soul="1" spirit="1" />
+		<collision>
+			<radius normal="9" />
+			<height normal="18" />
+		</collision>
+	</npc>
+	<npc id="15007" level="99" type="L2Servitor" name="Unison of Lights" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="35708" /> <!-- Lumi Exclusive Weapon -->
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="9728.0" hpRegen="9" mp="1175.0" mpRegen="6.5" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1818.717" magical="1035.302" critical="4" attackSpeed="378" range="900" type="BOW" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="962" magical="660.495964566658" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4415" level="9" /> <!-- Bows -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="5038" level="16" /> <!-- Servitor PvP Penalty -->
+			<skill id="11836" level="108" /> <!-- Summon Lumi Power Passive -->
+		</skill_list>
+		<shots soul="1" spirit="1" />
+		<collision>
+			<radius normal="9" />
+			<height normal="18" />
+		</collision>
+	</npc>
+	<npc id="15008" level="99" type="L2Servitor" name="Unison of Lights" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="35708" /> <!-- Lumi Exclusive Weapon -->
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="9728.0" hpRegen="9" mp="1175.0" mpRegen="6.5" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1818.717" magical="1035.302" critical="4" attackSpeed="378" range="900" type="BOW" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="962" magical="660.495964566658" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4415" level="9" /> <!-- Bows -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="5038" level="16" /> <!-- Servitor PvP Penalty -->
+			<skill id="11836" level="109" /> <!-- Summon Lumi Power Passive -->
+		</skill_list>
+		<shots soul="1" spirit="1" />
+		<collision>
+			<radius normal="9" />
+			<height normal="18" />
+		</collision>
+	</npc>
+	<npc id="15009" level="99" type="L2Servitor" name="Unison of Lights" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="35708" /> <!-- Lumi Exclusive Weapon -->
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="9728.0" hpRegen="9" mp="1175.0" mpRegen="6.5" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1818.717" magical="1035.302" critical="4" attackSpeed="378" range="900" type="BOW" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="962" magical="660.495964566658" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4415" level="9" /> <!-- Bows -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="5038" level="16" /> <!-- Servitor PvP Penalty -->
+			<skill id="11836" level="110" /> <!-- Summon Lumi Power Passive -->
+		</skill_list>
+		<shots soul="1" spirit="1" />
+		<collision>
+			<radius normal="9" />
+			<height normal="18" />
+		</collision>
+	</npc>
+	<npc id="15010" level="95" type="L2Servitor" name="Tree of Life" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="s_tree_heal" id="11806" level="3" />
+		</parameters>
+		<race>PLANT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2000.0" hpRegen="9" mp="1177.0" mpRegen="6.5" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1" magical="1" critical="4" attackSpeed="253" range="40" type="FIST" distance="0" width="0" random="10" accuracy="4.75" />
+			<defence physical="962" magical="568" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" undying="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="4416" level="5" /> <!-- Plants -->
+		</skill_list>
+		<collision>
+			<radius normal="12" />
+			<height normal="50.5" />
+		</collision>
+	</npc>
+	<npc id="15011" level="99" type="L2Servitor" name="Tree of Life" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="s_tree_heal" id="11806" level="4" />
+		</parameters>
+		<race>PLANT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2000.0" hpRegen="9" mp="1177.0" mpRegen="6.5" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1" magical="1" critical="4" attackSpeed="253" range="40" type="FIST" distance="0" width="0" random="10" accuracy="4.75" />
+			<defence physical="962" magical="568" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" undying="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="4416" level="5" /> <!-- Plants -->
+		</skill_list>
+		<collision>
+			<radius normal="12" />
+			<height normal="50.5" />
+		</collision>
+	</npc>
+	<npc id="15012" level="99" type="L2Servitor" name="Tree of Life" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="s_tree_heal" id="11806" level="101" />
+		</parameters>
+		<race>PLANT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2000.0" hpRegen="9" mp="1177.0" mpRegen="6.5" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1" magical="1" critical="4" attackSpeed="253" range="40" type="FIST" distance="0" width="0" random="10" accuracy="4.75" />
+			<defence physical="962" magical="568" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" undying="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="4416" level="5" /> <!-- Plants -->
+		</skill_list>
+		<collision>
+			<radius normal="12" />
+			<height normal="50.5" />
+		</collision>
+	</npc>
+	<npc id="15013" level="99" type="L2Servitor" name="Tree of Life" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="s_tree_heal" id="11806" level="102" />
+		</parameters>
+		<race>PLANT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2000.0" hpRegen="9" mp="1177.0" mpRegen="6.5" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1" magical="1" critical="4" attackSpeed="253" range="40" type="FIST" distance="0" width="0" random="10" accuracy="4.75" />
+			<defence physical="962" magical="568" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" undying="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="4416" level="5" /> <!-- Plants -->
+		</skill_list>
+		<collision>
+			<radius normal="12" />
+			<height normal="50.5" />
+		</collision>
+	</npc>
+	<npc id="15014" level="99" type="L2Servitor" name="Tree of Life" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="s_tree_heal" id="11806" level="103" />
+		</parameters>
+		<race>PLANT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2000.0" hpRegen="9" mp="1177.0" mpRegen="6.5" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1" magical="1" critical="4" attackSpeed="253" range="40" type="FIST" distance="0" width="0" random="10" accuracy="4.75" />
+			<defence physical="962" magical="568" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" undying="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="4416" level="5" /> <!-- Plants -->
+		</skill_list>
+		<collision>
+			<radius normal="12" />
+			<height normal="50.5" />
+		</collision>
+	</npc>
+	<npc id="15015" level="99" type="L2Servitor" name="Tree of Life" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="s_tree_heal" id="11806" level="104" />
+		</parameters>
+		<race>PLANT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2000.0" hpRegen="9" mp="1177.0" mpRegen="6.5" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1" magical="1" critical="4" attackSpeed="253" range="40" type="FIST" distance="0" width="0" random="10" accuracy="4.75" />
+			<defence physical="962" magical="568" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" undying="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="4416" level="5" /> <!-- Plants -->
+		</skill_list>
+		<collision>
+			<radius normal="12" />
+			<height normal="50.5" />
+		</collision>
+	</npc>
+	<npc id="15016" level="99" type="L2Servitor" name="Tree of Life" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="s_tree_heal" id="11806" level="105" />
+		</parameters>
+		<race>PLANT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2000.0" hpRegen="9" mp="1177.0" mpRegen="6.5" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1" magical="1" critical="4" attackSpeed="253" range="40" type="FIST" distance="0" width="0" random="10" accuracy="4.75" />
+			<defence physical="962" magical="568" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" undying="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="4416" level="5" /> <!-- Plants -->
+		</skill_list>
+		<collision>
+			<radius normal="12" />
+			<height normal="50.5" />
+		</collision>
+	</npc>
+	<npc id="15017" level="99" type="L2Servitor" name="Tree of Life" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="s_tree_heal" id="11806" level="106" />
+		</parameters>
+		<race>PLANT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2000.0" hpRegen="9" mp="1177.0" mpRegen="6.5" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1" magical="1" critical="4" attackSpeed="253" range="40" type="FIST" distance="0" width="0" random="10" accuracy="4.75" />
+			<defence physical="962" magical="568" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" undying="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="4416" level="5" /> <!-- Plants -->
+		</skill_list>
+		<collision>
+			<radius normal="12" />
+			<height normal="50.5" />
+		</collision>
+	</npc>
+	<npc id="15018" level="99" type="L2Servitor" name="Tree of Life" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="s_tree_heal" id="11806" level="107" />
+		</parameters>
+		<race>PLANT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2000.0" hpRegen="9" mp="1177.0" mpRegen="6.5" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1" magical="1" critical="4" attackSpeed="253" range="40" type="FIST" distance="0" width="0" random="10" accuracy="4.75" />
+			<defence physical="962" magical="568" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" undying="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="4416" level="5" /> <!-- Plants -->
+		</skill_list>
+		<collision>
+			<radius normal="12" />
+			<height normal="50.5" />
+		</collision>
+	</npc>
+	<npc id="15019" level="99" type="L2Servitor" name="Tree of Life" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="s_tree_heal" id="11806" level="108" />
+		</parameters>
+		<race>PLANT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2000.0" hpRegen="9" mp="1177.0" mpRegen="6.5" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1" magical="1" critical="4" attackSpeed="253" range="40" type="FIST" distance="0" width="0" random="10" accuracy="4.75" />
+			<defence physical="962" magical="568" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" undying="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="4416" level="5" /> <!-- Plants -->
+		</skill_list>
+		<collision>
+			<radius normal="12" />
+			<height normal="50.5" />
+		</collision>
+	</npc>
+	<npc id="15020" level="99" type="L2Servitor" name="Tree of Life" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="s_tree_heal" id="11806" level="109" />
+		</parameters>
+		<race>PLANT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2000.0" hpRegen="9" mp="1177.0" mpRegen="6.5" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1" magical="1" critical="4" attackSpeed="253" range="40" type="FIST" distance="0" width="0" random="10" accuracy="4.75" />
+			<defence physical="962" magical="568" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" undying="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="4416" level="5" /> <!-- Plants -->
+		</skill_list>
+		<collision>
+			<radius normal="12" />
+			<height normal="50.5" />
+		</collision>
+	</npc>
+	<npc id="15021" level="99" type="L2Servitor" name="Tree of Life" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="s_tree_heal" id="11806" level="110" />
+		</parameters>
+		<race>PLANT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2000.0" hpRegen="9" mp="1177.0" mpRegen="6.5" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1" magical="1" critical="4" attackSpeed="253" range="40" type="FIST" distance="0" width="0" random="10" accuracy="4.75" />
+			<defence physical="962" magical="568" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" undying="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="4416" level="5" /> <!-- Plants -->
+		</skill_list>
+		<collision>
+			<radius normal="12" />
+			<height normal="50.5" />
+		</collision>
+	</npc>
+	<npc id="15022" level="99" type="L2Servitor" name="Cute Bear" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="Skill01_ID" id="11278" level="101" />
+			<skill name="Skill02_ID" id="11279" level="101" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15564.8" hpRegen="9" mp="1177.5" mpRegen="6.5" />
+			<speed>
+				<walk ground="17" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1614" magical="966" critical="4" attackSpeed="378" range="40" type="FIST" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="2022" magical="1792" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11315" level="1" /> <!-- Summon Defense -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="18" />
+			<height normal="18" />
+		</collision>
+	</npc>
+	<npc id="15023" level="99" type="L2Servitor" name="Cute Bear" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="Skill01_ID" id="11278" level="102" />
+			<skill name="Skill02_ID" id="11279" level="102" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15564.8" hpRegen="9" mp="1177.5" mpRegen="6.5" />
+			<speed>
+				<walk ground="17" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1614" magical="966" critical="4" attackSpeed="378" range="40" type="FIST" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="2022" magical="1792" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11315" level="1" /> <!-- Summon Defense -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="18" />
+			<height normal="18" />
+		</collision>
+	</npc>
+	<npc id="15024" level="99" type="L2Servitor" name="Cute Bear" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="Skill01_ID" id="11278" level="103" />
+			<skill name="Skill02_ID" id="11279" level="103" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15564.8" hpRegen="9" mp="1177.5" mpRegen="6.5" />
+			<speed>
+				<walk ground="17" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1614" magical="966" critical="4" attackSpeed="378" range="40" type="FIST" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="2022" magical="1792" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11315" level="1" /> <!-- Summon Defense -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="18" />
+			<height normal="18" />
+		</collision>
+	</npc>
+	<npc id="15025" level="99" type="L2Servitor" name="Cute Bear" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="Skill01_ID" id="11278" level="104" />
+			<skill name="Skill02_ID" id="11279" level="104" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15564.8" hpRegen="9" mp="1177.5" mpRegen="6.5" />
+			<speed>
+				<walk ground="17" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1614" magical="966" critical="4" attackSpeed="378" range="40" type="FIST" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="2022" magical="1792" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11315" level="1" /> <!-- Summon Defense -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="18" />
+			<height normal="18" />
+		</collision>
+	</npc>
+	<npc id="15026" level="99" type="L2Servitor" name="Cute Bear" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="Skill01_ID" id="11278" level="105" />
+			<skill name="Skill02_ID" id="11279" level="105" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15564.8" hpRegen="9" mp="1177.5" mpRegen="6.5" />
+			<speed>
+				<walk ground="17" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1614" magical="966" critical="4" attackSpeed="378" range="40" type="FIST" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="2022" magical="1792" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11315" level="1" /> <!-- Summon Defense -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="18" />
+			<height normal="18" />
+		</collision>
+	</npc>
+	<npc id="15027" level="99" type="L2Servitor" name="Cute Bear" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="Skill01_ID" id="11278" level="106" />
+			<skill name="Skill02_ID" id="11279" level="106" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15564.8" hpRegen="9" mp="1177.5" mpRegen="6.5" />
+			<speed>
+				<walk ground="17" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1614" magical="966" critical="4" attackSpeed="378" range="40" type="FIST" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="2022" magical="1792" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11315" level="1" /> <!-- Summon Defense -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="18" />
+			<height normal="18" />
+		</collision>
+	</npc>
+	<npc id="15028" level="99" type="L2Servitor" name="Cute Bear" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="Skill01_ID" id="11278" level="107" />
+			<skill name="Skill02_ID" id="11279" level="107" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15564.8" hpRegen="9" mp="1177.5" mpRegen="6.5" />
+			<speed>
+				<walk ground="17" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1614" magical="966" critical="4" attackSpeed="378" range="40" type="FIST" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="2022" magical="1792" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11315" level="1" /> <!-- Summon Defense -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="18" />
+			<height normal="18" />
+		</collision>
+	</npc>
+	<npc id="15029" level="99" type="L2Servitor" name="Cute Bear" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="Skill01_ID" id="11278" level="108" />
+			<skill name="Skill02_ID" id="11279" level="108" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15564.8" hpRegen="9" mp="1177.5" mpRegen="6.5" />
+			<speed>
+				<walk ground="17" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1614" magical="966" critical="4" attackSpeed="378" range="40" type="FIST" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="2022" magical="1792" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11315" level="1" /> <!-- Summon Defense -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="18" />
+			<height normal="18" />
+		</collision>
+	</npc>
+	<npc id="15030" level="99" type="L2Servitor" name="Cute Bear" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="Skill01_ID" id="11278" level="109" />
+			<skill name="Skill02_ID" id="11279" level="109" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15564.8" hpRegen="9" mp="1177.5" mpRegen="6.5" />
+			<speed>
+				<walk ground="17" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1614" magical="966" critical="4" attackSpeed="378" range="40" type="FIST" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="2022" magical="1792" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11315" level="1" /> <!-- Summon Defense -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="18" />
+			<height normal="18" />
+		</collision>
+	</npc>
+	<npc id="15031" level="99" type="L2Servitor" name="Cute Bear" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="Skill01_ID" id="11278" level="110" />
+			<skill name="Skill02_ID" id="11279" level="110" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15564.8" hpRegen="9" mp="1177.5" mpRegen="6.5" />
+			<speed>
+				<walk ground="17" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1614" magical="966" critical="4" attackSpeed="378" range="40" type="FIST" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="2022" magical="1792" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11315" level="1" /> <!-- Summon Defense -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="18" />
+			<height normal="18" />
+		</collision>
+	</npc>
+	<npc id="15032" level="99" type="L2Servitor" name="Saber Tooth Cougar" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="Skill01_ID" id="11280" level="101" />
+			<skill name="Skill02_ID" id="11281" level="101" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="10376.0" hpRegen="9" mp="1177.5" mpRegen="6.5" />
+			<speed>
+				<walk ground="26" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1902" magical="759" critical="12" attackSpeed="415" range="40" type="FIST" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="1348" magical="1849" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11315" level="1" /> <!-- Summon Defense -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="19" />
+			<height normal="12.25" />
+		</collision>
+	</npc>
+	<npc id="15033" level="99" type="L2Servitor" name="Saber Tooth Cougar" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="Skill01_ID" id="11280" level="102" />
+			<skill name="Skill02_ID" id="11281" level="102" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="10376.0" hpRegen="9" mp="1177.5" mpRegen="6.5" />
+			<speed>
+				<walk ground="26" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1902" magical="759" critical="12" attackSpeed="415" range="40" type="FIST" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="1348" magical="1849" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11315" level="1" /> <!-- Summon Defense -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="19" />
+			<height normal="12.25" />
+		</collision>
+	</npc>
+	<npc id="15034" level="99" type="L2Servitor" name="Saber Tooth Cougar" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="Skill01_ID" id="11280" level="103" />
+			<skill name="Skill02_ID" id="11281" level="103" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="10376.0" hpRegen="9" mp="1177.5" mpRegen="6.5" />
+			<speed>
+				<walk ground="26" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1902" magical="759" critical="12" attackSpeed="415" range="40" type="FIST" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="1348" magical="1849" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11315" level="1" /> <!-- Summon Defense -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="19" />
+			<height normal="12.25" />
+		</collision>
+	</npc>
+	<npc id="15035" level="99" type="L2Servitor" name="Saber Tooth Cougar" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="Skill01_ID" id="11280" level="104" />
+			<skill name="Skill02_ID" id="11281" level="104" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="10376.0" hpRegen="9" mp="1177.5" mpRegen="6.5" />
+			<speed>
+				<walk ground="26" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1902" magical="759" critical="12" attackSpeed="415" range="40" type="FIST" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="1348" magical="1849" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11315" level="1" /> <!-- Summon Defense -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="19" />
+			<height normal="12.25" />
+		</collision>
+	</npc>
+	<npc id="15036" level="99" type="L2Servitor" name="Saber Tooth Cougar" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="Skill01_ID" id="11280" level="105" />
+			<skill name="Skill02_ID" id="11281" level="105" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="10376.0" hpRegen="9" mp="1177.5" mpRegen="6.5" />
+			<speed>
+				<walk ground="26" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1902" magical="759" critical="12" attackSpeed="415" range="40" type="FIST" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="1348" magical="1849" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11315" level="1" /> <!-- Summon Defense -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="19" />
+			<height normal="12.25" />
+		</collision>
+	</npc>
+	<npc id="15037" level="99" type="L2Servitor" name="Saber Tooth Cougar" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="Skill01_ID" id="11280" level="106" />
+			<skill name="Skill02_ID" id="11281" level="106" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="10376.0" hpRegen="9" mp="1177.5" mpRegen="6.5" />
+			<speed>
+				<walk ground="26" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1902" magical="759" critical="12" attackSpeed="415" range="40" type="FIST" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="1348" magical="1849" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11315" level="1" /> <!-- Summon Defense -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="19" />
+			<height normal="12.25" />
+		</collision>
+	</npc>
+	<npc id="15038" level="99" type="L2Servitor" name="Saber Tooth Cougar" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="Skill01_ID" id="11280" level="107" />
+			<skill name="Skill02_ID" id="11281" level="107" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="10376.0" hpRegen="9" mp="1177.5" mpRegen="6.5" />
+			<speed>
+				<walk ground="26" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1902" magical="759" critical="12" attackSpeed="415" range="40" type="FIST" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="1348" magical="1849" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11315" level="1" /> <!-- Summon Defense -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="19" />
+			<height normal="12.25" />
+		</collision>
+	</npc>
+	<npc id="15039" level="99" type="L2Servitor" name="Saber Tooth Cougar" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="Skill01_ID" id="11280" level="108" />
+			<skill name="Skill02_ID" id="11281" level="108" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="10376.0" hpRegen="9" mp="1177.5" mpRegen="6.5" />
+			<speed>
+				<walk ground="26" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1902" magical="759" critical="12" attackSpeed="415" range="40" type="FIST" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="1348" magical="1849" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11315" level="1" /> <!-- Summon Defense -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="19" />
+			<height normal="12.25" />
+		</collision>
+	</npc>
+	<npc id="15040" level="99" type="L2Servitor" name="Saber Tooth Cougar" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="Skill01_ID" id="11280" level="109" />
+			<skill name="Skill02_ID" id="11281" level="109" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="10376.0" hpRegen="9" mp="1177.5" mpRegen="6.5" />
+			<speed>
+				<walk ground="26" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1902" magical="759" critical="12" attackSpeed="415" range="40" type="FIST" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="1348" magical="1849" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11315" level="1" /> <!-- Summon Defense -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="19" />
+			<height normal="12.25" />
+		</collision>
+	</npc>
+	<npc id="15041" level="99" type="L2Servitor" name="Saber Tooth Cougar" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="Skill01_ID" id="11280" level="110" />
+			<skill name="Skill02_ID" id="11281" level="110" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="10376.0" hpRegen="9" mp="1177.5" mpRegen="6.5" />
+			<speed>
+				<walk ground="26" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1902" magical="759" critical="12" attackSpeed="415" range="40" type="FIST" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="1348" magical="1849" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11315" level="1" /> <!-- Summon Defense -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="19" />
+			<height normal="12.25" />
+		</collision>
+	</npc>
+	<npc id="15042" level="99" type="L2Servitor" name="Grim Reaper" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="Skill01_ID" id="11282" level="101" />
+			<skill name="Skill02_ID" id="11283" level="101" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="30329" /> <!-- Envoy Weapon -->
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="10376.0" hpRegen="9" mp="1766.25" mpRegen="6.5" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="951" magical="2958" critical="4" attackSpeed="378" range="900" type="BOW" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="1348" magical="1195" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4415" level="9" /> <!-- Bows -->
+			<skill id="4416" level="14" /> <!-- Humans -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="14" />
+			<height normal="32" />
+		</collision>
+	</npc>
+	<npc id="15043" level="99" type="L2Servitor" name="Grim Reaper" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="Skill01_ID" id="11282" level="102" />
+			<skill name="Skill02_ID" id="11283" level="102" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="30329" /> <!-- Envoy Weapon -->
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="10376.0" hpRegen="9" mp="1766.25" mpRegen="6.5" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="951" magical="2958" critical="4" attackSpeed="378" range="900" type="BOW" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="1348" magical="1195" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4415" level="9" /> <!-- Bows -->
+			<skill id="4416" level="14" /> <!-- Humans -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="14" />
+			<height normal="32" />
+		</collision>
+	</npc>
+	<npc id="15044" level="99" type="L2Servitor" name="Grim Reaper" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="Skill01_ID" id="11282" level="103" />
+			<skill name="Skill02_ID" id="11283" level="103" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="30329" /> <!-- Envoy Weapon -->
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="10376.0" hpRegen="9" mp="1766.25" mpRegen="6.5" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="951" magical="2958" critical="4" attackSpeed="378" range="900" type="BOW" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="1348" magical="1195" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4415" level="9" /> <!-- Bows -->
+			<skill id="4416" level="14" /> <!-- Humans -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="14" />
+			<height normal="32" />
+		</collision>
+	</npc>
+	<npc id="15045" level="99" type="L2Servitor" name="Grim Reaper" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="Skill01_ID" id="11282" level="104" />
+			<skill name="Skill02_ID" id="11283" level="104" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="30329" /> <!-- Envoy Weapon -->
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="10376.0" hpRegen="9" mp="1766.25" mpRegen="6.5" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="951" magical="2958" critical="4" attackSpeed="378" range="900" type="BOW" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="1348" magical="1195" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4415" level="9" /> <!-- Bows -->
+			<skill id="4416" level="14" /> <!-- Humans -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="14" />
+			<height normal="32" />
+		</collision>
+	</npc>
+	<npc id="15046" level="99" type="L2Servitor" name="Grim Reaper" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="Skill01_ID" id="11282" level="105" />
+			<skill name="Skill02_ID" id="11283" level="105" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="30329" /> <!-- Envoy Weapon -->
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="10376.0" hpRegen="9" mp="1766.25" mpRegen="6.5" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="951" magical="2958" critical="4" attackSpeed="378" range="900" type="BOW" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="1348" magical="1195" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4415" level="9" /> <!-- Bows -->
+			<skill id="4416" level="14" /> <!-- Humans -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="14" />
+			<height normal="32" />
+		</collision>
+	</npc>
+	<npc id="15047" level="99" type="L2Servitor" name="Grim Reaper" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="Skill01_ID" id="11282" level="106" />
+			<skill name="Skill02_ID" id="11283" level="106" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="30329" /> <!-- Envoy Weapon -->
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="10376.0" hpRegen="9" mp="1766.25" mpRegen="6.5" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="951" magical="2958" critical="4" attackSpeed="378" range="900" type="BOW" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="1348" magical="1195" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4415" level="9" /> <!-- Bows -->
+			<skill id="4416" level="14" /> <!-- Humans -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="14" />
+			<height normal="32" />
+		</collision>
+	</npc>
+	<npc id="15048" level="99" type="L2Servitor" name="Grim Reaper" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="Skill01_ID" id="11282" level="107" />
+			<skill name="Skill02_ID" id="11283" level="107" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="30329" /> <!-- Envoy Weapon -->
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="10376.0" hpRegen="9" mp="1766.25" mpRegen="6.5" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="951" magical="2958" critical="4" attackSpeed="378" range="900" type="BOW" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="1348" magical="1195" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4415" level="9" /> <!-- Bows -->
+			<skill id="4416" level="14" /> <!-- Humans -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="14" />
+			<height normal="32" />
+		</collision>
+	</npc>
+	<npc id="15049" level="99" type="L2Servitor" name="Grim Reaper" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="Skill01_ID" id="11282" level="108" />
+			<skill name="Skill02_ID" id="11283" level="108" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="30329" /> <!-- Envoy Weapon -->
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="10376.0" hpRegen="9" mp="1766.25" mpRegen="6.5" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="951" magical="2958" critical="4" attackSpeed="378" range="900" type="BOW" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="1348" magical="1195" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4415" level="9" /> <!-- Bows -->
+			<skill id="4416" level="14" /> <!-- Humans -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="14" />
+			<height normal="32" />
+		</collision>
+	</npc>
+	<npc id="15050" level="99" type="L2Servitor" name="Grim Reaper" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="Skill01_ID" id="11282" level="109" />
+			<skill name="Skill02_ID" id="11283" level="109" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="30329" /> <!-- Envoy Weapon -->
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="10376.0" hpRegen="9" mp="1766.25" mpRegen="6.5" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="951" magical="2958" critical="4" attackSpeed="378" range="900" type="BOW" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="1348" magical="1195" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4415" level="9" /> <!-- Bows -->
+			<skill id="4416" level="14" /> <!-- Humans -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="14" />
+			<height normal="32" />
+		</collision>
+	</npc>
+	<npc id="15051" level="99" type="L2Servitor" name="Grim Reaper" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="Skill01_ID" id="11282" level="110" />
+			<skill name="Skill02_ID" id="11283" level="110" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="30329" /> <!-- Envoy Weapon -->
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="10376.0" hpRegen="9" mp="1766.25" mpRegen="6.5" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="951" magical="2958" critical="4" attackSpeed="378" range="900" type="BOW" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="1348" magical="1195" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4415" level="9" /> <!-- Bows -->
+			<skill id="4416" level="14" /> <!-- Humans -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="14" />
+			<height normal="32" />
+		</collision>
+	</npc>
+	<npc id="15052" level="99" type="L2Monster" name="Naviarope" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="Skill01_ID" id="11284" level="4" />
+			<skill name="Skill02_ID" id="11285" level="4" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1.0" hpRegen="1" mp="1.0" mpRegen="1" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1" magical="1" critical="4" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="0" accuracy="4.75" />
+			<defence physical="1" magical="1" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+		</skill_list>
+		<shots soul="1" spirit="1" />
+		<collision>
+			<radius normal="25" />
+			<height normal="39.5" />
+		</collision>
+	</npc>
+	<npc id="15053" level="85" type="L2Monster" name="Clan Guardian" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="skill_delay" value="1" />
+			<param name="despawn_time" value="180" />
+			<skill name="union_skill" id="19018" level="1" />
+			<param name="Attack_BoostValue" value="126" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="68083.1819711104" hpRegen="8.5" mp="18468.0" mpRegen="30" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="10909.3522923532" magical="2729.66700769613" critical="4" attackSpeed="253" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="3067.79675938004" magical="1660.83996283877" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+		</skill_list>
+		<collision>
+			<radius normal="12" />
+			<height normal="30" />
+		</collision>
+	</npc>
+	<npc id="15054" level="85" type="L2Monster" name="Siege Golem" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>SIEGE_WEAPON</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1000000.0" hpRegen="6.5" mp="1778.0" mpRegen="2.4" />
+			<speed>
+				<walk ground="40" />
+				<run ground="40" />
+			</speed>
+			<attack physical="3900" magical="530" critical="4" attackSpeed="150" range="80" type="POLE" distance="80" width="120" random="10" accuracy="4.75" />
+			<defence physical="1674" magical="1348" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4415" level="11" /> <!-- Spears -->
+			<skill id="4332" level="1" /> <!-- Mental Aegis -->
+			<skill id="4416" level="21" /> <!-- Siege Weapons -->
+		</skill_list>
+		<shots soul="30" spirit="30" />
+		<collision>
+			<radius normal="60" />
+			<height normal="140" />
+		</collision>
+	</npc>
+	<npc id="15055" level="90" type="L2Monster" name="Siege Golem" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>SIEGE_WEAPON</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1100000.0" hpRegen="6.5" mp="1955.0" mpRegen="2.4" />
+			<speed>
+				<walk ground="40" />
+				<run ground="40" />
+			</speed>
+			<attack physical="4290" magical="583" critical="4" attackSpeed="150" range="80" type="POLE" distance="80" width="120" random="10" accuracy="4.75" />
+			<defence physical="1841" magical="1482" />
+			<attribute>
+				<defence fire="220" water="220" wind="220" earth="220" holy="220" dark="220" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4415" level="11" /> <!-- Spears -->
+			<skill id="4332" level="1" /> <!-- Mental Aegis -->
+			<skill id="4416" level="21" /> <!-- Siege Weapons -->
+		</skill_list>
+		<shots soul="30" spirit="30" />
+		<collision>
+			<radius normal="60" />
+			<height normal="140" />
+		</collision>
+	</npc>
+	<npc id="15056" level="95" type="L2Monster" name="Siege Golem" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>SIEGE_WEAPON</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1200000.0" hpRegen="6.5" mp="2133.0" mpRegen="2.4" />
+			<speed>
+				<walk ground="40" />
+				<run ground="40" />
+			</speed>
+			<attack physical="4680" magical="636" critical="4" attackSpeed="150" range="80" type="POLE" distance="80" width="120" random="10" accuracy="4.75" />
+			<defence physical="2008" magical="1617" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="250" dark="250" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4415" level="11" /> <!-- Spears -->
+			<skill id="4332" level="1" /> <!-- Mental Aegis -->
+			<skill id="4416" level="21" /> <!-- Siege Weapons -->
+		</skill_list>
+		<shots soul="30" spirit="30" />
+		<collision>
+			<radius normal="60" />
+			<height normal="140" />
+		</collision>
+	</npc>
+	<npc id="15057" level="99" type="L2Monster" name="Siege Golem" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>SIEGE_WEAPON</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1300000.0" hpRegen="6.5" mp="2311.0" mpRegen="2.4" />
+			<speed>
+				<walk ground="40" />
+				<run ground="40" />
+			</speed>
+			<attack physical="5070" magical="689" critical="4" attackSpeed="150" range="80" type="POLE" distance="80" width="120" random="10" accuracy="4.75" />
+			<defence physical="2176" magical="1752" />
+			<attribute>
+				<defence fire="270" water="270" wind="270" earth="270" holy="270" dark="270" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4415" level="11" /> <!-- Spears -->
+			<skill id="4332" level="1" /> <!-- Mental Aegis -->
+			<skill id="4416" level="21" /> <!-- Siege Weapons -->
+		</skill_list>
+		<shots soul="30" spirit="30" />
+		<collision>
+			<radius normal="60" />
+			<height normal="140" />
+		</collision>
+	</npc>
+	<npc id="15058" level="85" type="L2Monster" name="Wild Hog Cannon" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="DDMagic" id="4230" level="1" />
+		</parameters>
+		<race>SIEGE_WEAPON</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4234.0" hpRegen="8.5" mp="3962.0" mpRegen="3" />
+			<speed>
+				<walk ground="10" />
+				<run ground="10" />
+			</speed>
+			<attack physical="2376" magical="1622" critical="4" attackSpeed="253" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="722" magical="528" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
+			<skill id="4332" level="1" /> <!-- Mental Aegis -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="21" /> <!-- Siege Weapons -->
+			<skill id="4413" level="18" /> <!-- Extremely Strong M. Def. -->
+			<skill id="4412" level="18" /> <!-- Extremely Strong P. Def. -->
+		</skill_list>
+		<shots soul="100" spirit="100" />
+		<collision>
+			<radius normal="93" />
+			<height normal="90" />
+		</collision>
+	</npc>
+	<npc id="15059" level="90" type="L2Monster" name="Wild Hog Cannon" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="DDMagic" id="4230" level="1" />
+		</parameters>
+		<race>SIEGE_WEAPON</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="9314.0" hpRegen="8.5" mp="4061.0" mpRegen="3" />
+			<speed>
+				<walk ground="10" />
+				<run ground="10" />
+			</speed>
+			<attack physical="2613" magical="1784" critical="4" attackSpeed="253" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="794" magical="580" />
+			<attribute>
+				<defence fire="220" water="220" wind="220" earth="220" holy="220" dark="220" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
+			<skill id="4332" level="1" /> <!-- Mental Aegis -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="21" /> <!-- Siege Weapons -->
+			<skill id="4413" level="18" /> <!-- Extremely Strong M. Def. -->
+			<skill id="4412" level="18" /> <!-- Extremely Strong P. Def. -->
+		</skill_list>
+		<shots soul="100" spirit="100" />
+		<collision>
+			<radius normal="93" />
+			<height normal="90" />
+		</collision>
+	</npc>
+	<npc id="15060" level="95" type="L2Monster" name="Wild Hog Cannon" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="DDMagic" id="4230" level="1" />
+		</parameters>
+		<race>SIEGE_WEAPON</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="10161.0" hpRegen="8.5" mp="4430.0" mpRegen="3" />
+			<speed>
+				<walk ground="10" />
+				<run ground="10" />
+			</speed>
+			<attack physical="2851" magical="1946" critical="4" attackSpeed="253" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="866" magical="633" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="250" dark="250" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
+			<skill id="4332" level="1" /> <!-- Mental Aegis -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="21" /> <!-- Siege Weapons -->
+			<skill id="4413" level="18" /> <!-- Extremely Strong M. Def. -->
+			<skill id="4412" level="18" /> <!-- Extremely Strong P. Def. -->
+		</skill_list>
+		<shots soul="100" spirit="100" />
+		<collision>
+			<radius normal="93" />
+			<height normal="90" />
+		</collision>
+	</npc>
+	<npc id="15061" level="99" type="L2Monster" name="Wild Hog Cannon" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="DDMagic" id="4230" level="1" />
+		</parameters>
+		<race>SIEGE_WEAPON</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="11008.0" hpRegen="8.5" mp="4799.0" mpRegen="3" />
+			<speed>
+				<walk ground="10" />
+				<run ground="10" />
+			</speed>
+			<attack physical="3088" magical="2108" critical="4" attackSpeed="253" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="938" magical="686" />
+			<attribute>
+				<defence fire="270" water="270" wind="270" earth="270" holy="270" dark="270" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
+			<skill id="4332" level="1" /> <!-- Mental Aegis -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="21" /> <!-- Siege Weapons -->
+			<skill id="4413" level="18" /> <!-- Extremely Strong M. Def. -->
+			<skill id="4412" level="18" /> <!-- Extremely Strong P. Def. -->
+		</skill_list>
+		<shots soul="100" spirit="100" />
+		<collision>
+			<radius normal="93" />
+			<height normal="90" />
+		</collision>
+	</npc>
+	<npc id="15062" level="85" type="L2Monster" name="Swoop Cannon" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>SIEGE_WEAPON</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="100000.0" hpRegen="8.5" mp="1778.0" mpRegen="2.4" />
+			<speed>
+				<walk ground="60" />
+				<run ground="40" />
+			</speed>
+			<attack physical="6926" magical="530" critical="4" attackSpeed="150" range="80" type="POLE" distance="80" width="120" random="1" accuracy="4.75" />
+			<defence physical="1674" magical="1348" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4415" level="11" /> <!-- Spears -->
+			<skill id="4332" level="1" /> <!-- Mental Aegis -->
+			<skill id="4416" level="21" /> <!-- Siege Weapons -->
+		</skill_list>
+		<shots soul="1" spirit="1" />
+		<collision>
+			<radius normal="45" />
+			<height normal="47.5" />
+		</collision>
+	</npc>
+	<npc id="15063" level="90" type="L2Monster" name="Swoop Cannon" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>SIEGE_WEAPON</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="110000.0" hpRegen="8.5" mp="1955.0" mpRegen="2.4" />
+			<speed>
+				<walk ground="60" />
+				<run ground="40" />
+			</speed>
+			<attack physical="8786" magical="583" critical="4" attackSpeed="150" range="80" type="POLE" distance="80" width="120" random="1" accuracy="4.75" />
+			<defence physical="1841" magical="1482" />
+			<attribute>
+				<defence fire="220" water="220" wind="220" earth="220" holy="220" dark="220" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4415" level="11" /> <!-- Spears -->
+			<skill id="4332" level="1" /> <!-- Mental Aegis -->
+			<skill id="4416" level="21" /> <!-- Siege Weapons -->
+		</skill_list>
+		<shots soul="1" spirit="1" />
+		<collision>
+			<radius normal="45" />
+			<height normal="47.5" />
+		</collision>
+	</npc>
+	<npc id="15064" level="95" type="L2Monster" name="Swoop Cannon" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>SIEGE_WEAPON</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="120000.0" hpRegen="8.5" mp="2133.0" mpRegen="2.4" />
+			<speed>
+				<walk ground="60" />
+				<run ground="40" />
+			</speed>
+			<attack physical="11148" magical="636" critical="4" attackSpeed="150" range="80" type="POLE" distance="80" width="120" random="1" accuracy="4.75" />
+			<defence physical="2008" magical="1617" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="250" dark="250" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4415" level="11" /> <!-- Spears -->
+			<skill id="4332" level="1" /> <!-- Mental Aegis -->
+			<skill id="4416" level="21" /> <!-- Siege Weapons -->
+		</skill_list>
+		<shots soul="1" spirit="1" />
+		<collision>
+			<radius normal="45" />
+			<height normal="47.5" />
+		</collision>
+	</npc>
+	<npc id="15065" level="99" type="L2Monster" name="Swoop Cannon" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>SIEGE_WEAPON</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="130000.0" hpRegen="8.5" mp="2311.0" mpRegen="2.4" />
+			<speed>
+				<walk ground="60" />
+				<run ground="40" />
+			</speed>
+			<attack physical="13491" magical="689" critical="4" attackSpeed="150" range="80" type="POLE" distance="80" width="120" random="1" accuracy="4.75" />
+			<defence physical="2176" magical="1752" />
+			<attribute>
+				<defence fire="270" water="270" wind="270" earth="270" holy="270" dark="270" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4415" level="11" /> <!-- Spears -->
+			<skill id="4332" level="1" /> <!-- Mental Aegis -->
+			<skill id="4416" level="21" /> <!-- Siege Weapons -->
+		</skill_list>
+		<shots soul="1" spirit="1" />
+		<collision>
+			<radius normal="45" />
+			<height normal="47.5" />
+		</collision>
+	</npc>
+	<npc id="15066" level="85" type="L2Servitor" name="Wynn Kai the Cat" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="DDMagic1" id="11323" level="1" />
+			<skill name="DDMagic2" id="11324" level="1" />
+			<param name="step1_action01" value="42" />
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="12634.0" hpRegen="9.5" mp="1384.0" mpRegen="3.3" />
+			<speed>
+				<walk ground="20" />
+				<run ground="198" />
+			</speed>
+			<attack physical="595.479137761584" magical="280.82224756717" critical="8" accuracy="5" attackSpeed="290" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1194.35736677116" magical="1482.217187235965" />
+			<attribute>
+				<defence fire="160" water="160" wind="160" earth="160" holy="160" dark="160" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4408" level="3" /> <!-- HP Medium-High -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<ex_crt_effect>false</ex_crt_effect>
+		<s_npc_prop_hp_rate>1.21</s_npc_prop_hp_rate>
+		<collision>
+			<radius normal="7" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="15067" level="87" type="L2Servitor" name="Wynn Kai the Cat" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="DDMagic1" id="11323" level="2" />
+			<skill name="DDMagic2" id="11324" level="2" />
+			<param name="step1_action01" value="42" />
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="12929.0" hpRegen="9.5" mp="1437.0" mpRegen="3.3" />
+			<speed>
+				<walk ground="20" />
+				<run ground="198" />
+			</speed>
+			<attack physical="631.4644350616415" magical="299.97616921847" critical="8" accuracy="5" attackSpeed="290" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1242.252066115702" magical="1557.087526934512" />
+			<attribute>
+				<defence fire="180" water="180" wind="180" earth="180" holy="180" dark="180" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<ex_crt_effect>false</ex_crt_effect>
+		<s_npc_prop_hp_rate>1.21</s_npc_prop_hp_rate>
+		<collision>
+			<radius normal="7" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="15068" level="89" type="L2Servitor" name="Wynn Kai the Cat" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="DDMagic1" id="11323" level="3" />
+			<skill name="DDMagic2" id="11324" level="3" />
+			<param name="step1_action01" value="42" />
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="13231.0" hpRegen="9.5" mp="1491.0" mpRegen="3.3" />
+			<speed>
+				<walk ground="20" />
+				<run ground="198" />
+			</speed>
+			<attack physical="669.7723143617533" magical="317.81056986594" critical="8" accuracy="5" attackSpeed="290" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1292.645556690501" magical="1799.977750584" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<ex_crt_effect>false</ex_crt_effect>
+		<s_npc_prop_hp_rate>1.21</s_npc_prop_hp_rate>
+		<collision>
+			<radius normal="7" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="15069" level="91" type="L2Servitor" name="Wynn Kai the Cat" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="DDMagic1" id="11323" level="4" />
+			<skill name="DDMagic2" id="11324" level="4" />
+			<param name="step1_action01" value="42" />
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="13542.0" hpRegen="10.5" mp="1544.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="20" />
+				<run ground="198" />
+			</speed>
+			<attack physical="710.3253562619175" magical="336.89425376575" critical="8" accuracy="5" attackSpeed="290" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1344.444444444444" magical="1719.50528386172" />
+			<attribute>
+				<defence fire="220" water="220" wind="220" earth="220" holy="220" dark="220" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<ex_crt_effect>false</ex_crt_effect>
+		<s_npc_prop_hp_rate>1.21</s_npc_prop_hp_rate>
+		<collision>
+			<radius normal="7" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="15070" level="93" type="L2Servitor" name="Wynn Kai the Cat" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="DDMagic1" id="11323" level="5" />
+			<skill name="DDMagic2" id="11324" level="5" />
+			<param name="step1_action01" value="42" />
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="13859.0" hpRegen="10.5" mp="1599.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="20" />
+				<run ground="198" />
+			</speed>
+			<attack physical="753.968270981709" magical="357.88344830754" critical="8" accuracy="5" attackSpeed="290" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1398.601398601399" magical="1806.774084001807" />
+			<attribute>
+				<defence fire="240" water="240" wind="240" earth="240" holy="240" dark="240" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<ex_crt_effect>false</ex_crt_effect>
+		<s_npc_prop_hp_rate>1.21</s_npc_prop_hp_rate>
+		<collision>
+			<radius normal="7" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="15071" level="95" type="L2Servitor" name="Wynn Kai the Cat" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="DDMagic1" id="11323" level="6" />
+			<skill name="DDMagic2" id="11324" level="6" />
+			<param name="step1_action01" value="42" />
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="17458.0" hpRegen="10.5" mp="1654.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="20" />
+				<run ground="198" />
+			</speed>
+			<attack physical="800.9699589149527" magical="674.93973844084" critical="8" accuracy="5" attackSpeed="290" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1404.462242562929" magical="2214.351869969606" />
+			<attribute>
+				<defence fire="260" water="260" wind="260" earth="260" holy="260" dark="260" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="17" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<ex_crt_effect>false</ex_crt_effect>
+		<s_npc_prop_hp_rate>1.21</s_npc_prop_hp_rate>
+		<collision>
+			<radius normal="7" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="15072" level="97" type="L2Servitor" name="Wynn Kai the Cat" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="DDMagic1" id="11323" level="7" />
+			<skill name="DDMagic2" id="11324" level="7" />
+			<param name="step1_action01" value="42" />
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="18493.0" hpRegen="10.5" mp="1710.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="20" />
+				<run ground="198" />
+			</speed>
+			<attack physical="850.2249110585034" magical="715.87444622067" critical="8" accuracy="5" attackSpeed="290" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1461.314576764492" magical="2326.361668424907" />
+			<attribute>
+				<defence fire="280" water="280" wind="280" earth="280" holy="280" dark="280" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="17" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<ex_crt_effect>false</ex_crt_effect>
+		<s_npc_prop_hp_rate>1.21</s_npc_prop_hp_rate>
+		<collision>
+			<radius normal="7" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="15073" level="99" type="L2Servitor" name="Wynn Kai the Cat" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="DDMagic1" id="11323" level="8" />
+			<skill name="DDMagic2" id="11324" level="8" />
+			<param name="step1_action01" value="42" />
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="18677.0" hpRegen="10.5" mp="1766.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="20" />
+				<run ground="198" />
+			</speed>
+			<attack physical="902.2189775011983" magical="758.971123285" critical="8" accuracy="5" attackSpeed="290" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1520.156774916013" magical="2443.329439326911" />
+			<attribute>
+				<defence fire="300" water="300" wind="300" earth="300" holy="300" dark="300" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="17" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<ex_crt_effect>false</ex_crt_effect>
+		<s_npc_prop_hp_rate>1.21</s_npc_prop_hp_rate>
+		<collision>
+			<radius normal="7" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="15074" level="85" type="L2Servitor" name="Wynn Feline King" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="DDMagic1" id="11325" level="1" />
+			<skill name="DDMagic2" id="11326" level="1" />
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8843.0" hpRegen="9.5" mp="968.0" mpRegen="3.3" />
+			<speed>
+				<walk ground="10" />
+				<run ground="198" />
+			</speed>
+			<attack physical="775.3137759339102" magical="280.82224756717" random="10" critical="12" accuracy="5" attackSpeed="415" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="955.067920585162" magical="1139.9415803649" />
+			<attribute>
+				<defence fire="160" water="160" wind="160" earth="160" holy="160" dark="160" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="5038" level="15" /> <!-- Summon PVP Penalty -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<ex_crt_effect>false</ex_crt_effect>
+		<s_npc_prop_hp_rate>1.331</s_npc_prop_hp_rate>
+		<collision>
+			<radius normal="6" />
+			<height normal="16.0055" />
+		</collision>
+	</npc>
+	<npc id="15075" level="87" type="L2Servitor" name="Wynn Feline King" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="DDMagic1" id="11325" level="2" />
+			<skill name="DDMagic2" id="11326" level="2" />
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="9050.0" hpRegen="9.5" mp="1005.0" mpRegen="3.3" />
+			<speed>
+				<walk ground="10" />
+				<run ground="198" />
+			</speed>
+			<attack physical="821.8924215806737" magical="299.97616921847" random="10" critical="12" accuracy="5" attackSpeed="415" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="993.2851239669421" magical="1089.313476802226" />
+			<attribute>
+				<defence fire="180" water="180" wind="180" earth="180" holy="180" dark="180" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="5038" level="15" /> <!-- Summon PVP Penalty -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<ex_crt_effect>false</ex_crt_effect>
+		<s_npc_prop_hp_rate>1.331</s_npc_prop_hp_rate>
+		<collision>
+			<radius normal="6" />
+			<height normal="16.0055" />
+		</collision>
+	</npc>
+	<npc id="15076" level="89" type="L2Servitor" name="Wynn Feline King" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="DDMagic1" id="11325" level="3" />
+			<skill name="DDMagic2" id="11326" level="3" />
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="9261.0" hpRegen="9.5" mp="1043.0" mpRegen="3.3" />
+			<speed>
+				<walk ground="10" />
+				<run ground="198" />
+			</speed>
+			<attack physical="871.1325167697288" magical="317.81056986594" random="10" critical="12" accuracy="5" attackSpeed="415" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1033.197139938713" magical="1145.170696844965" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="5038" level="15" /> <!-- Summon PVP Penalty -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<ex_crt_effect>false</ex_crt_effect>
+		<s_npc_prop_hp_rate>1.331</s_npc_prop_hp_rate>
+		<collision>
+			<radius normal="6" />
+			<height normal="16.0055" />
+		</collision>
+	</npc>
+	<npc id="15077" level="91" type="L2Servitor" name="Wynn Feline King" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="DDMagic1" id="11325" level="4" />
+			<skill name="DDMagic2" id="11326" level="4" />
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="9479.0" hpRegen="10.5" mp="1080.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="10" />
+				<run ground="198" />
+			</speed>
+			<attack physical="925.2019366056146" magical="336.89425376575" random="10" critical="12" accuracy="5" attackSpeed="415" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1075.252525252525" magical="1202.453578691202" />
+			<attribute>
+				<defence fire="220" water="220" wind="220" earth="220" holy="220" dark="220" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="5038" level="15" /> <!-- Summon PVP Penalty -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<ex_crt_effect>false</ex_crt_effect>
+		<s_npc_prop_hp_rate>1.331</s_npc_prop_hp_rate>
+		<collision>
+			<radius normal="6" />
+			<height normal="16.0055" />
+		</collision>
+	</npc>
+	<npc id="15078" level="93" type="L2Servitor" name="Wynn Feline King" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="DDMagic1" id="11325" level="5" />
+			<skill name="DDMagic2" id="11326" level="5" />
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="9701.0" hpRegen="10.5" mp="1119.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="10" />
+				<run ground="198" />
+			</speed>
+			<attack physical="981.4307061379982" magical="357.88344830754" random="10" critical="12" accuracy="5" attackSpeed="415" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1118.881118881119" magical="1264.082452201264" />
+			<attribute>
+				<defence fire="240" water="240" wind="240" earth="240" holy="240" dark="240" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="5038" level="15" /> <!-- Summon PVP Penalty -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<ex_crt_effect>false</ex_crt_effect>
+		<s_npc_prop_hp_rate>1.331</s_npc_prop_hp_rate>
+		<collision>
+			<radius normal="6" />
+			<height normal="16.0055" />
+		</collision>
+	</npc>
+	<npc id="15079" level="95" type="L2Servitor" name="Wynn Feline King" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="DDMagic1" id="11325" level="6" />
+			<skill name="DDMagic2" id="11326" level="6" />
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="12220.0" hpRegen="10.5" mp="1157.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="10" />
+				<run ground="198" />
+			</speed>
+			<attack physical="1044.775102762177" magical="674.93973844084" random="10" critical="12" accuracy="5" attackSpeed="415" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1122.915985616214" magical="1549.067950273288" />
+			<attribute>
+				<defence fire="260" water="260" wind="260" earth="260" holy="260" dark="260" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="18" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<ex_crt_effect>false</ex_crt_effect>
+		<s_npc_prop_hp_rate>1.331</s_npc_prop_hp_rate>
+		<collision>
+			<radius normal="6" />
+			<height normal="16.0055" />
+		</collision>
+	</npc>
+	<npc id="15080" level="97" type="L2Servitor" name="Wynn Feline King" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="DDMagic1" id="11325" level="7" />
+			<skill name="DDMagic2" id="11326" level="7" />
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="12945.0" hpRegen="10.5" mp="1197.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="10" />
+				<run ground="198" />
+			</speed>
+			<attack physical="1108.729988317351" magical="715.87444622067" random="10" critical="12" accuracy="5" attackSpeed="415" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1169.051661411593" magical="1628.872564675822" />
+			<attribute>
+				<defence fire="280" water="280" wind="280" earth="280" holy="280" dark="280" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="18" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<ex_crt_effect>false</ex_crt_effect>
+		<s_npc_prop_hp_rate>1.331</s_npc_prop_hp_rate>
+		<collision>
+			<radius normal="6" />
+			<height normal="16.0055" />
+		</collision>
+	</npc>
+	<npc id="15081" level="99" type="L2Servitor" name="Wynn Feline King" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="DDMagic1" id="11325" level="8" />
+			<skill name="DDMagic2" id="11326" level="8" />
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="13073.0" hpRegen="10.5" mp="1236.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="10" />
+				<run ground="198" />
+			</speed>
+			<attack physical="1176.202108228968" magical="758.971123285" random="10" critical="12" accuracy="5" attackSpeed="415" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1215.405535114382" magical="1709.851836247455" />
+			<attribute>
+				<defence fire="300" water="300" wind="300" earth="300" holy="300" dark="300" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="18" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<ex_crt_effect>false</ex_crt_effect>
+		<s_npc_prop_hp_rate>1.331</s_npc_prop_hp_rate>
+		<collision>
+			<radius normal="6" />
+			<height normal="16.0055" />
+		</collision>
+	</npc>
+	<npc id="15082" level="85" type="L2Servitor" name="Wynn Feline Queen" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="DDMagic1" id="11327" level="1" />
+			<skill name="DDMagic2" id="11328" level="1" />
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="6317.0" hpRegen="9.5" mp="692.0" mpRegen="3.3" />
+			<speed>
+				<walk ground="25" />
+				<run ground="198" />
+			</speed>
+			<attack physical="849.4947140095324" magical="280.82224756717" critical="12" accuracy="5" attackSpeed="290" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="716.3009404388715" magical="740.4188694731542" />
+			<attribute>
+				<defence fire="160" water="160" wind="160" earth="160" holy="160" dark="160" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4408" level="1" /> <!-- HP Medium-High -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<ex_crt_effect>false</ex_crt_effect>
+		<collision>
+			<radius normal="8" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="15083" level="87" type="L2Servitor" name="Wynn Feline Queen" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="DDMagic1" id="11327" level="2" />
+			<skill name="DDMagic2" id="11328" level="2" />
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="6464.0" hpRegen="9.5" mp="718.0" mpRegen="3.3" />
+			<speed>
+				<walk ground="25" />
+				<run ground="198" />
+			</speed>
+			<attack physical="901.2777242655125" magical="299.97616921847" critical="12" accuracy="5" attackSpeed="290" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="745.3512396694215" magical="778.373291874642" />
+			<attribute>
+				<defence fire="180" water="180" wind="180" earth="180" holy="180" dark="180" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4408" level="1" /> <!-- HP Medium-High -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<ex_crt_effect>false</ex_crt_effect>
+		<collision>
+			<radius normal="8" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="15084" level="89" type="L2Servitor" name="Wynn Feline Queen" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="DDMagic1" id="11327" level="3" />
+			<skill name="DDMagic2" id="11328" level="3" />
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="6615.0" hpRegen="9.5" mp="745.0" mpRegen="3.3" />
+			<speed>
+				<walk ground="25" />
+				<run ground="198" />
+			</speed>
+			<attack physical="956.28080788255" magical="317.81056986594" critical="12" accuracy="5" attackSpeed="290" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="775.28089887640" magical="818.17170481093" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4408" level="1" /> <!-- HP Medium-High -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<ex_crt_effect>false</ex_crt_effect>
+		<collision>
+			<radius normal="8" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="15085" level="91" type="L2Servitor" name="Wynn Feline Queen" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="DDMagic1" id="11327" level="4" />
+			<skill name="DDMagic2" id="11328" level="4" />
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="6771.0" hpRegen="10.5" mp="772.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="25" />
+				<run ground="198" />
+			</speed>
+			<attack physical="1014.7062739626" magical="336.89425376575" critical="12" accuracy="5" attackSpeed="290" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="806.06060606060" magical="859.08590859085" />
+			<attribute>
+				<defence fire="220" water="220" wind="220" earth="220" holy="220" dark="220" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4408" level="1" /> <!-- HP Medium-High -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<ex_crt_effect>false</ex_crt_effect>
+		<collision>
+			<radius normal="8" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="15086" level="93" type="L2Servitor" name="Wynn Feline Queen" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="DDMagic1" id="11327" level="5" />
+			<skill name="DDMagic2" id="11328" level="5" />
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="6929.0" hpRegen="10.5" mp="799.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="25" />
+				<run ground="198" />
+			</speed>
+			<attack physical="1076.4412967102" magical="357.88344830754" critical="12" accuracy="5" attackSpeed="290" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="838.66133866133" magical="902.39793210090" />
+			<attribute>
+				<defence fire="240" water="240" wind="240" earth="240" holy="240" dark="240" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4408" level="1" /> <!-- HP Medium-High -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<ex_crt_effect>false</ex_crt_effect>
+		<collision>
+			<radius normal="8" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="15087" level="95" type="L2Servitor" name="Wynn Feline Queen" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="DDMagic1" id="11327" level="6" />
+			<skill name="DDMagic2" id="11328" level="6" />
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8729.0" hpRegen="10.5" mp="827.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="25" />
+				<run ground="198" />
+			</speed>
+			<attack physical="1044.567435280014" magical="674.93973844084" critical="12" accuracy="5" attackSpeed="290" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="841.7783589408303" magical="1107.175934984803" />
+			<attribute>
+				<defence fire="260" water="260" wind="260" earth="260" holy="260" dark="260" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="18" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<ex_crt_effect>false</ex_crt_effect>
+		<collision>
+			<radius normal="8" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="15088" level="97" type="L2Servitor" name="Wynn Feline Queen" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="DDMagic1" id="11327" level="7" />
+			<skill name="DDMagic2" id="11328" level="7" />
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="9246.0" hpRegen="10.5" mp="855.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="25" />
+				<run ground="198" />
+			</speed>
+			<attack physical="1107.702815824932" magical="715.87444622067" critical="12" accuracy="5" attackSpeed="290" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="876.3845096612499" magical="1163.019527759228" />
+			<attribute>
+				<defence fire="280" water="280" wind="280" earth="280" holy="280" dark="280" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="18" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<ex_crt_effect>false</ex_crt_effect>
+		<collision>
+			<radius normal="8" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="15089" level="99" type="L2Servitor" name="Wynn Feline Queen" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="DDMagic1" id="11327" level="8" />
+			<skill name="DDMagic2" id="11328" level="8" />
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="9338.0" hpRegen="10.5" mp="883.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="25" />
+				<run ground="198" />
+			</speed>
+			<attack physical="1175.185863103489" magical="758.971123285" critical="12" accuracy="5" attackSpeed="290" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="911.854103343465" magical="1221.505129236328" />
+			<attribute>
+				<defence fire="300" water="300" wind="300" earth="300" holy="300" dark="300" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="18" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<ex_crt_effect>false</ex_crt_effect>
+		<collision>
+			<radius normal="8" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="15090" level="85" type="L2Servitor" name="Wynn Nightshade" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="DDMagic1" id="11341" level="1" />
+			<skill name="DDMagic2" id="11342" level="1" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="12634.0" hpRegen="9.5" mp="1384.0" mpRegen="3.3" />
+			<speed>
+				<walk ground="30" />
+				<run ground="198" />
+			</speed>
+			<attack physical="595.479137761584" magical="280.82224756717" critical="8" accuracy="5" attackSpeed="290" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1194.35736677116" magical="1482.217187235965" />
+			<attribute>
+				<defence fire="160" water="160" wind="160" earth="160" holy="160" dark="160" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4408" level="3" /> <!-- HP Medium-High -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<ex_crt_effect>false</ex_crt_effect>
+		<s_npc_prop_hp_rate>1.21</s_npc_prop_hp_rate>
+		<collision>
+			<radius normal="10" />
+			<height normal="35.5" />
+		</collision>
+	</npc>
+	<npc id="15091" level="87" type="L2Servitor" name="Wynn Nightshade" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="DDMagic1" id="11341" level="2" />
+			<skill name="DDMagic2" id="11342" level="2" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="12929.0" hpRegen="9.5" mp="1437.0" mpRegen="3.3" />
+			<speed>
+				<walk ground="30" />
+				<run ground="198" />
+			</speed>
+			<attack physical="631.4644350616415" magical="299.97616921847" critical="8" accuracy="5" attackSpeed="290" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1242.252066115702" magical="1557.087526934512" />
+			<attribute>
+				<defence fire="180" water="180" wind="180" earth="180" holy="180" dark="180" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<ex_crt_effect>false</ex_crt_effect>
+		<s_npc_prop_hp_rate>1.21</s_npc_prop_hp_rate>
+		<collision>
+			<radius normal="10" />
+			<height normal="35.5" />
+		</collision>
+	</npc>
+	<npc id="15092" level="89" type="L2Servitor" name="Wynn Nightshade" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="DDMagic1" id="11341" level="3" />
+			<skill name="DDMagic2" id="11342" level="3" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="13231.0" hpRegen="9.5" mp="1491.0" mpRegen="3.3" />
+			<speed>
+				<walk ground="30" />
+				<run ground="198" />
+			</speed>
+			<attack physical="669.7723143617533" magical="317.81056986594" critical="8" accuracy="5" attackSpeed="290" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1292.645556690501" magical="1799.977750584" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<ex_crt_effect>false</ex_crt_effect>
+		<s_npc_prop_hp_rate>1.21</s_npc_prop_hp_rate>
+		<collision>
+			<radius normal="10" />
+			<height normal="35.5" />
+		</collision>
+	</npc>
+	<npc id="15093" level="91" type="L2Servitor" name="Wynn Nightshade" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="DDMagic1" id="11341" level="4" />
+			<skill name="DDMagic2" id="11342" level="4" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="13542.0" hpRegen="10.5" mp="1544.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="30" />
+				<run ground="198" />
+			</speed>
+			<attack physical="710.3253562619175" magical="336.89425376575" critical="8" accuracy="5" attackSpeed="290" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1344.444444444444" magical="1719.50528386172" />
+			<attribute>
+				<defence fire="220" water="220" wind="220" earth="220" holy="220" dark="220" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<ex_crt_effect>false</ex_crt_effect>
+		<s_npc_prop_hp_rate>1.21</s_npc_prop_hp_rate>
+		<collision>
+			<radius normal="10" />
+			<height normal="35.5" />
+		</collision>
+	</npc>
+	<npc id="15094" level="93" type="L2Servitor" name="Wynn Nightshade" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="DDMagic1" id="11341" level="5" />
+			<skill name="DDMagic2" id="11342" level="5" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="13859.0" hpRegen="10.5" mp="1599.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="30" />
+				<run ground="198" />
+			</speed>
+			<attack physical="753.968270981709" magical="357.88344830754" critical="8" accuracy="5" attackSpeed="290" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1398.601398601399" magical="1806.774084001807" />
+			<attribute>
+				<defence fire="240" water="240" wind="240" earth="240" holy="240" dark="240" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<ex_crt_effect>false</ex_crt_effect>
+		<s_npc_prop_hp_rate>1.21</s_npc_prop_hp_rate>
+		<collision>
+			<radius normal="10" />
+			<height normal="35.5" />
+		</collision>
+	</npc>
+	<npc id="15095" level="95" type="L2Servitor" name="Wynn Nightshade" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="DDMagic1" id="11341" level="6" />
+			<skill name="DDMagic2" id="11342" level="6" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="17458.0" hpRegen="10.5" mp="1654.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="30" />
+				<run ground="198" />
+			</speed>
+			<attack physical="800.9699589149527" magical="674.93973844084" critical="8" accuracy="5" attackSpeed="290" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1404.462242562929" magical="2214.351869969606" />
+			<attribute>
+				<defence fire="260" water="260" wind="260" earth="260" holy="260" dark="260" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="17" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<ex_crt_effect>false</ex_crt_effect>
+		<s_npc_prop_hp_rate>1.21</s_npc_prop_hp_rate>
+		<collision>
+			<radius normal="10" />
+			<height normal="35.5" />
+		</collision>
+	</npc>
+	<npc id="15096" level="97" type="L2Servitor" name="Wynn Nightshade" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="DDMagic1" id="11341" level="7" />
+			<skill name="DDMagic2" id="11342" level="7" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="18493.0" hpRegen="10.5" mp="1710.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="30" />
+				<run ground="198" />
+			</speed>
+			<attack physical="850.2249110585034" magical="715.87444622067" critical="8" accuracy="5" attackSpeed="290" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1461.314576764492" magical="2326.361668424907" />
+			<attribute>
+				<defence fire="280" water="280" wind="280" earth="280" holy="280" dark="280" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="17" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<ex_crt_effect>false</ex_crt_effect>
+		<s_npc_prop_hp_rate>1.21</s_npc_prop_hp_rate>
+		<collision>
+			<radius normal="10" />
+			<height normal="35.5" />
+		</collision>
+	</npc>
+	<npc id="15097" level="99" type="L2Servitor" name="Wynn Nightshade" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="DDMagic1" id="11341" level="8" />
+			<skill name="DDMagic2" id="11342" level="8" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="18677.0" hpRegen="10.5" mp="1766.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="30" />
+				<run ground="198" />
+			</speed>
+			<attack physical="902.2189775011983" magical="758.971123285" critical="8" accuracy="5" attackSpeed="290" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1520.156774916013" magical="2443.329439326911" />
+			<attribute>
+				<defence fire="300" water="300" wind="300" earth="300" holy="300" dark="300" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="17" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5038" level="15" /> <!-- Servitor PvP Penalty -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<ex_crt_effect>false</ex_crt_effect>
+		<s_npc_prop_hp_rate>1.21</s_npc_prop_hp_rate>
+		<collision>
+			<radius normal="10" />
+			<height normal="35.5" />
+		</collision>
+	</npc>
+	<npc id="15098" level="85" type="L2Servitor" name="Wynn Spectral Lord" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="DDMagic1" id="11343" level="1" />
+			<skill name="DDMagic2" id="11344" level="1" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8843.0" hpRegen="9.5" mp="968.0" mpRegen="3.3" />
+			<speed>
+				<walk ground="160" />
+				<run ground="198" />
+			</speed>
+			<attack physical="775.3137759339102" magical="280.82224756717" random="10" critical="12" accuracy="5" attackSpeed="415" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="955.067920585162" magical="1139.9415803649" />
+			<attribute>
+				<defence fire="160" water="160" wind="160" earth="160" holy="160" dark="160" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5038" level="15" /> <!-- Summon PVP Penalty -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<ex_crt_effect>false</ex_crt_effect>
+		<s_npc_prop_hp_rate>1.331</s_npc_prop_hp_rate>
+		<collision>
+			<radius normal="12.5" />
+			<height normal="33.5" />
+		</collision>
+	</npc>
+	<npc id="15099" level="87" type="L2Servitor" name="Wynn Spectral Lord" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="DDMagic1" id="11343" level="2" />
+			<skill name="DDMagic2" id="11344" level="2" />
+		</parameters>
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="9050.0" hpRegen="9.5" mp="1005.0" mpRegen="3.3" />
+			<speed>
+				<walk ground="160" />
+				<run ground="198" />
+			</speed>
+			<attack physical="821.8924215806737" magical="299.97616921847" random="10" critical="12" accuracy="5" attackSpeed="415" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="993.2851239669421" magical="1089.313476802226" />
+			<attribute>
+				<defence fire="180" water="180" wind="180" earth="180" holy="180" dark="180" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5038" level="15" /> <!-- Summon PVP Penalty -->
+			<skill id="11496" level="2" /> <!-- Summoner Boss Penalty -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<ex_crt_effect>false</ex_crt_effect>
+		<s_npc_prop_hp_rate>1.331</s_npc_prop_hp_rate>
+		<collision>
+			<radius normal="12.5" />
+			<height normal="33.5" />
+		</collision>
+	</npc>
+</list>

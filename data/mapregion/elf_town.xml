@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/MapRegion.xsd">
+	<region name="elf_town" town="Elven Village" locId="914" bbs="4">
+		<respawnPoint X="45487" Y="49767" Z="-2950" />
+		<respawnPoint X="45080" Y="49614" Z="-2950" />
+		<respawnPoint X="45284" Y="49309" Z="-2950" />
+		<respawnPoint X="45576" Y="49412" Z="-2950" />
+		<respawnPoint X="46271" Y="44062" Z="-3704" isChaotic="true" />
+		<respawnPoint X="48999" Y="46140" Z="-3560" isChaotic="true" />
+		<respawnPoint X="50285" Y="48980" Z="-3512" isChaotic="true" />
+		<respawnPoint X="49420" Y="51821" Z="-3672" isChaotic="true" />
+		<respawnPoint X="45077" Y="54911" Z="-3480" isChaotic="true" />
+		<map X="21" Y="19" />
+		<map X="21" Y="20" />
+		<map X="20" Y="19" />
+		<map X="20" Y="20" />
+	</region>
+</list>

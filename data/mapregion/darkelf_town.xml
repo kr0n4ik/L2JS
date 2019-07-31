@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/MapRegion.xsd">
+	<region name="darkelf_town" town="Dark Elf Village" locId="915" bbs="3">
+		<respawnPoint X="11288" Y="15736" Z="-4576" />
+		<respawnPoint X="11036" Y="16112" Z="-4576" />
+		<respawnPoint X="10980" Y="15808" Z="-4576" />
+		<respawnPoint X="11344" Y="16047" Z="-4576" />
+		<respawnPoint X="17873" Y="5415" Z="-3288" isChaotic="true" />
+		<respawnPoint X="23337" Y="12369" Z="-3608" isChaotic="true" />
+		<respawnPoint X="12021" Y="3944" Z="-2576" isChaotic="true" />
+		<respawnPoint X="27034" Y="16276" Z="-3624" isChaotic="true" />
+		<respawnPoint X="31169" Y="18981" Z="-3688" isChaotic="true" />
+		<map X="20" Y="18" />
+		<map X="19" Y="18" />
+		<map X="19" Y="19" />
+		<map X="18" Y="19" />
+		<map X="18" Y="18" />
+		<map X="18" Y="20" />
+		<map X="17" Y="19" />
+	</region>
+</list>

@@ -1,0 +1,3321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
+	<npc id="13300" level="85" type="L2Monster" name="Wise Retainer of Lights" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>CONSTRUCT</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1.0" hpRegen="1" mp="1.0" mpRegen="1" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1" magical="1" critical="4" attackSpeed="253" range="0" type="FIST" distance="0" width="0" random="0" accuracy="4.75" />
+			<defence physical="1" magical="1" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="1719" level="1" /> <!-- Wise Retainer's Price -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+		</skill_list>
+		<collision>
+			<radius normal="30" />
+			<height normal="13" />
+		</collision>
+	</npc>
+	<npc id="13301" level="85" type="L2Monster" name="Symbol of Lakcis" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>CONSTRUCT</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1.0" hpRegen="1" mp="1.0" mpRegen="1" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1" magical="1" critical="4" attackSpeed="253" range="0" type="FIST" distance="0" width="0" random="0" accuracy="4.75" />
+			<defence physical="1" magical="1" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+		</skill_list>
+		<collision>
+			<radius normal="30" />
+			<height normal="13" />
+		</collision>
+	</npc>
+	<npc id="13302" level="85" type="Doppelganger" name="Incarnation" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="Skill01_ID" id="10550" level="1" />
+			<skill name="Skill02_ID" id="10551" level="1" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2634.0" hpRegen="8.5" mp="974.0" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="131" />
+			</speed>
+			<attack physical="890.6666667" magical="247" critical="16" attackSpeed="623" range="40" type="FIST" distance="0" width="0" random="0" accuracy="4.75" />
+			<defence physical="1120.6" magical="581.85" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" hasSummoner="true" talkable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="10550" level="1" /> <!-- Illusion Strike -->
+			<skill id="10551" level="1" /> <!-- Illusion Trick -->
+		</skill_list>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="13303" level="90" type="Doppelganger" name="Incarnation" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="Skill01_ID" id="10550" level="2" />
+			<skill name="Skill02_ID" id="10551" level="2" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2855.0" hpRegen="8.5" mp="1054.0" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="131" />
+			</speed>
+			<attack physical="1076.566667" magical="301" critical="16" attackSpeed="623" range="40" type="FIST" distance="0" width="0" random="0" accuracy="4.75" />
+			<defence physical="1236.65" magical="658.8" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" hasSummoner="true" talkable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="10550" level="2" /> <!-- Illusion Strike -->
+			<skill id="10551" level="2" /> <!-- Illusion Trick -->
+		</skill_list>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="13304" level="95" type="Doppelganger" name="Incarnation" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="Skill01_ID" id="10550" level="3" />
+			<skill name="Skill02_ID" id="10551" level="3" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3083.0" hpRegen="8.5" mp="1136.0" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="131" />
+			</speed>
+			<attack physical="1320.9" magical="366" critical="16" attackSpeed="623" range="40" type="FIST" distance="0" width="0" random="0" accuracy="4.75" />
+			<defence physical="1364.85" magical="745.2" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" hasSummoner="true" talkable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="10550" level="3" /> <!-- Illusion Strike -->
+			<skill id="10551" level="3" /> <!-- Illusion Trick -->
+		</skill_list>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="13305" level="97" type="Doppelganger" name="Incarnation" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="Skill01_ID" id="10550" level="4" />
+			<skill name="Skill02_ID" id="10551" level="4" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3176.0" hpRegen="8.5" mp="1169.0" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="131" />
+			</speed>
+			<attack physical="1487.133333" magical="396" critical="16" attackSpeed="623" range="40" type="FIST" distance="0" width="0" random="0" accuracy="4.75" />
+			<defence physical="1419.5" magical="783" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" hasSummoner="true" talkable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="10550" level="4" /> <!-- Illusion Strike -->
+			<skill id="10551" level="4" /> <!-- Illusion Trick -->
+		</skill_list>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="13306" level="85" type="L2Npc" name="Damaged Area" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="skill_delay" value="2" />
+			<param name="despawn_time" value="7" />
+			<skill name="union_skill" id="11245" level="1" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4234.06312688557" hpRegen="8.5" mp="1846.8" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="20" />
+			</speed>
+			<attack physical="1188.87259499001" magical="811.84586495282" critical="4" attackSpeed="253" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="361.78814" magical="264.74086" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<skill_list>
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+		</skill_list>
+		<ai aggroRange="300" isAggressive="true" />
+		<collision>
+			<radius normal="10" />
+			<height normal="22.5" />
+		</collision>
+	</npc>
+	<npc id="13307" level="85" type="L2Npc" name="Ant Hell" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="skill_delay" value="2" />
+			<param name="despawn_time" value="7" />
+			<skill name="union_skill" id="11242" level="1" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4234.06312688557" hpRegen="8.5" mp="1846.8" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="20" />
+			</speed>
+			<attack physical="1188.87259499001" magical="811.84586495282" critical="4" attackSpeed="253" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="361.78814" magical="264.74086" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<skill_list>
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+		</skill_list>
+		<ai aggroRange="300" isAggressive="true" />
+		<collision>
+			<radius normal="10" />
+			<height normal="22.5" />
+		</collision>
+	</npc>
+	<npc id="13308" level="85" type="L2Npc" name="Ring of Yoke" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="skill_delay" value="2" />
+			<param name="despawn_time" value="7" />
+			<skill name="union_skill" id="11245" level="1" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4234.06312688557" hpRegen="8.5" mp="1846.8" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="20" />
+			</speed>
+			<attack physical="1188.87259499001" magical="811.84586495282" critical="4" attackSpeed="253" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="361.78814" magical="264.74086" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<skill_list>
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+		</skill_list>
+		<ai aggroRange="300" isAggressive="true" />
+		<collision>
+			<radius normal="10" />
+			<height normal="22.5" />
+		</collision>
+	</npc>
+	<npc id="13309" level="85" type="L2Npc" name="Stealth Detector" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="skill_delay" value="2" />
+			<param name="despawn_time" value="7" />
+			<skill name="union_skill" id="11245" level="1" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4234.06312688557" hpRegen="8.5" mp="1846.8" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="20" />
+			</speed>
+			<attack physical="1188.87259499001" magical="811.84586495282" critical="4" attackSpeed="253" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="361.78814" magical="264.74086" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<skill_list>
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+		</skill_list>
+		<ai aggroRange="300" isAggressive="true" />
+		<collision>
+			<radius normal="10" />
+			<height normal="22.5" />
+		</collision>
+	</npc>
+	<npc id="13310" level="85" type="L2EffectPoint" name="Solo Dance" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="skill_delay" value="2" />
+			<param name="despawn_time" value="15" />
+			<skill name="union_skill" id="10523" level="1" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4234.06312688557" hpRegen="8.5" mp="1846.8" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="20" />
+			</speed>
+			<attack physical="1188.87259499001" magical="811.84586495282" critical="4" attackSpeed="253" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="361.78814" magical="264.74086" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<skill_list>
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+		</skill_list>
+		<collision>
+			<radius normal="0.001" />
+			<height normal="0.001" />
+		</collision>
+	</npc>
+	<npc id="13311" level="85" type="L2Monster" name="Awakened Knight's Mount" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4234.06312688557" hpRegen="8.5" mp="1846.8" mpRegen="3" />
+			<speed>
+				<walk ground="41" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1188.87259499001" magical="811.84586495282" critical="4" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="361.78814" magical="264.74086" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<ai aggroRange="300" isAggressive="true" />
+		<skill_list>
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="1627" level="1" /> <!-- Power Strike -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="31" />
+			<height normal="30" />
+		</collision>
+	</npc>
+	<npc id="13312" level="85" type="L2Monster" name="Awakened Warrior's Mount" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4234.06312688557" hpRegen="8.5" mp="1846.8" mpRegen="3" />
+			<speed>
+				<walk ground="41" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1188.87259499001" magical="811.84586495282" critical="4" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="361.78814" magical="264.74086" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<ai aggroRange="300" isAggressive="true" />
+		<skill_list>
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="1627" level="1" /> <!-- Power Strike -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="31" />
+			<height normal="30" />
+		</collision>
+	</npc>
+	<npc id="13313" level="85" type="L2Monster" name="Awakened Rogue's Mount" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4234.06312688557" hpRegen="8.5" mp="1846.8" mpRegen="3" />
+			<speed>
+				<walk ground="45" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1188.87259499001" magical="811.84586495282" critical="4" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="361.78814" magical="264.74086" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<ai aggroRange="300" isAggressive="true" />
+		<skill_list>
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="1627" level="1" /> <!-- Power Strike -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="31" />
+			<height normal="32.5" />
+		</collision>
+	</npc>
+	<npc id="13314" level="85" type="L2Monster" name="Awakened Archer's Mount" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4234.06312688557" hpRegen="8.5" mp="1846.8" mpRegen="3" />
+			<speed>
+				<walk ground="41" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1188.87259499001" magical="811.84586495282" critical="4" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="361.78814" magical="264.74086" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<ai aggroRange="300" isAggressive="true" />
+		<skill_list>
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="1627" level="1" /> <!-- Power Strike -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="31" />
+			<height normal="30" />
+		</collision>
+	</npc>
+	<npc id="13315" level="85" type="L2Monster" name="Awakened Wizard's Mount" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4234.06312688557" hpRegen="8.5" mp="1846.8" mpRegen="3" />
+			<speed>
+				<walk ground="45" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1188.87259499001" magical="811.84586495282" critical="4" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="361.78814" magical="264.74086" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<ai aggroRange="300" isAggressive="true" />
+		<skill_list>
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="1627" level="1" /> <!-- Power Strike -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="31" />
+			<height normal="32.5" />
+		</collision>
+	</npc>
+	<npc id="13316" level="85" type="L2Monster" name="Awakened Summoner's Mount" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4234.06312688557" hpRegen="8.5" mp="1846.8" mpRegen="3" />
+			<speed>
+				<walk ground="45" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1188.87259499001" magical="811.84586495282" critical="4" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="361.78814" magical="264.74086" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<ai aggroRange="300" isAggressive="true" />
+		<skill_list>
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="1627" level="1" /> <!-- Power Strike -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="31" />
+			<height normal="32.5" />
+		</collision>
+	</npc>
+	<npc id="13317" level="85" type="L2Monster" name="Awakened Enchanter's Mount" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4234.06312688557" hpRegen="8.5" mp="1846.8" mpRegen="3" />
+			<speed>
+				<walk ground="41" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1188.87259499001" magical="811.84586495282" critical="4" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="361.78814" magical="264.74086" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<ai aggroRange="300" isAggressive="true" />
+		<skill_list>
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="1627" level="1" /> <!-- Power Strike -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="31" />
+			<height normal="30" />
+		</collision>
+	</npc>
+	<npc id="13318" level="85" type="L2Monster" name="Awakened Healer's Mount" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4234.06312688557" hpRegen="8.5" mp="1846.8" mpRegen="3" />
+			<speed>
+				<walk ground="41" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1188.87259499001" magical="811.84586495282" critical="4" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="361.78814" magical="264.74086" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<ai aggroRange="300" isAggressive="true" />
+		<skill_list>
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="1627" level="1" /> <!-- Power Strike -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="31" />
+			<height normal="30" />
+		</collision>
+	</npc>
+	<npc id="13319" level="85" type="L2Npc" name="Shadow of Hell" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="skill_delay" value="2" />
+			<param name="despawn_time" value="7" />
+			<skill name="union_skill" id="11033" level="1" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4234.06312688557" hpRegen="8.5" mp="1846.8" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="20" />
+			</speed>
+			<attack physical="1188.87259499001" magical="811.84586495282" critical="4" attackSpeed="253" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="361.78814" magical="264.74086" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<skill_list>
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="1627" level="1" /> <!-- Power Strike -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+		</skill_list>
+		<collision>
+			<radius normal="10" />
+			<height normal="22.5" />
+		</collision>
+	</npc>
+	<npc id="13320" level="85" type="L2Npc" name="Shadow of Hell" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="skill_delay" value="2" />
+			<param name="despawn_time" value="7" />
+			<skill name="union_skill" id="11142" level="1" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4234.06312688557" hpRegen="8.5" mp="1846.8" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="20" />
+			</speed>
+			<attack physical="1188.87259499001" magical="811.84586495282" critical="4" attackSpeed="253" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="361.78814" magical="264.74086" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<skill_list>
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="1627" level="1" /> <!-- Power Strike -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+		</skill_list>
+		<collision>
+			<radius normal="10" />
+			<height normal="22.5" />
+		</collision>
+	</npc>
+	<npc id="13321" level="85" type="L2Npc" name="Shadow of Hell" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="skill_delay" value="2" />
+			<param name="despawn_time" value="7" />
+			<skill name="union_skill" id="11143" level="1" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4234.06312688557" hpRegen="8.5" mp="1846.8" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="20" />
+			</speed>
+			<attack physical="1188.87259499001" magical="811.84586495282" critical="4" attackSpeed="253" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="361.78814" magical="264.74086" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<skill_list>
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="1627" level="1" /> <!-- Power Strike -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+		</skill_list>
+		<collision>
+			<radius normal="10" />
+			<height normal="22.5" />
+		</collision>
+	</npc>
+	<npc id="13322" level="85" type="L2Npc" name="Shadow of Hell" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="skill_delay" value="2" />
+			<param name="despawn_time" value="7" />
+			<skill name="union_skill" id="11092" level="1" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4234.06312688557" hpRegen="8.5" mp="1846.8" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="20" />
+			</speed>
+			<attack physical="1188.87259499001" magical="811.84586495282" critical="4" attackSpeed="253" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="361.78814" magical="264.74086" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<skill_list>
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="1627" level="1" /> <!-- Power Strike -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+		</skill_list>
+		<collision>
+			<radius normal="10" />
+			<height normal="22.5" />
+		</collision>
+	</npc>
+	<npc id="13323" level="85" type="L2EffectPoint" name="Whisper of Fear" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="skill_delay" value="2" />
+			<param name="despawn_time" value="7" />
+			<skill name="union_skill" id="11059" level="1" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4234.06312688557" hpRegen="8.5" mp="1846.8" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="20" />
+			</speed>
+			<attack physical="1188.87259499001" magical="811.84586495282" critical="4" attackSpeed="253" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="361.78814" magical="264.74086" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" hasSummoner="true" targetable="false" showName="false" />
+		<skill_list>
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="11059" level="1" /> <!-- Shadow Snare Zone -->
+			<skill id="14765" level="5" /> <!-- Blood Siphon Resistance -->
+		</skill_list>
+		<collision>
+			<radius normal="0.001" />
+			<height normal="0.001" />
+		</collision>
+	</npc>
+	<npc id="13324" level="85" type="L2EffectPoint" name="Whisper of Fear" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="skill_delay" value="2" />
+			<param name="despawn_time" value="7" />
+			<skill name="union_skill" id="11059" level="2" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4234.06312688557" hpRegen="8.5" mp="1846.8" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="20" />
+			</speed>
+			<attack physical="1188.87259499001" magical="811.84586495282" critical="4" attackSpeed="253" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="361.78814" magical="264.74086" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" hasSummoner="true" targetable="false" showName="false" />
+		<skill_list>
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="14765" level="5" /> <!-- Blood Siphon Resistance -->
+		</skill_list>
+		<collision>
+			<radius normal="0.001" />
+			<height normal="0.001" />
+		</collision>
+	</npc>
+	<npc id="13325" level="85" type="L2EffectPoint" name="Whisper of Fear" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="skill_delay" value="2" />
+			<param name="despawn_time" value="7" />
+			<skill name="union_skill" id="11059" level="3" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4234.06312688557" hpRegen="8.5" mp="1846.8" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="20" />
+			</speed>
+			<attack physical="1188.87259499001" magical="811.84586495282" critical="4" attackSpeed="253" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="361.78814" magical="264.74086" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" hasSummoner="true" targetable="false" showName="false" />
+		<skill_list>
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="14765" level="5" /> <!-- Blood Siphon Resistance -->
+		</skill_list>
+		<collision>
+			<radius normal="0.001" />
+			<height normal="0.001" />
+		</collision>
+	</npc>
+	<npc id="13326" level="99" type="L2Monster" name="Severe Trap" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="10806" level="1" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1.0" hpRegen="1" mp="1.0" mpRegen="1" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1" magical="1" critical="4" attackSpeed="253" range="0" type="FIST" distance="0" width="0" random="0" accuracy="4.75" />
+			<defence physical="1" magical="1" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="1627" level="1" /> <!-- Power Strike -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+		</skill_list>
+		<shots soul="1" spirit="1" />
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc>
+	<npc id="13327" level="99" type="L2Monster" name="Yoke Trap" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="10807" level="1" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1.0" hpRegen="1" mp="1.0" mpRegen="1" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1" magical="1" critical="4" attackSpeed="253" range="0" type="FIST" distance="0" width="0" random="0" accuracy="4.75" />
+			<defence physical="1" magical="1" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="1627" level="1" /> <!-- Power Strike -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+		</skill_list>
+		<shots soul="1" spirit="1" />
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc>
+	<npc id="13328" level="99" type="L2Decoy" name="Decoy" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<skill name="decoy_skill" id="10808" level="1" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1.0" hpRegen="1" mp="1.0" mpRegen="1" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1" magical="1" critical="4" attackSpeed="253" range="0" type="FIST" distance="0" width="0" random="0" accuracy="4.75" />
+			<defence physical="1" magical="1" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="1627" level="1" /> <!-- Power Strike -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+		</skill_list>
+		<shots soul="1" spirit="1" />
+		<collision>
+			<radius normal="8.5" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="13329" level="90" type="L2Monster" name="Illusion" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1.0" hpRegen="1" mp="1.0" mpRegen="1" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1" magical="1" critical="4" attackSpeed="253" range="0" type="FIST" distance="0" width="0" random="0" accuracy="4.75" />
+			<defence physical="1" magical="1" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="1627" level="1" /> <!-- Power Strike -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+		</skill_list>
+		<ai clanHelpRange="300" aggroRange="300" />
+		<collision>
+			<radius normal="8.5" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="13330" level="1" type="L2Monster" name="Kukuru" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>MERCENARY</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="39.74519" hpRegen="2" mp="40.0" mpRegen="0.9" />
+			<speed>
+				<walk ground="41" />
+				<run ground="250" />
+			</speed>
+			<attack physical="8.47458" magical="5.78704" critical="4" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="44.44444" magical="32.52252" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="1627" level="1" /> <!-- Power Strike -->
+			<skill id="4416" level="23" /> <!-- Mercenaries -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="20" />
+			<height normal="40" />
+		</collision>
+	</npc>
+	<npc id="13331" level="85" type="L2Monster" name="Guitar Fairy" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>FAIRY</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4234.06312688557" hpRegen="8.5" mp="1846.8" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="20" />
+			</speed>
+			<attack physical="1188.87259499001" magical="811.84586495282" critical="4" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="361.78814" magical="264.74086" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<ai aggroRange="300" isAggressive="true" />
+		<skill_list>
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4416" level="13" /> <!-- Fairies -->
+		</skill_list>
+		<collision>
+			<radius normal="3" />
+			<height normal="4" />
+		</collision>
+	</npc>
+	<npc id="13332" level="85" type="L2Monster" name="Maracas Fairy" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>FAIRY</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4234.06312688557" hpRegen="8.5" mp="1846.8" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="20" />
+			</speed>
+			<attack physical="1188.87259499001" magical="811.84586495282" critical="4" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="361.78814" magical="264.74086" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<ai aggroRange="300" isAggressive="true" />
+		<skill_list>
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4416" level="13" /> <!-- Fairies -->
+		</skill_list>
+		<collision>
+			<radius normal="3" />
+			<height normal="4" />
+		</collision>
+	</npc>
+	<npc id="13333" level="85" type="L2Monster" name="Cymbal Fairy" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>FAIRY</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4234.06312688557" hpRegen="8.5" mp="1846.8" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="20" />
+			</speed>
+			<attack physical="1188.87259499001" magical="811.84586495282" critical="4" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="361.78814" magical="264.74086" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<ai aggroRange="300" isAggressive="true" />
+		<skill_list>
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4416" level="13" /> <!-- Fairies -->
+		</skill_list>
+		<collision>
+			<radius normal="3" />
+			<height normal="4" />
+		</collision>
+	</npc>
+	<npc id="13334" level="85" type="L2Monster" name="Drums Fairy" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>FAIRY</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4234.06312688557" hpRegen="8.5" mp="1846.8" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="20" />
+			</speed>
+			<attack physical="1188.87259499001" magical="811.84586495282" critical="4" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="361.78814" magical="264.74086" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<ai aggroRange="300" isAggressive="true" />
+		<skill_list>
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4416" level="13" /> <!-- Fairies -->
+		</skill_list>
+		<collision>
+			<radius normal="3" />
+			<height normal="4" />
+		</collision>
+	</npc>
+	<npc id="13335" level="85" type="L2Monster" name="Pipe Organ Fairy" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>FAIRY</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4234.06312688557" hpRegen="8.5" mp="1846.8" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="20" />
+			</speed>
+			<attack physical="1188.87259499001" magical="811.84586495282" critical="4" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="361.78814" magical="264.74086" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<ai aggroRange="300" isAggressive="true" />
+		<skill_list>
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4416" level="13" /> <!-- Fairies -->
+		</skill_list>
+		<collision>
+			<radius normal="3" />
+			<height normal="4" />
+		</collision>
+	</npc>
+	<npc id="13336" level="85" type="L2Monster" name="Bugle Fairy" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>FAIRY</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4234.06312688557" hpRegen="8.5" mp="1846.8" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="20" />
+			</speed>
+			<attack physical="1188.87259499001" magical="811.84586495282" critical="4" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="361.78814" magical="264.74086" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<ai aggroRange="300" isAggressive="true" />
+		<skill_list>
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4416" level="13" /> <!-- Fairies -->
+		</skill_list>
+		<collision>
+			<radius normal="3" />
+			<height normal="4" />
+		</collision>
+	</npc>
+	<npc id="13337" level="85" type="L2Monster" name="Vampiric Fairy" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>FAIRY</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4234.06312688557" hpRegen="8.5" mp="1846.8" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="20" />
+			</speed>
+			<attack physical="1188.87259499001" magical="811.84586495282" critical="4" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="361.78814" magical="264.74086" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<ai aggroRange="300" isAggressive="true" />
+		<skill_list>
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="4416" level="13" /> <!-- Fairies -->
+		</skill_list>
+		<collision>
+			<radius normal="5" />
+			<height normal="7.5" />
+		</collision>
+	</npc>
+	<npc id="13338" level="85" type="L2Monster" name="Enchanting Stone" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>CONSTRUCT</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4234.06312688557" hpRegen="8.5" mp="1846.8" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="20" />
+			</speed>
+			<attack physical="1188.87259499001" magical="811.84586495282" critical="4" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="361.78814" magical="264.74086" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<ai aggroRange="300" isAggressive="true" />
+		<skill_list>
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+		</skill_list>
+		<collision>
+			<radius normal="13" />
+			<height normal="20.5" />
+		</collision>
+	</npc>
+	<npc id="13339" level="85" type="L2Npc" name="Illusion" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="i_despawn_time" value="300000" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="5000.1819711104" hpRegen="8.5" mp="18468.0" mpRegen="30" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1" magical="1" critical="4" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="1533.89837969002" magical="830.419981419386" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+		</skill_list>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="13340" level="85" type="L2Monster" name="Kukurin" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4234.06312688557" hpRegen="8.5" mp="1846.8" mpRegen="3" />
+			<speed>
+				<walk ground="40" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1188.87259499001" magical="811.84586495282" critical="4" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="361.78814" magical="264.74086" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="20" />
+			<height normal="35.5" />
+		</collision>
+	</npc>
+	<npc id="13341" level="70" type="L2Npc" name="Vitality Recovering Cake" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>MALE</sex>
+		<acquire expRate="0.1" sp="0" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2444.46819" hpRegen="7.5" mp="1345.8" mpRegen="2.7" />
+			<speed>
+				<walk ground="30" />
+				<run ground="120" />
+			</speed>
+			<attack physical="688.86373" magical="470.40463" critical="4" attackSpeed="253" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" targetable="false" />
+		<skill_list>
+			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+		</skill_list>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc>
+	<npc id="13342" level="1" type="L2Monster" name="Specter of Light" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="195.420193803576" hpRegen="2" mp="40.0" mpRegen="0.9" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="18.4576334171028" magical="3.0108740338162" critical="4" attackSpeed="253" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="40.4040404040404" magical="20.2003202408165" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+		</skill_list>
+		<ai clanHelpRange="300" aggroRange="300" />
+		<collision>
+			<radius normal="10" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="13343" level="1" type="L2Monster" name="Specter of Mysterious Light" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="195.420193803576" hpRegen="2" mp="40.0" mpRegen="0.9" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="18.4576334171028" magical="3.0108740338162" critical="4" attackSpeed="253" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="40.4040404040404" magical="20.2003202408165" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+		</skill_list>
+		<ai clanHelpRange="300" aggroRange="300" />
+		<collision>
+			<radius normal="12" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="13344" level="1" type="L2Monster" name="Specter of Mysterious Light" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="195.420193803576" hpRegen="2" mp="40.0" mpRegen="0.9" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="18.4576334171028" magical="3.0108740338162" critical="4" attackSpeed="253" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="40.4040404040404" magical="20.2003202408165" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+		</skill_list>
+		<ai clanHelpRange="300" aggroRange="300" />
+		<collision>
+			<radius normal="15" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="13345" level="1" type="L2Monster" name="Specter of Mysterious Light" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="195.420193803576" hpRegen="2" mp="40.0" mpRegen="0.9" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="18.4576334171028" magical="3.0108740338162" critical="4" attackSpeed="253" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="40.4040404040404" magical="20.2003202408165" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+		</skill_list>
+		<ai clanHelpRange="300" aggroRange="300" />
+		<collision>
+			<radius normal="20" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="13346" level="1" type="L2Monster" name="Specter of Light" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="195.420193803576" hpRegen="2" mp="40.0" mpRegen="0.9" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="18.4576334171028" magical="3.0108740338162" critical="4" attackSpeed="253" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="40.4040404040404" magical="20.2003202408165" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+		</skill_list>
+		<ai clanHelpRange="300" aggroRange="300" />
+		<collision>
+			<radius normal="12" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="13347" level="1" type="L2Monster" name="Specter of Light" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="195.420193803576" hpRegen="2" mp="40.0" mpRegen="0.9" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="18.4576334171028" magical="3.0108740338162" critical="4" attackSpeed="253" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="40.4040404040404" magical="20.2003202408165" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+		</skill_list>
+		<ai clanHelpRange="300" aggroRange="300" />
+		<collision>
+			<radius normal="15" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="13348" level="1" type="L2Monster" name="Specter of Light" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="195.420193803576" hpRegen="2" mp="40.0" mpRegen="0.9" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="18.4576334171028" magical="3.0108740338162" critical="4" attackSpeed="253" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="40.4040404040404" magical="20.2003202408165" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+		</skill_list>
+		<ai clanHelpRange="300" aggroRange="300" />
+		<collision>
+			<radius normal="20" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="13349" level="1" type="L2Monster" name="Shard of Light" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="195.420193803576" hpRegen="2" mp="40.0" mpRegen="0.9" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="18.4576334171028" magical="3.0108740338162" critical="4" attackSpeed="253" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="40.4040404040404" magical="20.2003202408165" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="14824" level="1" /> <!-- Event Neutralization Resistance -->
+		</skill_list>
+		<ai clanHelpRange="300" aggroRange="300" />
+		<collision>
+			<radius normal="10" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="13350" level="85" type="L2Monster" name="Black Bear Mount" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4234.06312688557" hpRegen="8.5" mp="1846.8" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1188.87259499001" magical="811.84586495282" critical="4" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="361.78814" magical="264.74086" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="22" />
+			<height normal="19" />
+		</collision>
+	</npc>
+	<npc id="13351" level="85" type="L2Monster" name="Rosy Rose" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4234.06312688557" hpRegen="8.5" mp="1846.8" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1188.87259499001" magical="811.84586495282" critical="4" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="361.78814" magical="264.74086" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="14" /> <!-- Humans -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="8" />
+			<height normal="17" />
+		</collision>
+	</npc>
+	<npc id="13352" level="85" type="L2Monster" name="Deadly Rose" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4234.06312688557" hpRegen="8.5" mp="1846.8" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1188.87259499001" magical="811.84586495282" critical="4" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="361.78814" magical="264.74086" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="14" /> <!-- Humans -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="8" />
+			<height normal="16" />
+		</collision>
+	</npc>
+	<npc id="13353" level="85" type="L2Monster" name="Knight of Chaos" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4234.06312688557" hpRegen="8.5" mp="1846.8" mpRegen="3" />
+			<speed>
+				<walk ground="30" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1188.87259499001" magical="811.84586495282" critical="4" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="361.78814" magical="264.74086" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="24" />
+			<height normal="45" />
+		</collision>
+	</npc>
+	<npc id="13354" level="1" type="L2Npc" name="T-shirt Portal" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="79" int="74" dex="42" wit="65" con="75" men="72">
+			<vitals hp="39.74519" hpRegen="2" mp="40.0" mpRegen="0.9" />
+			<speed>
+				<walk ground="1" />
+				<run ground="50" />
+			</speed>
+			<attack physical="8.47458" magical="5.78704" critical="4" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="44.44444" magical="32.52252" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<skill_list>
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+		</skill_list>
+		<ai aggroRange="300" />
+		<collision>
+			<radius normal="10" />
+			<height normal="115" />
+		</collision>
+	</npc>
+	<npc id="13355" level="55" type="L2Npc" name="HM Pona" title="Customer Support">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>CONSTRUCT</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1673.05473" hpRegen="6.5" mp="889.8" mpRegen="2.4" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="388.11142" magical="265.02979" critical="4" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" accuracy="4.75" />
+			<defence physical="223.6362" magical="163.64727" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="8" />
+			<height normal="38" />
+		</collision>
+	</npc>
+	<npc id="13356" level="55" type="L2Npc" name="HM Bard" title="Customer Support">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1673.05473" hpRegen="6.5" mp="889.8" mpRegen="2.4" />
+			<speed>
+				<walk ground="15" />
+				<run ground="120" />
+			</speed>
+			<attack physical="388.11142" magical="265.02979" critical="4" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" accuracy="4.75" />
+			<defence physical="223.6362" magical="163.64727" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="13" />
+			<height normal="18.5" />
+		</collision>
+	</npc>
+	<npc id="13357" level="99" type="L2Monster" name="Severe Trap" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="10806" level="101" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1.0" hpRegen="1" mp="1.0" mpRegen="1" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1" magical="1" critical="4" attackSpeed="253" range="0" type="FIST" distance="0" width="0" random="0" accuracy="4.75" />
+			<defence physical="1" magical="1" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+		</skill_list>
+		<shots soul="1" spirit="1" />
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc>
+	<npc id="13358" level="99" type="L2Monster" name="Severe Trap" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="10806" level="102" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1.0" hpRegen="1" mp="1.0" mpRegen="1" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1" magical="1" critical="4" attackSpeed="253" range="0" type="FIST" distance="0" width="0" random="0" accuracy="4.75" />
+			<defence physical="1" magical="1" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+		</skill_list>
+		<shots soul="1" spirit="1" />
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc>
+	<npc id="13359" level="99" type="L2Monster" name="Severe Trap" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="10806" level="103" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1.0" hpRegen="1" mp="1.0" mpRegen="1" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1" magical="1" critical="4" attackSpeed="253" range="0" type="FIST" distance="0" width="0" random="0" accuracy="4.75" />
+			<defence physical="1" magical="1" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+		</skill_list>
+		<shots soul="1" spirit="1" />
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc>
+	<npc id="13360" level="99" type="L2Monster" name="Severe Trap" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="10806" level="104" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1.0" hpRegen="1" mp="1.0" mpRegen="1" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1" magical="1" critical="4" attackSpeed="253" range="0" type="FIST" distance="0" width="0" random="0" accuracy="4.75" />
+			<defence physical="1" magical="1" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+		</skill_list>
+		<shots soul="1" spirit="1" />
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc>
+	<npc id="13361" level="99" type="L2Monster" name="Severe Trap" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="10806" level="105" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1.0" hpRegen="1" mp="1.0" mpRegen="1" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1" magical="1" critical="4" attackSpeed="253" range="0" type="FIST" distance="0" width="0" random="0" accuracy="4.75" />
+			<defence physical="1" magical="1" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+		</skill_list>
+		<shots soul="1" spirit="1" />
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc>
+	<npc id="13362" level="99" type="L2Monster" name="Severe Trap" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="10806" level="106" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1.0" hpRegen="1" mp="1.0" mpRegen="1" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1" magical="1" critical="4" attackSpeed="253" range="0" type="FIST" distance="0" width="0" random="0" accuracy="4.75" />
+			<defence physical="1" magical="1" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+		</skill_list>
+		<shots soul="1" spirit="1" />
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc>
+	<npc id="13363" level="99" type="L2Monster" name="Severe Trap" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="10806" level="107" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1.0" hpRegen="1" mp="1.0" mpRegen="1" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1" magical="1" critical="4" attackSpeed="253" range="0" type="FIST" distance="0" width="0" random="0" accuracy="4.75" />
+			<defence physical="1" magical="1" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+		</skill_list>
+		<shots soul="1" spirit="1" />
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc>
+	<npc id="13364" level="99" type="L2Monster" name="Severe Trap" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="10806" level="108" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1.0" hpRegen="1" mp="1.0" mpRegen="1" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1" magical="1" critical="4" attackSpeed="253" range="0" type="FIST" distance="0" width="0" random="0" accuracy="4.75" />
+			<defence physical="1" magical="1" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+		</skill_list>
+		<shots soul="1" spirit="1" />
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc>
+	<npc id="13365" level="99" type="L2Monster" name="Severe Trap" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="10806" level="109" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1.0" hpRegen="1" mp="1.0" mpRegen="1" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1" magical="1" critical="4" attackSpeed="253" range="0" type="FIST" distance="0" width="0" random="0" accuracy="4.75" />
+			<defence physical="1" magical="1" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+		</skill_list>
+		<shots soul="1" spirit="1" />
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc>
+	<npc id="13366" level="99" type="L2Monster" name="Severe Trap" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="10806" level="110" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1.0" hpRegen="1" mp="1.0" mpRegen="1" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1" magical="1" critical="4" attackSpeed="253" range="0" type="FIST" distance="0" width="0" random="0" accuracy="4.75" />
+			<defence physical="1" magical="1" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+		</skill_list>
+		<shots soul="1" spirit="1" />
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc>
+	<npc id="13367" level="99" type="L2Monster" name="Yoke Trap" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="10807" level="101" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1.0" hpRegen="1" mp="1.0" mpRegen="1" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1" magical="1" critical="4" attackSpeed="253" range="0" type="FIST" distance="0" width="0" random="0" accuracy="4.75" />
+			<defence physical="1" magical="1" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+		</skill_list>
+		<shots soul="1" spirit="1" />
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc>
+	<npc id="13368" level="99" type="L2Monster" name="Yoke Trap" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="10807" level="102" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1.0" hpRegen="1" mp="1.0" mpRegen="1" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1" magical="1" critical="4" attackSpeed="253" range="0" type="FIST" distance="0" width="0" random="0" accuracy="4.75" />
+			<defence physical="1" magical="1" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+		</skill_list>
+		<shots soul="1" spirit="1" />
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc>
+	<npc id="13369" level="99" type="L2Monster" name="Yoke Trap" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="10807" level="103" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1.0" hpRegen="1" mp="1.0" mpRegen="1" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1" magical="1" critical="4" attackSpeed="253" range="0" type="FIST" distance="0" width="0" random="0" accuracy="4.75" />
+			<defence physical="1" magical="1" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+		</skill_list>
+		<shots soul="1" spirit="1" />
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc>
+	<npc id="13370" level="99" type="L2Monster" name="Yoke Trap" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="10807" level="104" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1.0" hpRegen="1" mp="1.0" mpRegen="1" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1" magical="1" critical="4" attackSpeed="253" range="0" type="FIST" distance="0" width="0" random="0" accuracy="4.75" />
+			<defence physical="1" magical="1" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+		</skill_list>
+		<shots soul="1" spirit="1" />
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc>
+	<npc id="13371" level="99" type="L2Monster" name="Yoke Trap" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="10807" level="105" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1.0" hpRegen="1" mp="1.0" mpRegen="1" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1" magical="1" critical="4" attackSpeed="253" range="0" type="FIST" distance="0" width="0" random="0" accuracy="4.75" />
+			<defence physical="1" magical="1" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+		</skill_list>
+		<shots soul="1" spirit="1" />
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc>
+	<npc id="13372" level="99" type="L2Monster" name="Yoke Trap" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="10807" level="106" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1.0" hpRegen="1" mp="1.0" mpRegen="1" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1" magical="1" critical="4" attackSpeed="253" range="0" type="FIST" distance="0" width="0" random="0" accuracy="4.75" />
+			<defence physical="1" magical="1" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+		</skill_list>
+		<shots soul="1" spirit="1" />
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc>
+	<npc id="13373" level="99" type="L2Monster" name="Yoke Trap" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="10807" level="107" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1.0" hpRegen="1" mp="1.0" mpRegen="1" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1" magical="1" critical="4" attackSpeed="253" range="0" type="FIST" distance="0" width="0" random="0" accuracy="4.75" />
+			<defence physical="1" magical="1" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+		</skill_list>
+		<shots soul="1" spirit="1" />
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc>
+	<npc id="13374" level="99" type="L2Monster" name="Yoke Trap" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="10807" level="108" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1.0" hpRegen="1" mp="1.0" mpRegen="1" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1" magical="1" critical="4" attackSpeed="253" range="0" type="FIST" distance="0" width="0" random="0" accuracy="4.75" />
+			<defence physical="1" magical="1" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+		</skill_list>
+		<shots soul="1" spirit="1" />
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc>
+	<npc id="13375" level="99" type="L2Monster" name="Yoke Trap" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="10807" level="109" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1.0" hpRegen="1" mp="1.0" mpRegen="1" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1" magical="1" critical="4" attackSpeed="253" range="0" type="FIST" distance="0" width="0" random="0" accuracy="4.75" />
+			<defence physical="1" magical="1" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+		</skill_list>
+		<shots soul="1" spirit="1" />
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc>
+	<npc id="13376" level="99" type="L2Monster" name="Yoke Trap" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="10807" level="110" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1.0" hpRegen="1" mp="1.0" mpRegen="1" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1" magical="1" critical="4" attackSpeed="253" range="0" type="FIST" distance="0" width="0" random="0" accuracy="4.75" />
+			<defence physical="1" magical="1" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+		</skill_list>
+		<shots soul="1" spirit="1" />
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc>
+	<npc id="13377" level="87" type="L2EffectPoint" name="Solo Dance" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="skill_delay" value="2" />
+			<param name="despawn_time" value="15" />
+			<skill name="union_skill" id="10523" level="2" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4656.72001612879" hpRegen="8.5" mp="1917.0" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="20" />
+			</speed>
+			<attack physical="1280.04974647763" magical="874.108045171166" critical="4" attackSpeed="253" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="369.3595" magical="270.28125" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<skill_list>
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="14765" level="5" /> <!-- Blood Siphon Resistance -->
+		</skill_list>
+		<ai aggroRange="300" isAggressive="true" />
+		<collision>
+			<radius normal="0.001" />
+			<height normal="0.001" />
+		</collision>
+	</npc>
+	<npc id="13378" level="90" type="L2EffectPoint" name="Solo Dance" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="skill_delay" value="2" />
+			<param name="despawn_time" value="15" />
+			<skill name="union_skill" id="10523" level="3" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="5382.40868221648" hpRegen="8.5" mp="2023.8" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="20" />
+			</speed>
+			<attack physical="1423.72742984904" magical="972.221273543337" critical="4" attackSpeed="253" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="379.98257" magical="278.05475" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<skill_list>
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="14765" level="5" /> <!-- Blood Siphon Resistance -->
+		</skill_list>
+		<ai aggroRange="300" isAggressive="true" />
+		<collision>
+			<radius normal="0.001" />
+			<height normal="0.001" />
+		</collision>
+	</npc>
+	<npc id="13379" level="93" type="L2EffectPoint" name="Solo Dance" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="skill_delay" value="2" />
+			<param name="despawn_time" value="15" />
+			<skill name="union_skill" id="10523" level="4" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="6237.08093980901" hpRegen="8.5" mp="2132.4" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="20" />
+			</speed>
+			<attack physical="1576.59650290572" magical="1076.61104243074" critical="4" attackSpeed="253" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="389.63603" magical="285.11874" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<skill_list>
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="14765" level="5" /> <!-- Blood Siphon Resistance -->
+		</skill_list>
+		<ai aggroRange="300" isAggressive="true" />
+		<collision>
+			<radius normal="0.001" />
+			<height normal="0.001" />
+		</collision>
+	</npc>
+	<npc id="13380" level="96" type="L2EffectPoint" name="Solo Dance" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="skill_delay" value="2" />
+			<param name="despawn_time" value="15" />
+			<skill name="union_skill" id="10523" level="5" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="7247.74958397622" hpRegen="8.5" mp="2242.8" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="20" />
+			</speed>
+			<attack physical="1750.29159476204" magical="1195.22226765359" critical="4" attackSpeed="253" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="398.22616" magical="291.40462" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<skill_list>
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="14765" level="5" /> <!-- Blood Siphon Resistance -->
+		</skill_list>
+		<ai aggroRange="300" isAggressive="true" />
+		<collision>
+			<radius normal="0.001" />
+			<height normal="0.001" />
+		</collision>
+	</npc>
+	<npc id="13381" level="99" type="L2EffectPoint" name="Solo Dance" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="skill_delay" value="2" />
+			<param name="despawn_time" value="15" />
+			<skill name="union_skill" id="10523" level="6" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446.44475689713" hpRegen="8.5" mp="2355.0" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="20" />
+			</speed>
+			<attack physical="1949.95411856464" magical="1331.56588332443" critical="4" attackSpeed="253" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="405.66735" magical="296.84976" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<skill_list>
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+			<skill id="14765" level="5" /> <!-- Blood Siphon Resistance -->
+		</skill_list>
+		<ai aggroRange="300" isAggressive="true" />
+		<collision>
+			<radius normal="0.001" />
+			<height normal="0.001" />
+		</collision>
+	</npc>
+	<npc id="13382" level="55" type="L2Npc" name="Orfen" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>FAIRY</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1673.05473" hpRegen="6.5" mp="889.8" mpRegen="2.4" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attack physical="388.11142" magical="265.02979" critical="4" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="223.6362" magical="163.64727" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<drop_lists>
+			<death>
+				<group chance="100">
+					<item id="57" min="110000" max="750000" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="44.983">
+					<item id="103" min="1" max="2" chance="22.083898361603" /> <!-- Tower Shield -->
+					<item id="283" min="1" max="1" chance="9.3991063290576" /> <!-- Akat Longbow -->
+					<item id="162" min="1" max="1" chance="9.3501989640531" /> <!-- War Axe -->
+					<item id="76" min="1" max="1" chance="9.2723917924549" /> <!-- Sword of Delusion -->
+					<item id="231" min="1" max="1" chance="9.2657226063179" /> <!-- Grace Dagger -->
+					<item id="303" min="1" max="1" chance="9.2368227997243" /> <!-- Widow Maker -->
+					<item id="199" min="1" max="1" chance="7.9096547584643" /> <!-- Pa'agrio Hammer -->
+					<item id="201" min="1" max="1" chance="7.8585243314141" /> <!-- Club of Nature -->
+					<item id="145" min="1" max="1" chance="7.8385167730031" /> <!-- Sword of Whispering Death -->
+					<item id="265" min="1" max="1" chance="7.7851632839073" /> <!-- Fisted Blade -->
+				</group>
+				<group chance="39.946">
+					<item id="420" min="1" max="1" chance="25.10389025184" /> <!-- Theca Leather Gaiters -->
+					<item id="400" min="1" max="1" chance="25.008761828468" /> <!-- Theca Leather Armor -->
+					<item id="472" min="1" max="1" chance="24.948680718971" /> <!-- Demon's Stockings -->
+					<item id="441" min="1" max="1" chance="24.938667200721" /> <!-- Demon's Tunic -->
+				</group>
+				<group chance="39.864">
+					<item id="64" min="1" max="2" chance="25.080272927955" /> <!-- Compound Boots -->
+					<item id="608" min="1" max="2" chance="25.070238811961" /> <!-- Mithril Gauntlets -->
+					<item id="60" min="1" max="1" chance="24.927252659041" /> <!-- Compound Armor -->
+					<item id="517" min="1" max="2" chance="24.922235601044" /> <!-- Compound Helmet -->
+				</group>
+				<group chance="100">
+					<item id="6661" min="1" max="1" chance="33.210405004939" /> <!-- Orfen's Earring -->
+					<item id="854" min="1" max="2" chance="23.582482713204" /> <!-- Earring of Seal -->
+					<item id="885" min="1" max="2" chance="23.035890681594" /> <!-- Ring of Ages -->
+					<item id="917" min="1" max="2" chance="20.171221600263" /> <!-- Necklace of Mermaid -->
+				</group>
+				<group chance="100">
+					<item id="36514" min="1" max="2" chance="28.70206396542" /> <!-- Elcyum Crystal -->
+					<item id="36253" min="1" max="1" chance="14.018088040711" /> <!-- Bottle of Orfen's Soul -->
+					<item id="45929" min="2" max="12" chance="12.671961240733" /> <!-- Spirit Stone -->
+					<item id="46474" min="1" max="1" chance="5.4763538046021" /> <!-- Leona's Soul Crystal - Stage 1 -->
+					<item id="46504" min="1" max="1" chance="5.4045986446885" /> <!-- Lionel's Soul Crystal - Stage 1 -->
+					<item id="46489" min="1" max="1" chance="5.2237756417064" /> <!-- Pantheon's Soul Crystal - Stage 1 -->
+					<item id="46490" min="1" max="1" chance="4.2134629901236" /> <!-- Pantheon's Soul Crystal - Stage 2 -->
+					<item id="46505" min="1" max="1" chance="4.2019821645375" /> <!-- Lionel's Soul Crystal - Stage 2 -->
+					<item id="46475" min="1" max="1" chance="4.1991119581409" /> <!-- Leona's Soul Crystal - Stage 2 -->
+					<item id="46444" min="1" max="1" chance="3.4298966438677" /> <!-- Kain's Soul Crystal - Stage 1 -->
+					<item id="46459" min="1" max="1" chance="3.3581414839541" /> <!-- Mermoden's Soul Crystal - Stage 1 -->
+					<item id="46445" min="1" max="1" chance="3.108433527455" /> <!-- Kain's Soul Crystal - Stage 2 -->
+					<item id="46460" min="1" max="1" chance="3.1026931146619" /> <!-- Mermoden's Soul Crystal - Stage 2 -->
+					<item id="951" min="1" max="2" chance="2.8894367793988" /> <!-- Scroll: Enchant Weapon (C-grade) -->
+				</group>
+			</death>
+			<luck>
+				<item id="39629" min="1" max="1" chance="80.61" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="15" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="13383" level="55" type="L2Npc" name="Queen Ant" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>BUG</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1673.05473" hpRegen="6.5" mp="889.8" mpRegen="2.4" />
+			<speed>
+				<walk ground="80" />
+				<run ground="180" />
+			</speed>
+			<attack physical="388.11142" magical="265.02979" critical="4" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="223.6362" magical="163.64727" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<drop_lists>
+			<death>
+				<group chance="100">
+					<item id="57" min="140000" max="1170000" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="68.749">
+					<item id="630" min="1" max="3" chance="27.665856957919" /> <!-- Square Shield -->
+					<item id="70" min="1" max="1" chance="8.6663078735691" /> <!-- Claymore -->
+					<item id="2499" min="1" max="1" chance="8.6299437082721" /> <!-- Elven Long Sword -->
+					<item id="225" min="1" max="1" chance="8.0568444631922" /> <!-- Mithril Dagger -->
+					<item id="189" min="1" max="1" chance="8.046662496909" /> <!-- Staff of Life -->
+					<item id="188" min="1" max="1" chance="7.9593885001964" /> <!-- Ghost Staff -->
+					<item id="159" min="1" max="1" chance="7.9346608677944" /> <!-- Bonebreaker -->
+					<item id="297" min="1" max="1" chance="7.9244789015113" /> <!-- Glaive -->
+					<item id="280" min="1" max="1" chance="7.9201152016757" /> <!-- Light Crossbow -->
+					<item id="262" min="1" max="1" chance="7.1957410289604" /> <!-- Scallop Jamadhr -->
+				</group>
+				<group chance="37.54">
+					<item id="380" min="1" max="2" chance="100" /> <!-- Plate Gaiters -->
+				</group>
+				<group chance="100">
+					<item id="438" min="1" max="2" chance="23.667711598746" /> <!-- Sage's Rags -->
+					<item id="396" min="1" max="2" chance="23.04625199362" /> <!-- Salamander Skin Mail -->
+					<item id="353" min="1" max="2" chance="19.914205576638" /> <!-- Half Plate Armor -->
+					<item id="607" min="1" max="3" chance="11.50525215861" /> <!-- Ogre Power Gauntlets -->
+					<item id="1125" min="1" max="3" chance="10.960787548809" /> <!-- Assault Boots -->
+					<item id="2412" min="1" max="3" chance="10.905791123577" /> <!-- Plate Helmet -->
+				</group>
+				<group chance="100">
+					<item id="851" min="1" max="2" chance="27.814418921992" /> <!-- Onyx Beast's Eye Earring -->
+					<item id="882" min="1" max="2" chance="26.199681601092" /> <!-- Mithril Ring -->
+					<item id="6660" min="1" max="1" chance="23.099082707907" /> <!-- Queen Ant's Ring -->
+					<item id="914" min="1" max="2" chance="22.886816769009" /> <!-- Dark Necklace -->
+				</group>
+				<group chance="100">
+					<item id="36514" min="1" max="2" chance="43.262699765516" /> <!-- Elcyum Crystal -->
+					<item id="36252" min="1" max="1" chance="29.842610298253" /> <!-- Bottle of Queen Ant's Soul -->
+					<item id="955" min="1" max="3" chance="9.0029678212039" /> <!-- Scroll: Enchant Weapon (D-grade) -->
+					<item id="46474" min="1" max="1" chance="4.1307225736115" /> <!-- Leona's Soul Crystal - Stage 1 -->
+					<item id="46504" min="1" max="1" chance="4.1203395256678" /> <!-- Lionel's Soul Crystal - Stage 1 -->
+					<item id="46489" min="1" max="1" chance="4.1160132556912" /> <!-- Pantheon's Soul Crystal - Stage 1 -->
+					<item id="46459" min="1" max="1" chance="2.771408546979" /> <!-- Mermoden's Soul Crystal - Stage 1 -->
+					<item id="46444" min="1" max="1" chance="2.7532382130774" /> <!-- Kain's Soul Crystal - Stage 1 -->
+				</group>
+			</death>
+			<luck>
+				<item id="39629" min="1" max="1" chance="60.76" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="25" />
+			<height normal="18" />
+		</collision>
+	</npc>
+	<npc id="13384" level="55" type="L2Npc" name="Lilith" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1673.05473" hpRegen="6.5" mp="889.8" mpRegen="2.4" />
+			<speed>
+				<walk ground="45" />
+				<run ground="180" />
+			</speed>
+			<attack physical="388.11142" magical="265.02979" critical="4" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="223.6362" magical="163.64727" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<drop_lists>
+			<death>
+				<group chance="100">
+					<item id="17343" min="2" max="2" chance="14.02851358918" /> <!-- Twilight Shield - Heavy Armor -->
+					<item id="17324" min="1" max="1" chance="7.8899082568807" /> <!-- Apocalypse Shaper -->
+					<item id="17326" min="1" max="1" chance="7.8502821208597" /> <!-- Apocalypse Slasher -->
+					<item id="17333" min="1" max="1" chance="7.8390834302451" /> <!-- Apocalypse Caster -->
+					<item id="17334" min="1" max="1" chance="7.82874617737" /> <!-- Apocalypse Retributer -->
+					<item id="17325" min="1" max="1" chance="7.8201317999742" /> <!-- Apocalypse Cutter -->
+					<item id="17330" min="1" max="1" chance="7.8097945470991" /> <!-- Apocalypse Thrower -->
+					<item id="17332" min="1" max="1" chance="7.8080716716199" /> <!-- Apocalypse Buster -->
+					<item id="17329" min="1" max="1" chance="7.789120041349" /> <!-- Apocalypse Stormer -->
+					<item id="17327" min="1" max="1" chance="7.7848128526511" /> <!-- Apocalypse Avenger -->
+					<item id="17328" min="1" max="1" chance="7.7796442262136" /> <!-- Apocalypse Fighter -->
+					<item id="17331" min="1" max="1" chance="7.7718912865573" /> <!-- Apocalypse Shooter -->
+				</group>
+				<group chance="100">
+					<item id="17346" min="2" max="2" chance="19.562575941677" /> <!-- Twilight Leather Leggings - Light Armor -->
+					<item id="17345" min="2" max="2" chance="17.95494906066" /> <!-- Twilight Leather Armor - Light Armor -->
+					<item id="17351" min="2" max="2" chance="16.300588840079" /> <!-- Twilight Stockings - Robe -->
+					<item id="17350" min="2" max="2" chance="15.98280213104" /> <!-- Twilight Tunic - Robe -->
+					<item id="17339" min="2" max="2" chance="15.347228712964" /> <!-- Twilight Breastplate - Heavy Armor -->
+					<item id="17340" min="2" max="2" chance="14.851855313581" /> <!-- Twilight Gaiters - Heavy Armor -->
+				</group>
+				<group chance="100">
+					<item id="37714" min="1" max="1" chance="18.51369565714" /> <!-- Talisman - Lilith -->
+					<item id="17347" min="2" max="2" chance="9.5675416352546" /> <!-- Twilight Leather Gloves - Light Armor -->
+					<item id="17348" min="2" max="2" chance="9.3345212802412" /> <!-- Twilight Leather Boots - Light Armor -->
+					<item id="17344" min="2" max="2" chance="8.9781372078679" /> <!-- Twilight Leather Helmet - Light Armor -->
+					<item id="17338" min="2" max="2" chance="7.9318301235922" /> <!-- Twilight Helmet - Heavy Armor -->
+					<item id="17342" min="2" max="2" chance="7.9089849907477" /> <!-- Twilight Boots - Heavy Armor -->
+					<item id="17352" min="2" max="2" chance="7.7353619811299" /> <!-- Twilight Gloves - Robe -->
+					<item id="17341" min="2" max="2" chance="7.7125168482855" /> <!-- Twilight Gauntlets - Heavy Armor -->
+					<item id="17349" min="2" max="2" chance="7.5754460512188" /> <!-- Twilight Circlet - Robe -->
+					<item id="17353" min="2" max="2" chance="7.3744088821876" /> <!-- Twilight Shoes - Robe -->
+					<item id="17354" min="2" max="2" chance="7.3675553423343" /> <!-- Twilight Sigil - Robe -->
+				</group>
+				<group chance="14.84">
+					<item id="36257" min="1" max="1" chance="100" /> <!-- Lilith's Soul Necklace -->
+				</group>
+				<group chance="100">
+					<item id="19447" min="10" max="10" chance="7.7830860252476" /> <!-- Blessed Scroll: Enchant Weapon (R-grade) -->
+					<item id="19448" min="5" max="5" chance="7.7182269750372" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
+					<item id="37779" min="1" max="1" chance="5.4418325054577" /> <!-- Scroll of Blessing: Armor (R-grade) -->
+					<item id="46505" min="1" max="2" chance="3.7934634732812" /> <!-- Lionel's Soul Crystal - Stage 2 -->
+					<item id="46475" min="1" max="2" chance="3.7333502072326" /> <!-- Leona's Soul Crystal - Stage 2 -->
+					<item id="46474" min="1" max="3" chance="3.7238586389091" /> <!-- Leona's Soul Crystal - Stage 1 -->
+					<item id="46489" min="1" max="3" chance="3.7191128547474" /> <!-- Pantheon's Soul Crystal - Stage 1 -->
+					<item id="46506" min="1" max="2" chance="3.6874742936691" /> <!-- Lionel's Soul Crystal - Stage 3 -->
+					<item id="46490" min="1" max="2" chance="3.6400164520518" /> <!-- Pantheon's Soul Crystal - Stage 2 -->
+					<item id="46491" min="1" max="2" chance="3.600468250704" /> <!-- Pantheon's Soul Crystal - Stage 3 -->
+					<item id="46476" min="1" max="2" chance="3.5973043945961" /> <!-- Leona's Soul Crystal - Stage 3 -->
+					<item id="46504" min="1" max="3" chance="3.5830670421109" /> <!-- Lionel's Soul Crystal - Stage 1 -->
+					<item id="46477" min="1" max="1" chance="2.7683740943462" /> <!-- Leona's Soul Crystal - Stage 4 -->
+					<item id="17700" min="1" max="1" chance="2.7557186699149" /> <!-- Lv. 5 Giant INT Dye - INT + 5 -->
+					<item id="17699" min="1" max="1" chance="2.6956054038662" /> <!-- Lv. 5 Giant CON Dye - CON + 5 -->
+					<item id="17698" min="1" max="1" chance="2.6054355047932" /> <!-- Lv. 5 Giant DEX Dye - DEX + 5 -->
+					<item id="46459" min="1" max="3" chance="2.5627234473376" /> <!-- Mermoden's Soul Crystal - Stage 1 -->
+					<item id="46507" min="1" max="1" chance="2.5706330876072" /> <!-- Lionel's Soul Crystal - Stage 4 -->
+					<item id="17702" min="1" max="1" chance="2.5706330876072" /> <!-- Lv. 5 Giant MEN Dye - Men + 5 -->
+					<item id="17697" min="1" max="1" chance="2.5643053753915" /> <!-- Lv. 5 Giant STR Dye - STR + 5 -->
+					<item id="46492" min="1" max="1" chance="2.5611415192837" /> <!-- Pantheon's Soul Crystal - Stage 4 -->
+					<item id="17701" min="1" max="1" chance="2.5421583826368" /> <!-- Lv. 5 Giant WIT Dye - Wit + 5 -->
+					<item id="46445" min="1" max="2" chance="2.501028253235" /> <!-- Kain's Soul Crystal - Stage 2 -->
+					<item id="46460" min="1" max="2" chance="2.4947005410194" /> <!-- Mermoden's Soul Crystal - Stage 2 -->
+					<item id="46446" min="1" max="2" chance="2.4440788432942" /> <!-- Kain's Soul Crystal - Stage 3 -->
+					<item id="46461" min="1" max="2" chance="2.3823836491916" /> <!-- Mermoden's Soul Crystal - Stage 3 -->
+					<item id="46444" min="1" max="3" chance="2.3475812320056" /> <!-- Kain's Soul Crystal - Stage 1 -->
+					<item id="37770" min="1" max="1" chance="2.3254342392508" /> <!-- Scroll of Blessing: Weapon (R-grade) -->
+					<item id="46462" min="1" max="1" chance="1.8587654633467" /> <!-- Mermoden's Soul Crystal - Stage 4 -->
+					<item id="46447" min="1" max="1" chance="1.8445281108615" /> <!-- Kain's Soul Crystal - Stage 4 -->
+					<item id="37716" min="1" max="1" chance="1.583509981966" /> <!-- Seven Signs' Energy -->
+				</group>
+			</death>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="30" />
+			<height normal="40" />
+		</collision>
+	</npc>
+	<npc id="13385" level="55" type="L2Npc" name="Anakim" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DIVINE</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1673.05473" hpRegen="6.5" mp="889.8" mpRegen="2.4" />
+			<speed>
+				<walk ground="45" />
+				<run ground="180" />
+			</speed>
+			<attack physical="388.11142" magical="265.02979" critical="4" attackSpeed="253" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="223.6362" magical="163.64727" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skill_list>
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4415" level="1" /> <!-- Bare Hands -->
+		</skill_list>
+		<shots soul="2" spirit="2" />
+		<drop_lists>
+			<death>
+				<group chance="100">
+					<item id="17401" min="2" max="2" chance="14.37933693138" /> <!-- Seraph Shield - Heavy Armor -->
+					<item id="17388" min="1" max="1" chance="7.8326051572004" /> <!-- Specter Thrower -->
+					<item id="17385" min="1" max="1" chance="7.8291784459865" /> <!-- Specter Avenger -->
+					<item id="17391" min="1" max="1" chance="7.8223250235586" /> <!-- Specter Caster -->
+					<item id="17392" min="1" max="1" chance="7.8146149233273" /> <!-- Specter Retributer -->
+					<item id="17389" min="1" max="1" chance="7.8026214340786" /> <!-- Specter Shooter -->
+					<item id="17386" min="1" max="1" chance="7.7931979782404" /> <!-- Specter Fighter -->
+					<item id="17390" min="1" max="1" chance="7.7597875439047" /> <!-- Specter Buster -->
+					<item id="17383" min="1" max="1" chance="7.7597875439047" /> <!-- Specter Cutter -->
+					<item id="17384" min="1" max="1" chance="7.747794054656" /> <!-- Specter Slasher -->
+					<item id="17387" min="1" max="1" chance="7.729803820783" /> <!-- Specter Stormer -->
+					<item id="17382" min="1" max="1" chance="7.7289471429795" /> <!-- Specter Shaper -->
+				</group>
+				<group chance="100">
+					<item id="17403" min="2" max="2" chance="19.328661010697" /> <!-- Seraph Leather Armor - Light Armor -->
+					<item id="17404" min="2" max="2" chance="18.637034304685" /> <!-- Seraph Leather Leggings - Light Armor -->
+					<item id="17408" min="2" max="2" chance="15.944300995942" /> <!-- Seraph Tunic - Robe -->
+					<item id="17397" min="2" max="2" chance="15.759867207672" /> <!-- Seraph Breastplate - Heavy Armor -->
+					<item id="17409" min="2" max="2" chance="15.722980450018" /> <!-- Seraph Stockings - Robe -->
+					<item id="17398" min="2" max="2" chance="14.607156030985" /> <!-- Seraph Gaiters - Heavy Armor -->
+				</group>
+				<group chance="100">
+					<item id="37715" min="1" max="1" chance="18.510898962114" /> <!-- Talisman - Anakim -->
+					<item id="17406" min="2" max="2" chance="9.5559510875847" /> <!-- Seraph Leather Boots - Light Armor -->
+					<item id="17405" min="2" max="2" chance="9.3525346154735" /> <!-- Seraph Leather Gloves - Light Armor -->
+					<item id="17402" min="2" max="2" chance="8.8208779270012" /> <!-- Seraph Leather Helmet - Light Armor -->
+					<item id="17411" min="2" max="2" chance="8.0441968516678" /> <!-- Seraph Shoes - Robe -->
+					<item id="17396" min="2" max="2" chance="7.9702272254456" /> <!-- Seraph Helmet - Heavy Armor -->
+					<item id="17407" min="2" max="2" chance="7.7159566353066" /> <!-- Seraph Circlet - Robe -->
+					<item id="17412" min="2" max="2" chance="7.6442985599038" /> <!-- Seraph Sigil - Robe -->
+					<item id="17400" min="2" max="2" chance="7.6096252976122" /> <!-- Seraph Boots - Heavy Armor -->
+					<item id="17399" min="2" max="2" chance="7.4247012320566" /> <!-- Seraph Gauntlets - Heavy Armor -->
+					<item id="17410" min="2" max="2" chance="7.3507316058344" /> <!-- Seraph Gloves - Robe -->
+				</group>
+				<group chance="100">
+					<item id="19447" min="10" max="10" chance="7.6508856246479" /> <!-- Blessed Scroll: Enchant Weapon (R-grade) -->
+					<item id="19448" min="5" max="5" chance="7.5569813946472" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
+					<item id="37780" min="1" max="1" chance="5.4695365441396" /> <!-- Scroll of Blessing: Armor (R95-grade) -->
+					<item id="46476" min="1" max="2" chance="3.7022897237984" /> <!-- Leona's Soul Crystal - Stage 3 -->
+					<item id="46504" min="1" max="3" chance="3.6114643210108" /> <!-- Lionel's Soul Crystal - Stage 1 -->
+					<item id="46505" min="1" max="2" chance="3.5976095985517" /> <!-- Lionel's Soul Crystal - Stage 2 -->
+					<item id="46506" min="1" max="2" chance="3.5883731169123" /> <!-- Lionel's Soul Crystal - Stage 3 -->
+					<item id="46475" min="1" max="2" chance="3.5760578080598" /> <!-- Leona's Soul Crystal - Stage 2 -->
+					<item id="46491" min="1" max="2" chance="3.5668213264203" /> <!-- Pantheon's Soul Crystal - Stage 3 -->
+					<item id="46490" min="1" max="2" chance="3.4544441331408" /> <!-- Pantheon's Soul Crystal - Stage 2 -->
+					<item id="46489" min="1" max="3" chance="3.4067223113372" /> <!-- Pantheon's Soul Crystal - Stage 1 -->
+					<item id="46474" min="1" max="3" chance="3.3897887616649" /> <!-- Leona's Soul Crystal - Stage 1 -->
+					<item id="17701" min="1" max="1" chance="2.6508702305118" /> <!-- Lv. 5 Giant WIT Dye - Wit + 5 -->
+					<item id="17700" min="1" max="1" chance="2.6431731624789" /> <!-- Lv. 5 Giant INT Dye - INT + 5 -->
+					<item id="17702" min="1" max="1" chance="2.6277790264133" /> <!-- Lv. 5 Giant MEN Dye - Men + 5 -->
+					<item id="46507" min="1" max="1" chance="2.6154637175607" /> <!-- Lionel's Soul Crystal - Stage 4 -->
+					<item id="17699" min="1" max="1" chance="2.610845476741" /> <!-- Lv. 5 Giant CON Dye - CON + 5 -->
+					<item id="46477" min="1" max="1" chance="2.6093060631344" /> <!-- Leona's Soul Crystal - Stage 4 -->
+					<item id="46492" min="1" max="1" chance="2.5769783773965" /> <!-- Pantheon's Soul Crystal - Stage 4 -->
+					<item id="17697" min="1" max="1" chance="2.5692813093636" /> <!-- Lv. 5 Giant STR Dye - STR + 5 -->
+					<item id="17698" min="1" max="1" chance="2.5400324508388" /> <!-- Lv. 5 Giant DEX Dye - DEX + 5 -->
+					<item id="46444" min="1" max="3" chance="2.4907712154286" /> <!-- Kain's Soul Crystal - Stage 1 -->
+					<item id="46461" min="1" max="2" chance="2.4707588385432" /> <!-- Mermoden's Soul Crystal - Stage 3 -->
+					<item id="46459" min="1" max="3" chance="2.4091822942805" /> <!-- Mermoden's Soul Crystal - Stage 1 -->
+					<item id="46446" min="1" max="2" chance="2.3753151949359" /> <!-- Kain's Soul Crystal - Stage 3 -->
+					<item id="46460" min="1" max="2" chance="2.353763404444" /> <!-- Mermoden's Soul Crystal - Stage 2 -->
+					<item id="46445" min="1" max="2" chance="2.321435718706" /> <!-- Kain's Soul Crystal - Stage 2 -->
+					<item id="10296" min="1" max="1" chance="2.2906474465747" /> <!-- Transformation Sealbook: Anakim -->
+					<item id="37771" min="1" max="1" chance="2.2044402846068" /> <!-- Scroll of Blessing: Weapon (R95-grade) -->
+					<item id="46462" min="1" max="1" chance="1.8195868829645" /> <!-- Mermoden's Soul Crystal - Stage 4 -->
+					<item id="46447" min="1" max="1" chance="1.7149067577179" /> <!-- Kain's Soul Crystal - Stage 4 -->
+					<item id="37716" min="1" max="1" chance="1.534487483028" /> <!-- Seven Signs' Energy -->
+				</group>
+			</death>
+			<luck>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</luck>
+		</drop_lists>
+		<collision>
+			<radius normal="13" />
+			<height normal="29" />
+		</collision>
+	</npc>
+	<npc id="13386" level="90" type="L2Monster" name="Transformed: Greater Arcana Lord" title="Transformed: Wynn Arcana Lord">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DIVINE</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="5382.40868221648" hpRegen="9.5" mp="2023.8" mpRegen="3.3" />
+			<speed>
+				<walk ground="46" />
+				<run ground="180" />
+			</speed>
+			<attack physical="2029.2291828004" magical="494.98907242557" critical="4" attackSpeed="253" range="40" />
+			<defence physical="2145.251396648" magical="304.2203661707" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4416" level="8" /> <!-- Angels -->
+		</skill_list>
+		<collision>
+			<radius normal="14.5" />
+			<height normal="29" />
+		</collision>
+	</npc>
+	<npc id="13387" level="90" type="L2Monster" name="Transformed: Greater Spectral Master" title="Transformed: Wynn Spectral Master">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DIVINE</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="5382.40868221648" hpRegen="9.5" mp="2023.8" mpRegen="3.3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="2029.2291828004" magical="494.98907242557" critical="4" attackSpeed="253" range="40" />
+			<defence physical="2145.251396648" magical="304.2203661707" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4416" level="8" /> <!-- Angels -->
+		</skill_list>
+		<collision>
+			<radius normal="10" />
+			<height normal="28" />
+		</collision>
+	</npc>
+	<npc id="13388" level="90" type="L2Monster" name="Transformed: Greater Elemental Master" title="Transformed: Wynn Elemental Master">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DIVINE</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="5382.40868221648" hpRegen="9.5" mp="2023.8" mpRegen="3.3" />
+			<speed>
+				<walk ground="49" />
+				<run ground="180" />
+			</speed>
+			<attack physical="2029.2291828004" magical="494.98907242557" critical="4" attackSpeed="253" range="40" />
+			<defence physical="2145.251396648" magical="304.2203661707" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4416" level="8" /> <!-- Angels -->
+		</skill_list>
+		<collision>
+			<radius normal="16" />
+			<height normal="30" />
+		</collision>
+	</npc>
+	<npc id="13389" level="85" type="L2Monster" name="Transformed: Siege Golem" title="Transformed: Tyrr Maestro">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>CONSTRUCT</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4234.06312688557" hpRegen="9.5" mp="1846.8" mpRegen="3.3" />
+			<speed>
+				<walk ground="70" />
+				<run ground="180" />
+			</speed>
+			<attack physical="2087.5403662142" magical="523.84545083854" critical="4" attackSpeed="253" range="40" />
+			<defence physical="2206.8965517241" magical="312.96233071583" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+		</skill_list>
+		<collision>
+			<radius normal="40" />
+			<height normal="68" />
+		</collision>
+	</npc>
+	<npc id="13390" level="99" type="L2Monster" name="Lind Rider" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446.44475689713" hpRegen="10.5" mp="2355.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1932.08523256" magical="448.73089830205" critical="4" attackSpeed="253" range="40" />
+			<defence physical="2042.5531914894" magical="289.65662523699" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4416" level="10" /> <!-- Dragons -->
+		</skill_list>
+		<collision>
+			<radius normal="46" />
+			<height normal="33" />
+		</collision>
+	</npc>
+	<npc id="13391" level="99" type="L2Monster" name="Air Bike" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>CONSTRUCT</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446.44475689713" hpRegen="10.5" mp="2355.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1932.08523256" magical="448.73089830205" critical="4" attackSpeed="253" range="40" />
+			<defence physical="2042.5531914894" magical="289.65662523699" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+		</skill_list>
+		<collision>
+			<radius normal="35" />
+			<height normal="50" />
+		</collision>
+	</npc>
+	<npc id="13392" level="99" type="L2Monster" name="Transformed: Part-time Seller Cat" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446.44475689713" hpRegen="10.5" mp="2355.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="160" />
+			</speed>
+			<attack physical="1932.08523256" magical="448.73089830205" critical="4" attackSpeed="253" range="40" />
+			<defence physical="2042.5531914894" magical="289.65662523699" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+		</skill_list>
+		<collision>
+			<radius normal="13" />
+			<height normal="12" />
+		</collision>
+	</npc>
+	<npc id="13393" level="99" type="L2Monster" name="Transformed: Part-time Seller Cat" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446.44475689713" hpRegen="10.5" mp="2355.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="160" />
+			</speed>
+			<attack physical="1932.08523256" magical="448.73089830205" critical="4" attackSpeed="253" range="40" />
+			<defence physical="2042.5531914894" magical="289.65662523699" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+		</skill_list>
+		<collision>
+			<radius normal="13" />
+			<height normal="12" />
+		</collision>
+	</npc>
+	<npc id="13394" level="99" type="L2Monster" name="Transformed: Part-time Seller Cat" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446.44475689713" hpRegen="10.5" mp="2355.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="160" />
+			</speed>
+			<attack physical="1932.08523256" magical="448.73089830205" critical="4" attackSpeed="253" range="40" />
+			<defence physical="2042.5531914894" magical="289.65662523699" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+		</skill_list>
+		<collision>
+			<radius normal="13" />
+			<height normal="12" />
+		</collision>
+	</npc>
+	<npc id="13395" level="99" type="L2Monster" name="Transformed: Part-time Seller Cat" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446.44475689713" hpRegen="10.5" mp="2355.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="160" />
+			</speed>
+			<attack physical="1932.08523256" magical="448.73089830205" critical="4" attackSpeed="253" range="40" />
+			<defence physical="2042.5531914894" magical="289.65662523699" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+		</skill_list>
+		<collision>
+			<radius normal="13" />
+			<height normal="12" />
+		</collision>
+	</npc>
+	<npc id="13396" level="99" type="L2Monster" name="Transformed: Part-time Seller Cat" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446.44475689713" hpRegen="10.5" mp="2355.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="160" />
+			</speed>
+			<attack physical="1932.08523256" magical="448.73089830205" critical="4" attackSpeed="253" range="40" />
+			<defence physical="2042.5531914894" magical="289.65662523699" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+		</skill_list>
+		<collision>
+			<radius normal="13" />
+			<height normal="12" />
+		</collision>
+	</npc>
+	<npc id="13397" level="99" type="L2Npc" name="Bae Kisung" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446.44475689713" hpRegen="10.5" mp="2355.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="160" />
+			</speed>
+			<attack physical="297.30454394902" magical="155.56004474471" critical="4" attackSpeed="253" range="40" />
+			<defence physical="171.8085106383" magical="125.69342040587" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+		</skill_list>
+		<collision>
+			<radius normal="11" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="13398" level="99" type="L2Npc" name="Holiday Bae Kisung" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446.44475689713" hpRegen="10.5" mp="2355.0" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="160" />
+			</speed>
+			<attack physical="297.30454394902" magical="155.56004474471" critical="4" attackSpeed="253" range="40" />
+			<defence physical="171.8085106383" magical="125.69342040587" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+		</skill_list>
+		<collision>
+			<radius normal="11" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="13399" level="1" type="L2Npc" name="Young Wintermelon" title="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="39.74519" hpRegen="2" mp="40.0" mpRegen="0.9" />
+			<speed>
+				<walk ground="50" />
+				<run ground="100" />
+			</speed>
+			<attack physical="6.5892430607034" magical="6.1428012082644" critical="1" attackSpeed="253" range="40" />
+			<defence physical="40" magical="24.202420242024" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4441" level="5" /> <!-- Greater Mental Attack Resistance -->
+			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="4414" level="3" /> <!-- Light Armor Type -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+		</skill_list>
+		<collision>
+			<radius normal="10" />
+			<height normal="10.5" />
+		</collision>
+	</npc>
+</list>

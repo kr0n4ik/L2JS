@@ -1,0 +1,2098 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="19001" toLevel="1" name="Test Bleed">
+		<!-- AUTO GENERATED SKILL -->
+		<!-- Race confirm -->
+		<icon>icon.skill0010509</icon>
+		<operateType>A2</operateType>
+		<castRange>40</castRange>
+		<hitTime>1080</hitTime>
+		<coolTime>720</coolTime>
+		<reuseDelay>3000</reuseDelay>
+		<effectPoint>-1</effectPoint>
+		<subordinationAbnormalType>BLEEDING</subordinationAbnormalType>
+		<abnormalType>BLEEDING</abnormalType>
+		<basicProperty>PHYSICAL</basicProperty>
+		<rideState>NONE</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effectRange>400</effectRange>
+		<lvlBonusRate>30</lvlBonusRate>
+		<activateRate>100</activateRate>
+		<magicLvl>85</magicLvl>
+		<abnormalLvl>3</abnormalLvl>
+		<abnormalTime>40</abnormalTime>
+		<trait>BLEED</trait>
+		<abnormalVisualEffect>DOT_BLEEDING</abnormalVisualEffect>
+		<isDebuff>1</isDebuff>
+		<targetType>ENEMY_ONLY</targetType>
+		<affectScope>SINGLE</affectScope>
+	</skill>
+	<skill id="19002" toLevel="1" name="Anchor">
+		<!-- AUTO GENERATED SKILL -->
+		<!-- Action prevent item skill confirm -->
+		<icon>icon.skill10510</icon>
+		<operateType>A2</operateType>
+		<castRange>400</castRange>
+		<hitTime>3000</hitTime>
+		<reuseDelay>3000</reuseDelay>
+		<isMagic>1</isMagic>
+		<effectPoint>-1</effectPoint>
+		<abnormalType>PARALYZE</abnormalType>
+		<basicProperty>MAGIC</basicProperty>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effectRange>900</effectRange>
+		<lvlBonusRate>20</lvlBonusRate>
+		<activateRate>40</activateRate>
+		<magicLvl>85</magicLvl>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>40</abnormalTime>
+		<trait>PARALYZE</trait>
+		<isDebuff>1</isDebuff>
+		<targetType>ENEMY_ONLY</targetType>
+		<affectScope>SINGLE</affectScope>
+	</skill>
+	<skill id="19003" toLevel="5" name="Clan Resistance Hall">
+		<!-- Only 4 level are in use -->
+		<!-- Level 1: Increases clan members' Holy/Dark Attack Resistance by 3. Applies after the elder stage. -->
+		<!-- Level 2: Increases clan members' Holy/Dark Attack Resistance by 4. Applies after the elder stage. -->
+		<!-- Level 3: Increases clan members' Holy/Dark Attack Resistance by 5. Applies after the elder stage. -->
+		<!-- Level 4: Increases clan members' Holy/Dark Attack Resistance by 6. Applies after the elder stage. -->
+		<!-- Level 5: Increases clan members' Holy/Dark Attack Resistance by 7. Applies after the elder stage. -->
+		<icon>icon.skill19003</icon>
+		<magicLvl>1</magicLvl>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="p_defence_attribute">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">4</value>
+					<value level="3">5</value>
+					<value level="4">6</value>
+					<value level="5">7</value>
+				</amount>
+				<attribute>HOLY</attribute>
+			</effect>
+			<effect name="p_defence_attribute">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">4</value>
+					<value level="3">5</value>
+					<value level="4">6</value>
+					<value level="5">7</value>
+				</amount>
+				<attribute>DARK</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19004" toLevel="5" name="Clan De-Buff Control">
+		<!-- Updated to Helios -->
+		<!-- Level 1: Increases clan members' Debuff Resistance by 3%. Applies after the elder stage. -->
+		<!-- Level 2: Increases clan members' Debuff Resistance by 4%. Applies after the elder stage. -->
+		<!-- Level 3: Increases clan members' Debuff Resistance by 5%. Applies after the elder stage. -->
+		<!-- Level 4: Increases clan members' Debuff Resistance by 6%. Applies after the elder stage. -->
+		<!-- Level 5: Increases clan members' Debuff Resistance by 7%. Applies after the elder stage. -->
+		<icon>icon.skill19004</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLvl>1</magicLvl>
+		<effects>
+			<effect name="p_resist_abnormal_by_category">
+				<amount>
+					<value level="1">-3</value>
+					<value level="2">-4</value>
+					<value level="3">-5</value>
+					<value level="4">-6</value>
+					<value level="5">-7</value>
+				</amount>
+				<slot>DEBUFF</slot>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19005" toLevel="5" name="Clan Muzzle Control">
+		<!-- Updated to Helios -->
+		<!-- Level 1: Increases clan members' Paralysis Resistance by 12. Applies after the elder stage. -->
+		<!-- Level 2: Increases clan members' Paralysis Resistance by 13. Applies after the elder stage. -->
+		<!-- Level 3: Increases clan members' Paralysis Resistance by 14. Applies after the elder stage. -->
+		<!-- Level 4: Increases clan members' Paralysis Resistance by 15. Applies after the elder stage. -->
+		<!-- Level 5: Increases clan members' Paralysis Resistance by 16. Applies after the elder stage. -->
+		<icon>icon.skill19005</icon>
+		<magicLvl>1</magicLvl>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="p_defence_trait">
+				<PARALYZE>
+					<value level="1">12</value>
+					<value level="2">13</value>
+					<value level="3">14</value>
+					<value level="4">15</value>
+					<value level="5">16</value>
+				</PARALYZE>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19006" toLevel="5" name="Clan Mental Control">
+		<!-- Updated to Helios -->
+		<!-- Level 1: Increases clan members' Mental Attack Resistance by 12. Applies after the elder stage. -->
+		<!-- Level 2: Increases clan members' Mental Attack Resistance by 13. Applies after the elder stage. -->
+		<!-- Level 3: Increases clan members' Mental Attack Resistance by 14. Applies after the elder stage. -->
+		<!-- Level 4: Increases clan members' Mental Attack Resistance by 15. Applies after the elder stage. -->
+		<!-- Level 5: Increases clan members' Mental Attack Resistance by 16. Applies after the elder stage. -->
+		<icon>icon.skill19006</icon>
+		<magicLvl>1</magicLvl>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="p_defence_trait">
+				<DERANGEMENT>
+					<value level="1">12</value>
+					<value level="2">13</value>
+					<value level="3">14</value>
+					<value level="4">15</value>
+					<value level="5">16</value>
+				</DERANGEMENT>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19007" toLevel="1" name="Clan Summon">
+		<!-- Glory Days confirmed -->
+		<!-- Summons a clan member. Consumes 5 Spirit Ores. Consumes 900 Individual Fame. Applies after the viscount stage. -->
+		<icon>icon.skill19007</icon>
+		<operateType>A1</operateType>
+		<castRange>-2</castRange>
+		<hitTime>15000</hitTime>
+		<effectPoint>467</effectPoint>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effectRange>-2</effectRange>
+		<magicLvl>85</magicLvl>
+		<isMagic>2</isMagic>
+		<reuseDelay>1800000</reuseDelay>
+		<targetType>OTHERS</targetType>
+		<affectScope>SINGLE</affectScope>
+		<pvpPointConsume>900</pvpPointConsume>
+		<conditions>
+			<condition name="OpCallPc" />
+			<condition name="TargetMyPledge" />
+		</conditions>
+		<effects>
+			<effect name="i_call_pc">
+				<itemId>8615</itemId>
+				<itemCount>0</itemCount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19008" toLevel="1" name="Clan Guardian">
+		<!-- Glory Days confirmed -->
+		<!-- Uses the clan guardian's power to restore nearby clan members' HP/MP/CP. Consumes 100 Spirit Ores. Consumes 1000 Clan Reputation. Distinguished King or above only. -->
+		<icon>icon.skill19008</icon>
+		<operateType>A1</operateType>
+		<hitTime>1500</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>100</effectPoint>
+		<rideState>NONE</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLvl>85</magicLvl>
+		<isMagic>2</isMagic>
+		<reuseDelay>3600000</reuseDelay>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<pledgeNvConsume>1000</pledgeNvConsume>
+		<conditions>
+			<condition name="CanUseInBattlefield" />
+		</conditions>
+		<effects>
+			<effect name="i_summon_npc">
+				<npcId>15053</npcId>
+				<npcCount>1</npcCount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19009" toLevel="1" name="Clan Advent">
+		<!-- Glory Days confirmed -->
+		<!-- When the clan leader logs in, clan members' P. Atk., P. Def., and M. Def. + 5%, M. Atk. + 6%, and HP/MP recovery bonus + 5. -->
+		<icon>icon.skill19009</icon>
+		<operateType>A2</operateType>
+		<effectPoint>100</effectPoint>
+		<abnormalType>CLAN_ADVENT</abnormalType>
+		<basicProperty>NONE</basicProperty>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<specialLevel>-2</specialLevel>
+		<hitCancelTime>0</hitCancelTime>
+		<magicLvl>-2</magicLvl>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>-1</abnormalTime>
+		<irreplacableBuff>true</irreplacableBuff>
+		<canBeDispelled>false</canBeDispelled>
+		<affectRange>1000</affectRange>
+		<affectLimit>50-50</affectLimit>
+		<isMagic>2</isMagic>
+		<targetType>SELF</targetType>
+		<affectScope>PLEDGE</affectScope>
+		<affectObject>FRIEND</affectObject>
+		<effects>
+			<effect name="p_physical_attack">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="p_magical_attack">
+				<amount>6</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="p_physical_defence">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="p_magical_defence">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="p_mp_regen">
+				<amount>5</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="p_hp_regen">
+				<amount>5</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19010" toLevel="1" name="Clan Copy">
+		<!-- Glory Days confirmed -->
+		<!-- Summons a copy of yourself to cause confusion among the enemy. Consumes 50 Spirit Ores. Consumes 1500 Individual Fame. Marquis or above only. -->
+		<icon>icon.skill19010</icon>
+		<operateType>A1</operateType>
+		<hitTime>2000</hitTime>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLvl>85</magicLvl>
+		<isMagic>2</isMagic>
+		<reuseDelay>3600000</reuseDelay>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<pvpPointConsume>1500</pvpPointConsume>
+		<effects>
+			<effect name="i_summon_npc">
+				<npcId>13339</npcId>
+				<npcCount>1</npcCount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19011" toLevel="1" name="Clan Legend">
+		<!-- Glory Days confirmed -->
+		<!-- Increases P. Atk. and P. Def. by 100 when HP is below 30%. Applies after the lord stage. -->
+		<icon>icon.skill19011</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLvl>85</magicLvl>
+		<effects>
+			<effect name="p_physical_attack_by_hp1">
+				<amount>100</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="p_physical_defence_by_hp1">
+				<amount>100</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19012" toLevel="1" name="Clan Hide">
+		<!-- Glory Days confirmed -->
+		<!-- Hides nearby clan members. Decreases Speed by 50% when hidden. Consumes 150 Soulstones. Consumes 1000 Clan Reputation. Applies after the lord stage. -->
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>40</abnormalTime>
+		<abnormalType>HIDE</abnormalType>
+		<abnormalVisualEffect>STEALTH</abnormalVisualEffect>
+		<icon>icon.skill19012</icon>
+		<operateType>A2</operateType>
+		<hitTime>1000</hitTime>
+		<effectPoint>100</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLvl>85</magicLvl>
+		<canBeDispelled>false</canBeDispelled>
+		<affectRange>1000</affectRange>
+		<affectLimit>50-50</affectLimit>
+		<staticReuse>true</staticReuse>
+		<isMagic>2</isMagic>
+		<reuseDelay>14400000</reuseDelay>
+		<targetType>SELF</targetType>
+		<affectScope>PLEDGE</affectScope>
+		<affectObject>FRIEND</affectObject>
+		<pledgeNvConsume>1000</pledgeNvConsume>
+		<effects>
+			<effect name="p_hide" />
+			<effect name="SilentMove">
+				<chance>100</chance>
+			</effect>
+			<effect name="p_speed">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19013" toLevel="1" name="Clan Un-debuff">
+		<!-- Glory Days confirmed -->
+		<!-- Cancels all debuffs of nearby clan members. Consumes 30 Spirit Ore. Consumes 1500 Individual Fame. Applies after the marquis stage. -->
+		<icon>icon.skill19013</icon>
+		<operateType>A1</operateType>
+		<hitTime>1500</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>100</effectPoint>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLvl>85</magicLvl>
+		<canBeDispelled>false</canBeDispelled>
+		<affectRange>1000</affectRange>
+		<affectLimit>50-50</affectLimit>
+		<isMagic>2</isMagic>
+		<reuseDelay>3600000</reuseDelay>
+		<targetType>SELF</targetType>
+		<affectScope>PLEDGE</affectScope>
+		<affectObject>FRIEND</affectObject>
+		<pvpPointConsume>1500</pvpPointConsume>
+		<effects>
+			<effect name="i_dispel_by_category">
+				<slot>DEBUFF</slot>
+				<rate>100</rate>
+				<max>10</max>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19014" toLevel="1" name="Clan Defense">
+		<!-- Glory Days confirmed -->
+		<!-- Makes nearby clan members invincible. Consumes 30 Spirit Ore. Consumes 1000 Clan Reputation. Applies after the distinguished king stage. -->
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>5</abnormalTime>
+		<abnormalType>INVINCIBILITY</abnormalType>
+		<abnormalVisualEffect>INVINCIBILITY</abnormalVisualEffect>
+		<icon>icon.SKILL19014</icon>
+		<operateType>A2</operateType>
+		<hitTime>1500</hitTime>
+		<coolTime>500</coolTime>
+		<basicProperty>NONE</basicProperty>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLvl>85</magicLvl>
+		<canBeDispelled>false</canBeDispelled>
+		<affectRange>500</affectRange>
+		<staticReuse>true</staticReuse>
+		<isMagic>2</isMagic>
+		<reuseDelay>3600000</reuseDelay>
+		<targetType>SELF</targetType>
+		<affectScope>PLEDGE</affectScope>
+		<affectObject>FRIEND</affectObject>
+		<pledgeNvConsume>1000</pledgeNvConsume>
+		<effects>
+			<effect name="p_block_getdamage">
+				<type>BLOCK_HP</type>
+			</effect>
+			<effect name="p_block_getdamage">
+				<type>BLOCK_MP</type>
+			</effect>
+			<effect name="p_block_debuff" />
+		</effects>
+	</skill>
+	<skill id="19015" toLevel="1" name="Clan Friendly">
+		<!-- Updated to Helios -->
+		<!-- Increases nearby clan members' P. Critical Rate by 3% and M. Critical Rate by 20. Consumes 50 Spirit Ore. Consumes 3500 Individual Fame. Applies after the marquis stage. -->
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>600</abnormalTime>
+		<abnormalType>CLAN_FRIEND</abnormalType>
+		<icon>icon.skill19015</icon>
+		<operateType>A2</operateType>
+		<hitTime>2500</hitTime>
+		<effectPoint>100</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLvl>85</magicLvl>
+		<canBeDispelled>false</canBeDispelled>
+		<affectRange>500</affectRange>
+		<affectLimit>50-50</affectLimit>
+		<isMagic>2</isMagic>
+		<reuseDelay>3600000</reuseDelay>
+		<targetType>SELF</targetType>
+		<affectScope>PLEDGE</affectScope>
+		<affectObject>FRIEND</affectObject>
+		<pvpPointConsume>3500</pvpPointConsume>
+		<effects>
+			<effect name="p_critical_rate">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="p_magic_critical_rate">
+				<amount>20</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19016" toLevel="1" name="Clan Boundary">
+		<!-- Glory Days confirmed -->
+		<!-- Increases nearby clan members' P. Atk. by 3% and P. Def. by 3%. Consumes 50 Spirit Ore. Consumes 3000 Individual Fame. Applies after the count stage. -->
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>600</abnormalTime>
+		<abnormalType>CLAN_BOUNDARY</abnormalType>
+		<icon>icon.skill19016</icon>
+		<operateType>A2</operateType>
+		<hitTime>2500</hitTime>
+		<effectPoint>100</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLvl>85</magicLvl>
+		<canBeDispelled>false</canBeDispelled>
+		<affectRange>500</affectRange>
+		<affectLimit>50-50</affectLimit>
+		<isMagic>2</isMagic>
+		<reuseDelay>3600000</reuseDelay>
+		<targetType>SELF</targetType>
+		<affectScope>PLEDGE</affectScope>
+		<affectObject>FRIEND</affectObject>
+		<pvpPointConsume>3000</pvpPointConsume>
+		<effects>
+			<effect name="p_physical_attack">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="p_physical_defence">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19017" toLevel="1" name="Clan Prison">
+		<!-- Glory Days confirmed -->
+		<!-- For 60 sec., Speed of nearby enemies - 23% and stops them from escaping. Consumes 30 Spirit Ore. Consumes 3000 Individual Fame. Applies after the duke stage. -->
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>60</abnormalTime>
+		<abnormalType>CLAN_PRISON</abnormalType>
+		<icon>icon.skill19017</icon>
+		<operateType>A2</operateType>
+		<hitTime>1500</hitTime>
+		<reuseDelay>3600000</reuseDelay>
+		<effectPoint>-100</effectPoint>
+		<basicProperty>MAGIC</basicProperty>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<lvlBonusRate>30</lvlBonusRate>
+		<activateRate>90</activateRate>
+		<magicLvl>85</magicLvl>
+		<trait>HOLD</trait>
+		<canBeDispelled>false</canBeDispelled>
+		<affectRange>600</affectRange>
+		<affectLimit>10-10</affectLimit>
+		<isMagic>2</isMagic>
+		<isDebuff>1</isDebuff>
+		<targetType>SELF</targetType>
+		<affectScope>POINT_BLANK</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<pvpPointConsume>3000</pvpPointConsume>
+		<effects>
+			<effect name="p_speed">
+				<amount>-23</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="p_block_escape" />
+		</effects>
+	</skill>
+	<skill id="19018" toLevel="1" name="Clan Guardian Recovery">
+		<!-- Glory Days confirmed -->
+		<!-- Restores HP/MP/CP. -->
+		<icon>icon.skill19008</icon>
+		<operateType>A1</operateType>
+		<hitTime>1500</hitTime>
+		<effectPoint>100</effectPoint>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLvl>85</magicLvl>
+		<canBeDispelled>false</canBeDispelled>
+		<affectRange>1000</affectRange>
+		<isMagic>2</isMagic>
+		<reuseDelay>5000</reuseDelay>
+		<targetType>SELF</targetType>
+		<affectScope>POINT_BLANK</affectScope>
+		<affectObject>FRIEND</affectObject>
+		<effects>
+			<effect name="i_heal">
+				<power>500</power>
+			</effect>
+			<effect name="i_mp">
+				<amount>500</amount>
+			</effect>
+			<effect name="i_cp">
+				<amount>500</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19019" toLevel="1" name="Revolution Blade">
+		<!-- Glory Days confirmed -->
+		<!-- TO DO: op_territory -->
+		<!-- Inflicts physical damage on target. Can only be used in a castle siege area by characters between lv 40 - 84. Soulshots and Spiritshots are not consumed. -->
+		<icon>icon.skill10013</icon>
+		<operateType>A1</operateType>
+		<castRange>40</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>200</coolTime>
+		<effectPoint>-687</effectPoint>
+		<rideState>NONE</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effectRange>400</effectRange>
+		<magicLvl>85</magicLvl>
+		<isMagic>2</isMagic>
+		<reuseDelay>3000</reuseDelay>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="CheckLevel">
+				<minLevel>40</minLevel>
+				<maxLevel>84</maxLevel>
+				<affectType>CASTER</affectType>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="i_p_attack">
+				<power>40000</power>
+				<pAtkMod>5</pAtkMod>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19020" toLevel="1" name="Revolution Eruption">
+		<!-- Glory Days confirmed -->
+		<!-- TO DO: op_territory -->
+		<!-- Attacks frontal targets to inflict physical damage. Can only be used in a castle siege area by characters between lv 40 - 84. Soulshots and Spiritshots are not consumed. -->
+		<icon>icon.skill10265</icon>
+		<operateType>A1</operateType>
+		<castRange>40</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>200</coolTime>
+		<effectPoint>-687</effectPoint>
+		<rideState>NONE</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effectRange>400</effectRange>
+		<magicLvl>85</magicLvl>
+		<affectLimit>5-12</affectLimit>
+		<fanRange>0;0;150;120</fanRange>
+		<isMagic>2</isMagic>
+		<reuseDelay>6000</reuseDelay>
+		<targetType>ENEMY</targetType>
+		<affectScope>FAN</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<conditions>
+			<condition name="CheckLevel">
+				<minLevel>40</minLevel>
+				<maxLevel>84</maxLevel>
+				<affectType>CASTER</affectType>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="i_p_attack">
+				<power>24000</power>
+				<pAtkMod>5</pAtkMod>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19021" toLevel="1" name="Revolution Strike">
+		<!-- Glory Days confirmed -->
+		<!-- TO DO: op_territory -->
+		<!-- Inflicts powerful physical damage on target. Can only be used in a castle siege area by characters between lv 40 - 84. Soulshots and Spiritshots are not consumed. -->
+		<icon>icon.skill10260</icon>
+		<operateType>A1</operateType>
+		<castRange>40</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>200</coolTime>
+		<effectPoint>-687</effectPoint>
+		<rideState>NONE</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effectRange>400</effectRange>
+		<magicLvl>85</magicLvl>
+		<isMagic>2</isMagic>
+		<reuseDelay>30000</reuseDelay>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="CheckLevel">
+				<minLevel>40</minLevel>
+				<maxLevel>84</maxLevel>
+				<affectType>CASTER</affectType>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="i_p_attack">
+				<power>48000</power>
+				<pAtkMod>5</pAtkMod>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19022" toLevel="1" name="Revolution Shot">
+		<!-- Glory Days confirmed -->
+		<!-- TO DO: op_territory -->
+		<!-- Attacks distant enemies. Requires a bow or crossbow to be equipped. Over-hit. Critical. Can only be used in a castle siege area by characters between lv 40 - 84. Soulshots and Spiritshots are not consumed. -->
+		<icon>icon.skill10762</icon>
+		<operateType>A1</operateType>
+		<castRange>900</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>200</coolTime>
+		<effectPoint>-687</effectPoint>
+		<rideState>NONE</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effectRange>1200</effectRange>
+		<magicLvl>85</magicLvl>
+		<isMagic>2</isMagic>
+		<reuseDelay>3000</reuseDelay>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="CheckLevel">
+				<minLevel>40</minLevel>
+				<maxLevel>84</maxLevel>
+				<affectType>CASTER</affectType>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="i_p_attack">
+				<power>40000</power>
+				<pAtkMod>5</pAtkMod>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19023" toLevel="1" name="Revolution Multi-Shot">
+		<!-- Glory Days confirmed -->
+		<!-- TO DO: op_territory -->
+		<!-- Does ranged attacks centered on frontal target. Requires a bow or crossbow to be equipped. Over-hit. Critical. Can only be used in a castle siege area by characters between lv 40 - 84. Soulshots and Spiritshots are not consumed. -->
+		<icon>icon.skill10771</icon>
+		<operateType>A1</operateType>
+		<castRange>900</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>200</coolTime>
+		<effectPoint>-687</effectPoint>
+		<rideState>NONE</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effectRange>1200</effectRange>
+		<magicLvl>85</magicLvl>
+		<affectLimit>5-12</affectLimit>
+		<fanRange>0;0;900;90</fanRange>
+		<isMagic>2</isMagic>
+		<reuseDelay>6000</reuseDelay>
+		<targetType>ENEMY</targetType>
+		<affectScope>FAN</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<conditions>
+			<condition name="CheckLevel">
+				<minLevel>40</minLevel>
+				<maxLevel>84</maxLevel>
+				<affectType>CASTER</affectType>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="i_p_attack">
+				<power>24000</power>
+				<pAtkMod>5</pAtkMod>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19024" toLevel="1" name="Revolution Tornado Shot">
+		<!-- Glory Days confirmed -->
+		<!-- TO DO: op_territory -->
+		<!-- Inflicts a penetrating attack on enemies at the front. Requires a bow or crossbow to be equipped. Over-hit. Critical. Can only be used in a castle siege area by characters between lv 40 - 84. Soulshots and Spiritshots are not consumed. -->
+		<icon>icon.skill10760</icon>
+		<operateType>A1</operateType>
+		<castRange>900</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>200</coolTime>
+		<effectPoint>-687</effectPoint>
+		<rideState>NONE</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effectRange>1200</effectRange>
+		<magicLvl>85</magicLvl>
+		<isMagic>2</isMagic>
+		<reuseDelay>30000</reuseDelay>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="CheckLevel">
+				<minLevel>40</minLevel>
+				<maxLevel>84</maxLevel>
+				<affectType>CASTER</affectType>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="i_p_attack">
+				<power>48000</power>
+				<pAtkMod>5</pAtkMod>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19025" toLevel="1" name="Revolution Spike">
+		<!-- Glory Days confirmed -->
+		<!-- TO DO: op_territory -->
+		<!-- Inflicts a magic attack on target. Over-hit. Can only be used in a castle siege area by characters between lv 40 - 84. Soulshots and Spiritshots are not consumed. -->
+		<icon>icon.skill11011</icon>
+		<operateType>A1</operateType>
+		<castRange>900</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>200</coolTime>
+		<effectPoint>-687</effectPoint>
+		<rideState>NONE</rideState>
+		<magicCriticalRate>6</magicCriticalRate>
+		<effectRange>1200</effectRange>
+		<magicLvl>85</magicLvl>
+		<isMagic>2</isMagic>
+		<reuseDelay>3000</reuseDelay>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="CheckLevel">
+				<minLevel>40</minLevel>
+				<maxLevel>84</maxLevel>
+				<affectType>CASTER</affectType>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="i_m_attack_over_hit">
+				<power>300</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19026" toLevel="1" name="Revolution Blast">
+		<!-- Glory Days confirmed -->
+		<!-- TO DO: op_territory -->
+		<!-- Inflicts a magic attack on target and enemies near target. Over-hit. Can only be used in a castle siege area by characters between lv 40 - 84. Soulshots and Spiritshots are not consumed. -->
+		<icon>icon.skill11034</icon>
+		<operateType>A1</operateType>
+		<castRange>900</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>200</coolTime>
+		<effectPoint>-687</effectPoint>
+		<rideState>NONE</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effectRange>1200</effectRange>
+		<magicLvl>85</magicLvl>
+		<affectRange>100</affectRange>
+		<affectLimit>5-12</affectLimit>
+		<isMagic>2</isMagic>
+		<reuseDelay>6000</reuseDelay>
+		<targetType>ENEMY</targetType>
+		<affectScope>RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<conditions>
+			<condition name="CheckLevel">
+				<minLevel>40</minLevel>
+				<maxLevel>84</maxLevel>
+				<affectType>CASTER</affectType>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="i_m_attack_over_hit">
+				<power>250</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19027" toLevel="1" name="Revolution Destruction">
+		<!-- Glory Days confirmed -->
+		<!-- TO DO: op_territory -->
+		<!-- Inflicts a powerful magic attack on target. Over-hit. Can only be used in a castle siege area by characters between lv 40 - 84. Soulshots and Spiritshots are not consumed. -->
+		<icon>icon.skill11023</icon>
+		<operateType>A1</operateType>
+		<castRange>900</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>200</coolTime>
+		<effectPoint>-687</effectPoint>
+		<rideState>NONE</rideState>
+		<magicCriticalRate>11</magicCriticalRate>
+		<effectRange>1200</effectRange>
+		<magicLvl>85</magicLvl>
+		<isMagic>2</isMagic>
+		<reuseDelay>30000</reuseDelay>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="CheckLevel">
+				<minLevel>40</minLevel>
+				<maxLevel>84</maxLevel>
+				<affectType>CASTER</affectType>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="i_m_attack_over_hit">
+				<power>350</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19028" toLevel="2" name="Revolution Spirit">
+		<!-- Glory Days confirmed -->
+		<!-- TO DO: op_territory -->
+		<!-- Level 1: Increases Max CP by 10000, P. Def. by 1000, and M. Def. by 1000 for 5 minutes. Can only be used in a castle siege area by characters between lv 40 - 84. Soulshots and Spiritshots are not consumed. -->
+		<!-- Level 2: Increases Max CP by 15000, P. Def. by 1000, and M. Def. by 1000 for 5 minutes. Can only be used in a castle siege area by characters between lv 40 - 84. Soulshots and Spiritshots are not consumed. -->
+		<abnormalLvl>
+			<value level="1">1</value>
+			<value level="2">2</value>
+		</abnormalLvl>
+		<abnormalTime>300</abnormalTime>
+		<abnormalType>MAX_HP_UP_K</abnormalType>
+		<icon>BranchSys2.icon.skill20006</icon>
+		<operateType>A2</operateType>
+		<hitTime>1000</hitTime>
+		<coolTime>200</coolTime>
+		<effectPoint>635</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<rideState>NONE</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">86</value>
+		</magicLvl>
+		<isMagic>2</isMagic>
+		<reuseDelay>3000</reuseDelay>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="CheckLevel">
+				<minLevel>40</minLevel>
+				<maxLevel>84</maxLevel>
+				<affectType>CASTER</affectType>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="p_max_cp">
+				<amount>
+					<value level="1">10000</value>
+					<value level="2">15000</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="p_physical_defence">
+				<amount>1000</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="p_magical_defence">
+				<amount>1000</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19029" toLevel="1" name="Revolution Self CP Recovery">
+		<!-- Glory Days confirmed -->
+		<!-- TO DO: op_territory -->
+		<!-- Increases combat spirit to recover your own CP by 2000. Can only be used by characters between lv 40-84 within the castle siege area. Soulshots and Spiritshots are not consumed. -->
+		<icon>icon.skill0440</icon>
+		<operateType>A1</operateType>
+		<hitTime>1000</hitTime>
+		<coolTime>200</coolTime>
+		<effectPoint>669</effectPoint>
+		<rideState>NONE</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLvl>85</magicLvl>
+		<isMagic>2</isMagic>
+		<reuseDelay>3000</reuseDelay>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="CheckLevel">
+				<minLevel>40</minLevel>
+				<maxLevel>84</maxLevel>
+				<affectType>CASTER</affectType>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="i_cp">
+				<amount>2000</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19030" toLevel="1" name="Revolution CP Recovery">
+		<!-- Glory Days confirmed -->
+		<!-- TO DO: op_territory -->
+		<!-- Increases combat spirit to recover target's CP by 1000. Can only be used by characters between lv 40-84 within the castle siege area. Soulshots and Spiritshots are not consumed. -->
+		<icon>icon.skill11755</icon>
+		<operateType>A1</operateType>
+		<castRange>600</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>200</coolTime>
+		<effectPoint>669</effectPoint>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effectRange>1100</effectRange>
+		<magicLvl>85</magicLvl>
+		<isMagic>2</isMagic>
+		<reuseDelay>6000</reuseDelay>
+		<targetType>TARGET</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="CheckLevel">
+				<minLevel>40</minLevel>
+				<maxLevel>84</maxLevel>
+				<affectType>CASTER</affectType>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="i_cp">
+				<amount>1000</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19031" toLevel="1" name="Revolution Party CP Recovery">
+		<!-- Glory Days confirmed -->
+		<!-- TO DO: op_territory -->
+		<!-- Increases combat spirit to recover a party member's CP by 1000. Can only be used by characters between lv 40-84 within the castle siege area. Soulshots and Spiritshots are not consumed. -->
+		<icon>icon.skill11757</icon>
+		<operateType>A1</operateType>
+		<hitTime>1000</hitTime>
+		<coolTime>200</coolTime>
+		<effectPoint>669</effectPoint>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLvl>85</magicLvl>
+		<affectRange>1000</affectRange>
+		<isMagic>2</isMagic>
+		<reuseDelay>6000</reuseDelay>
+		<targetType>SELF</targetType>
+		<affectScope>PARTY</affectScope>
+		<affectObject>FRIEND</affectObject>
+		<conditions>
+			<condition name="CheckLevel">
+				<minLevel>40</minLevel>
+				<maxLevel>84</maxLevel>
+				<affectType>CASTER</affectType>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="i_cp">
+				<amount>1000</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19032" toLevel="1" name="Ability of Light">
+		<!-- Glory Days confirmed -->
+		<!-- Imbued with the Ability of Light. Increases Max CP by 3000 and damage inflicted during PvP by 10%. Effects do not apply when in Chaotic state. Can be used by a Marquis or higher. -->
+		<icon>icon.skill19008</icon>
+		<magicLvl>85</magicLvl>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<passiveConditions>
+			<condition name="OpAlignment">
+				<alignment>LAWFUL</alignment>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="p_max_cp">
+				<amount>3000</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="p_pvp_physical_attack_dmg_bonus">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="p_pvp_magical_skill_dmg_bonus">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="p_pvp_physical_skill_dmg_bonus">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19033" toLevel="1" name="Ability of Darkness">
+		<!-- Glory Days confirmed -->
+		<!-- Imbued with the Ability of Darkness. Increases Max CP by 3000 and damage inflicted during PvP by 10%. Can be used by a Marquis or higher. -->
+		<icon>icon.skill19008</icon>
+		<magicLvl>85</magicLvl>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="p_max_cp">
+				<amount>3000</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="p_pvp_physical_attack_dmg_bonus">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="p_pvp_magical_skill_dmg_bonus">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="p_pvp_physical_skill_dmg_bonus">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19034" toLevel="1" name="Imprint of Light">
+		<!-- Engraves the Imprint of Light on the ancient relic that guards the castle. -->
+		<castRange>85</castRange>
+		<effectRange>400</effectRange>
+		<hitTime>120000</hitTime>
+		<icon>icon.skill0246</icon>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<magicLvl>85</magicLvl>
+		<operateType>A1</operateType>
+		<reuseDelay>5000</reuseDelay>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<targetType>HOLYTHING</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="PossessHolything" />
+		</conditions>
+		<effects>
+			<effect name="i_holything_possess">
+				<side>LIGHT</side>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19035" toLevel="1" name="Imprint of Darkness">
+		<!-- Engraves the Imprint of Darkness on the ancient relic that guards the castle. -->
+		<castRange>85</castRange>
+		<effectRange>400</effectRange>
+		<hitTime>120000</hitTime>
+		<icon>icon.skill0246</icon>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<magicLvl>85</magicLvl>
+		<operateType>A1</operateType>
+		<reuseDelay>5000</reuseDelay>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<targetType>HOLYTHING</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="PossessHolything" />
+		</conditions>
+		<effects>
+			<effect name="i_holything_possess">
+				<side>DARK</side>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19036" toLevel="1" name="Blessing of Light">
+		<!-- Updated to Helios -->
+		<!-- Acquires 3% additional XP and SP through the blessing of the Guardian of Light. -->
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>3600</abnormalTime>
+		<abnormalType>BRIGHTNESS_BLESS</abnormalType>
+		<abnormalVisualEffect>VP_KEEP</abnormalVisualEffect>
+		<icon>icon.etc_pi_gift_box_i04</icon>
+		<operateType>A2</operateType>
+		<isMagic>4</isMagic>
+		<basicProperty>NONE</basicProperty>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLvl>85</magicLvl>
+		<irreplacableBuff>true</irreplacableBuff>
+		<staticReuse>true</staticReuse>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="p_exp_modify">
+				<amount>3</amount>
+			</effect>
+			<effect name="p_sp_modify">
+				<amount>3</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19037" toLevel="1" name="Cloak of Radiant Light">
+		<!-- STR/MEN/DEX/CON/INT/WIT + 3, decreased damage received during PvP by 15%. Ineffective in Chaotic state. -->
+		<icon>icon.amor_goodness_cloak</icon>
+		<magicLvl>1</magicLvl>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<passiveConditions>
+			<condition name="OpAlignment">
+				<alignment>LAWFUL</alignment>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="p_pvp_physical_attack_defence_bonus">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="p_pvp_magical_skill_defence_bonus">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="p_pvp_physical_skill_defence_bonus">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="p_stat_up">
+				<amount>3</amount>
+				<stat>STR</stat>
+			</effect>
+			<effect name="p_stat_up">
+				<amount>3</amount>
+				<stat>INT</stat>
+			</effect>
+			<effect name="p_stat_up">
+				<amount>3</amount>
+				<stat>CON</stat>
+			</effect>
+			<effect name="p_stat_up">
+				<amount>3</amount>
+				<stat>DEX</stat>
+			</effect>
+			<effect name="p_stat_up">
+				<amount>3</amount>
+				<stat>WIT</stat>
+			</effect>
+			<effect name="p_stat_up">
+				<amount>3</amount>
+				<stat>MEN</stat>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19038" toLevel="1" name="Cold Cloak of Darkness">
+		<!-- STR/MEN/DEX/CON/INT/WIT + 3, decreased damage received during PvP by 15%. -->
+		<icon>icon.amor_evilness_cloak</icon>
+		<magicLvl>1</magicLvl>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="p_pvp_physical_attack_defence_bonus">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="p_pvp_magical_skill_defence_bonus">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="p_pvp_physical_skill_defence_bonus">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="p_stat_up">
+				<amount>3</amount>
+				<stat>STR</stat>
+			</effect>
+			<effect name="p_stat_up">
+				<amount>3</amount>
+				<stat>INT</stat>
+			</effect>
+			<effect name="p_stat_up">
+				<amount>3</amount>
+				<stat>CON</stat>
+			</effect>
+			<effect name="p_stat_up">
+				<amount>3</amount>
+				<stat>DEX</stat>
+			</effect>
+			<effect name="p_stat_up">
+				<amount>3</amount>
+				<stat>WIT</stat>
+			</effect>
+			<effect name="p_stat_up">
+				<amount>3</amount>
+				<stat>MEN</stat>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19039" toLevel="1" name="Cloak of Light">
+		<!-- STR/MEN/DEX/CON/INT/WIT + 2, decreased damage received during PvP by 5%. Ineffective in Chaotic state. -->
+		<icon>icon.amor_goodness_cloak</icon>
+		<magicLvl>1</magicLvl>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<passiveConditions>
+			<condition name="OpAlignment">
+				<alignment>LAWFUL</alignment>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="p_pvp_physical_attack_defence_bonus">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="p_pvp_magical_skill_defence_bonus">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="p_pvp_physical_skill_defence_bonus">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="p_stat_up">
+				<amount>2</amount>
+				<stat>STR</stat>
+			</effect>
+			<effect name="p_stat_up">
+				<amount>2</amount>
+				<stat>INT</stat>
+			</effect>
+			<effect name="p_stat_up">
+				<amount>2</amount>
+				<stat>CON</stat>
+			</effect>
+			<effect name="p_stat_up">
+				<amount>2</amount>
+				<stat>DEX</stat>
+			</effect>
+			<effect name="p_stat_up">
+				<amount>2</amount>
+				<stat>WIT</stat>
+			</effect>
+			<effect name="p_stat_up">
+				<amount>2</amount>
+				<stat>MEN</stat>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19040" toLevel="1" name="Cloak of Darkness">
+		<!-- STR/MEN/DEX/CON/INT/WIT + 2, decreased damage received during PvP by 5%. -->
+		<icon>icon.amor_evilness_cloak</icon>
+		<magicLvl>1</magicLvl>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="p_pvp_physical_attack_defence_bonus">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="p_pvp_magical_skill_defence_bonus">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="p_pvp_physical_skill_defence_bonus">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="p_stat_up">
+				<amount>2</amount>
+				<stat>STR</stat>
+			</effect>
+			<effect name="p_stat_up">
+				<amount>2</amount>
+				<stat>INT</stat>
+			</effect>
+			<effect name="p_stat_up">
+				<amount>2</amount>
+				<stat>CON</stat>
+			</effect>
+			<effect name="p_stat_up">
+				<amount>2</amount>
+				<stat>DEX</stat>
+			</effect>
+			<effect name="p_stat_up">
+				<amount>2</amount>
+				<stat>WIT</stat>
+			</effect>
+			<effect name="p_stat_up">
+				<amount>2</amount>
+				<stat>MEN</stat>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19041" toLevel="1" name="Escape: Castle">
+		<!-- Glory Days confirmed -->
+		<!-- TODO: op_not_territory -->
+		<!-- Return to Castle. -->
+		<hitTime>20000</hitTime>
+		<icon>icon.vesper_cloack_i00</icon>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<magicLvl>1</magicLvl>
+		<operateType>A1</operateType>
+		<reuseDelay>3600000</reuseDelay>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="OpCanEscape" />
+			<condition name="OpHome">
+				<type>CASTLE</type>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="i_escape">
+				<escapeType>CASTLE</escapeType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19042" toLevel="1" name="Blessed Scroll of Escape: Castle">
+		<!-- Glory Days confirmed -->
+		<!-- TODO: op_not_territory -->
+		<!-- Return to Castle. -->
+		<icon>icon.vesper_cloack_i00</icon>
+		<operateType>A1</operateType>
+		<hitTime>200</hitTime>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<magicLvl>1</magicLvl>
+		<isMagic>2</isMagic>
+		<reuseDelay>3600000</reuseDelay>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="OpCanEscape" />
+			<condition name="OpHome">
+				<type>CASTLE</type>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="i_escape">
+				<escapeType>CASTLE</escapeType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19074" toLevel="2" name="Academy Precept">
+		<!-- Glory Days confirmed -->
+		<!-- Level 1: For 60 minutes, increases academy members' P. Atk. by 10%, M. Atk. by 10%, Critical Rate by 10%, and M. Critical Rate by 10%. -->
+		<!-- Level 2: For 60 minutes, increases academy members' P. Atk. by 20%, M. Atk. by 20%, Critical Rate by 10%, and M. Critical Rate by 10%. -->
+		<abnormalLvl>
+			<value level="1">1</value>
+			<value level="2">2</value>
+		</abnormalLvl>
+		<abnormalTime>3600</abnormalTime>
+		<abnormalType>ACADEMY_UP</abnormalType>
+		<icon>icon.skill19008</icon>
+		<operateType>A2</operateType>
+		<mpConsume>100</mpConsume>
+		<castRange>400</castRange>
+		<hitTime>4000</hitTime>
+		<effectPoint>100</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effectRange>900</effectRange>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+		</magicLvl>
+		<isMagic>2</isMagic>
+		<reuseDelay>
+			<value level="1">43200000</value>
+			<value level="2">21600000</value>
+		</reuseDelay>
+		<targetType>TARGET</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="p_physical_attack">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="p_magical_attack">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="p_critical_rate">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="p_magic_critical_rate">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19075" toLevel="1" name="Clan Relation">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill19008</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLvl>85</magicLvl>
+	</skill>
+	<skill id="19076" toLevel="1" name="Clan Academy Reward">
+		<!-- Glory Days confirmed -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<magicLvl>1</magicLvl>
+		<isMagic>2</isMagic>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="i_restoration_random">
+				<items>
+					<item chance="49">
+						<item id="9910" count="1" />
+					</item>
+					<item chance="49">
+						<item id="9911" count="1" />
+					</item>
+				</items>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19080" toLevel="1" name="Sigel Ixion">
+		<!-- Glory Days confirmed -->
+		<!-- Transforms into Ixion. -->
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>3600</abnormalTime>
+		<abnormalType>TRANSFORM</abnormalType>
+		<icon>icon.skilltransform3</icon>
+		<operateType>A2</operateType>
+		<effectPoint>1</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<specialLevel>-1</specialLevel>
+		<hitCancelTime>0</hitCancelTime>
+		<irreplacableBuff>true</irreplacableBuff>
+		<isMagic>2</isMagic>
+		<hitTime>1000</hitTime>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="CanTransform">
+				<transformId>508</transformId>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="i_target_cancel">
+				<chance>100</chance>
+			</effect>
+			<effect name="p_transform">
+				<transformationId>508</transformationId>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<dispel>CHANGEBODY,-1;TURN_STONE,-1;BUFF_SPECIAL_MULTI,-1</dispel>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19081" toLevel="1" name="Tyrr Ixion">
+		<!-- Glory Days confirmed -->
+		<!-- Transforms into Ixion. -->
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>3600</abnormalTime>
+		<abnormalType>TRANSFORM</abnormalType>
+		<icon>icon.skilltransform3</icon>
+		<operateType>A2</operateType>
+		<effectPoint>1</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<specialLevel>-1</specialLevel>
+		<hitCancelTime>0</hitCancelTime>
+		<irreplacableBuff>true</irreplacableBuff>
+		<isMagic>2</isMagic>
+		<hitTime>1000</hitTime>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="CanTransform">
+				<transformId>510</transformId>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="i_target_cancel">
+				<chance>100</chance>
+			</effect>
+			<effect name="p_transform">
+				<transformationId>510</transformationId>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<dispel>CHANGEBODY,-1;TURN_STONE,-1;BUFF_SPECIAL_MULTI,-1</dispel>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19082" toLevel="1" name="Othell Ixion">
+		<!-- Glory Days confirmed -->
+		<!-- Transforms into Ixion. -->
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>3600</abnormalTime>
+		<abnormalType>TRANSFORM</abnormalType>
+		<icon>icon.skilltransform3</icon>
+		<operateType>A2</operateType>
+		<effectPoint>1</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<specialLevel>-1</specialLevel>
+		<hitCancelTime>0</hitCancelTime>
+		<irreplacableBuff>true</irreplacableBuff>
+		<isMagic>2</isMagic>
+		<hitTime>1000</hitTime>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="CanTransform">
+				<transformId>511</transformId>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="i_target_cancel">
+				<chance>100</chance>
+			</effect>
+			<effect name="p_transform">
+				<transformationId>511</transformationId>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<dispel>CHANGEBODY,-1;TURN_STONE,-1;BUFF_SPECIAL_MULTI,-1</dispel>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19083" toLevel="1" name="Yul Ixion">
+		<!-- Glory Days confirmed -->
+		<!-- Transforms into Ixion. -->
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>3600</abnormalTime>
+		<abnormalType>TRANSFORM</abnormalType>
+		<icon>icon.skilltransform3</icon>
+		<operateType>A2</operateType>
+		<effectPoint>1</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<specialLevel>-1</specialLevel>
+		<hitCancelTime>0</hitCancelTime>
+		<irreplacableBuff>true</irreplacableBuff>
+		<isMagic>2</isMagic>
+		<hitTime>1000</hitTime>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="CanTransform">
+				<transformId>512</transformId>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="i_target_cancel">
+				<chance>100</chance>
+			</effect>
+			<effect name="p_transform">
+				<transformationId>512</transformationId>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<dispel>CHANGEBODY,-1;TURN_STONE,-1;BUFF_SPECIAL_MULTI,-1</dispel>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19084" toLevel="1" name="Feoh Ixion">
+		<!-- Glory Days confirmed -->
+		<!-- Transforms into Ixion. -->
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>3600</abnormalTime>
+		<abnormalType>TRANSFORM</abnormalType>
+		<icon>icon.skilltransform3</icon>
+		<operateType>A2</operateType>
+		<effectPoint>1</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<specialLevel>-1</specialLevel>
+		<hitCancelTime>0</hitCancelTime>
+		<irreplacableBuff>true</irreplacableBuff>
+		<isMagic>2</isMagic>
+		<hitTime>1000</hitTime>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="CanTransform">
+				<transformId>513</transformId>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="i_target_cancel">
+				<chance>100</chance>
+			</effect>
+			<effect name="p_transform">
+				<transformationId>513</transformationId>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<dispel>CHANGEBODY,-1;TURN_STONE,-1;BUFF_SPECIAL_MULTI,-1</dispel>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19085" toLevel="1" name="Iss Ixion">
+		<!-- Glory Days confirmed -->
+		<!-- Transforms into Ixion. -->
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>3600</abnormalTime>
+		<abnormalType>TRANSFORM</abnormalType>
+		<icon>icon.skilltransform3</icon>
+		<operateType>A2</operateType>
+		<effectPoint>1</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<specialLevel>-1</specialLevel>
+		<hitCancelTime>0</hitCancelTime>
+		<irreplacableBuff>true</irreplacableBuff>
+		<isMagic>2</isMagic>
+		<hitTime>1000</hitTime>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="CanTransform">
+				<transformId>514</transformId>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="i_target_cancel">
+				<chance>100</chance>
+			</effect>
+			<effect name="p_transform">
+				<transformationId>514</transformationId>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<dispel>CHANGEBODY,-1;TURN_STONE,-1;BUFF_SPECIAL_MULTI,-1</dispel>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19086" toLevel="1" name="Wynn Ixion">
+		<!-- Glory Days confirmed -->
+		<!-- Transforms into Ixion. -->
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>3600</abnormalTime>
+		<abnormalType>TRANSFORM</abnormalType>
+		<icon>icon.skilltransform3</icon>
+		<operateType>A2</operateType>
+		<effectPoint>1</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<specialLevel>-1</specialLevel>
+		<hitCancelTime>0</hitCancelTime>
+		<irreplacableBuff>true</irreplacableBuff>
+		<isMagic>2</isMagic>
+		<hitTime>1000</hitTime>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="CanTransform">
+				<transformId>515</transformId>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="i_target_cancel">
+				<chance>100</chance>
+			</effect>
+			<effect name="p_transform">
+				<transformationId>515</transformationId>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<dispel>CHANGEBODY,-1;TURN_STONE,-1;BUFF_SPECIAL_MULTI,-1</dispel>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19087" toLevel="1" name="Aeore Ixion">
+		<!-- Glory Days confirmed -->
+		<!-- Transforms into Ixion. -->
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>3600</abnormalTime>
+		<abnormalType>TRANSFORM</abnormalType>
+		<icon>icon.skilltransform3</icon>
+		<operateType>A2</operateType>
+		<effectPoint>1</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<specialLevel>-1</specialLevel>
+		<hitCancelTime>0</hitCancelTime>
+		<irreplacableBuff>true</irreplacableBuff>
+		<isMagic>2</isMagic>
+		<hitTime>1000</hitTime>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="CanTransform">
+				<transformId>516</transformId>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="i_target_cancel">
+				<chance>100</chance>
+			</effect>
+			<effect name="p_transform">
+				<transformationId>516</transformationId>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<dispel>CHANGEBODY,-1;TURN_STONE,-1;BUFF_SPECIAL_MULTI,-1</dispel>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19088" toLevel="4" name="Summon Siege Golem">
+		<!-- AUTO GENERATED SKILL -->
+		<!-- Summons a siege weapon. Requires 400 R-grade Crystals. Automatically acquired by dwarves at level 85. -->
+		<icon>icon.skill0013</icon>
+		<operateType>A1</operateType>
+		<mpConsume>530</mpConsume>
+		<hitTime>180000</hitTime>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+		</magicLvl>
+		<isMagic>2</isMagic>
+		<reuseDelay>7200000</reuseDelay>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="CanSummonSiegeGolem" />
+			<condition name="CanSummon" />
+		</conditions>
+	</skill>
+	<skill id="19089" toLevel="4" name="Summon Wild Hog Cannon">
+		<!-- AUTO GENERATED SKILL -->
+		<!-- Summons a siege weapon. Can only move in normal mode. During siege mode, it cannot move, and it can inflict ranged attacks. Switching modes takes 30 seconds. Requires 100 R-grade Crystals. Automatically acquired by Maestro class at level 85. -->
+		<icon>icon.skill0299</icon>
+		<operateType>A1</operateType>
+		<mpConsume>530</mpConsume>
+		<hitTime>30000</hitTime>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+		</magicLvl>
+		<isMagic>2</isMagic>
+		<reuseDelay>1200000</reuseDelay>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="CanSummonSiegeGolem" />
+			<condition name="CanSummon" />
+		</conditions>
+	</skill>
+	<skill id="19090" toLevel="4" name="Summon Swoop Cannon">
+		<!-- AUTO GENERATED SKILL -->
+		<!-- Summons a Swoop Cannon. Requires 500 R-grade Crystals. Automatically acquired by dwarves at level 85. -->
+		<icon>icon.skill0448</icon>
+		<operateType>A1</operateType>
+		<mpConsume>530</mpConsume>
+		<hitTime>10000</hitTime>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>7.5</hitCancelTime>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+		</magicLvl>
+		<isMagic>2</isMagic>
+		<reuseDelay>7200000</reuseDelay>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="CanSummonSiegeGolem" />
+			<condition name="CanSummon" />
+		</conditions>
+	</skill>
+	<skill id="19091" toLevel="1" name="Increase Item Drop Rate">
+		<!-- Glory Days confirmed -->
+		<!-- Increases Item Drop Rate upon PK. -->
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>1800</abnormalTime>
+		<abnormalType>PARALYZE</abnormalType>
+		<icon>icon.skill1170</icon>
+		<operateType>A2</operateType>
+		<mpConsume>1</mpConsume>
+		<castRange>900</castRange>
+		<hitTime>2000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-700</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<rideState>NONE</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<effectRange>1400</effectRange>
+		<lvlBonusRate>20</lvlBonusRate>
+		<activateRate>100</activateRate>
+		<magicLvl>99</magicLvl>
+		<trait>PARALYZE</trait>
+		<isDebuff>1</isDebuff>
+		<targetType>ENEMY_ONLY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="p_reduce_drop_penalty">
+				<exp>0</exp>
+				<deathPenalty>90</deathPenalty>
+				<mode>PER</mode>
+				<type>PK</type>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19092" toLevel="2" name="Chat Prohibited">
+		<!-- Glory Days confirmed -->
+		<!-- Chatting is restricted. -->
+		<abnormalLvl>
+			<value level="1">1</value>
+		</abnormalLvl>
+		<abnormalTime>
+			<value level="1">1800</value>
+		</abnormalTime>
+		<abnormalType>
+			<value level="1">PARALYZE</value>
+		</abnormalType>
+		<icon>
+			<value level="1">icon.skill1170</value>
+			<value level="2">icon.skill10313</value>
+		</icon>
+		<operateType>A2</operateType>
+		<mpConsume>
+			<value level="1">1</value>
+			<value level="2">2</value>
+		</mpConsume>
+		<castRange>
+			<value level="1">900</value>
+			<value level="2">-1</value>
+		</castRange>
+		<hitTime>
+			<value level="1">2000</value>
+			<value level="2">1500</value>
+		</hitTime>
+		<coolTime>
+			<value level="1">500</value>
+			<value level="2">0</value>
+		</coolTime>
+		<reuseDelay>
+			<value level="1">0</value>
+			<value level="2">150000</value>
+		</reuseDelay>
+		<isMagic>
+			<value level="1">0</value>
+			<value level="2">1</value>
+		</isMagic>
+		<effectPoint>
+			<value level="1">-700</value>
+			<value level="2">0</value>
+		</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<rideState>NONE</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<effectRange>1400</effectRange>
+		<lvlBonusRate>20</lvlBonusRate>
+		<activateRate>100</activateRate>
+		<magicLvl>99</magicLvl>
+		<trait>PARALYZE</trait>
+		<isDebuff>
+			<value level="1">1</value>
+			<value level="2">0</value>
+		</isDebuff>
+		<targetType>
+			<value level="1">ENEMY_ONLY</value>
+			<value level="2">SELF</value>
+		</targetType>
+		<affectScope>
+			<value level="1">SINGLE</value>
+			<value level="2">PARTY</value>
+		</affectScope>
+		<conditions>
+			<condition name="OpCanEscape" level="2" />
+		</conditions>
+		<effects>
+			<effect name="p_block_chat" level="1" />
+			<effect name="i_escape" level="2">
+				<escapeType>TOWN</escapeType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19093" toLevel="1" name="Added Blow Quiver">
+		<!-- Glory Days confirmed -->
+		<!-- Chance of inflicting damage again upon shooting. -->
+		<icon>icon.skill0256</icon>
+		<operateType>T</operateType>
+		<mpConsume>1</mpConsume>
+		<hitTime>500</hitTime>
+		<rideState>NONE</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLvl>97</magicLvl>
+		<reuseDelay>30000</reuseDelay>
+		<targetType>NONE</targetType>
+		<effects>
+			<effect name="p_trigger_skill_by_attack">
+				<!-- Critical Target -->
+				<attackerType>L2Character</attackerType>
+				<minAttackerLevel>1</minAttackerLevel>
+				<maxAttackerLevel>107</maxAttackerLevel>
+				<minDamage>1</minDamage>
+				<chance>80</chance>
+				<isCritical>false</isCritical>
+				<targetType>TARGET</targetType>
+				<allowWeapons>BOW,CROSSBOW,TWOHANDCROSSBOW</allowWeapons>
+				<skillId>19096</skillId>
+				<skillLevel>1</skillLevel>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19094" toLevel="1" name="Increased Damage Quiver">
+		<!-- Glory Days confirmed -->
+		<!-- Great damage occurs if critical occurs while shooting. -->
+		<icon>icon.skill0256</icon>
+		<operateType>T</operateType>
+		<mpConsume>1</mpConsume>
+		<hitTime>500</hitTime>
+		<rideState>NONE</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLvl>97</magicLvl>
+		<reuseDelay>30000</reuseDelay>
+		<targetType>NONE</targetType>
+		<effects>
+			<effect name="p_trigger_skill_by_attack">
+				<!-- Critical Target -->
+				<attackerType>L2Character</attackerType>
+				<minAttackerLevel>1</minAttackerLevel>
+				<maxAttackerLevel>107</maxAttackerLevel>
+				<minDamage>1</minDamage>
+				<chance>20</chance>
+				<isCritical>true</isCritical>
+				<targetType>TARGET</targetType>
+				<allowWeapons>BOW,CROSSBOW,TWOHANDCROSSBOW</allowWeapons>
+				<skillId>19097</skillId>
+				<skillLevel>1</skillLevel>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19095" toLevel="1" name="Added Bleed Quiver">
+		<!-- Glory Days confirmed -->
+		<!-- Chance of inflicting bleed if critical occurs while shooting. -->
+		<icon>icon.skill0256</icon>
+		<operateType>T</operateType>
+		<mpConsume>1</mpConsume>
+		<hitTime>500</hitTime>
+		<rideState>NONE</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLvl>97</magicLvl>
+		<reuseDelay>30000</reuseDelay>
+		<targetType>NONE</targetType>
+		<effects>
+			<effect name="p_trigger_skill_by_attack">
+				<!-- Critical Target -->
+				<attackerType>L2Character</attackerType>
+				<minAttackerLevel>1</minAttackerLevel>
+				<maxAttackerLevel>107</maxAttackerLevel>
+				<minDamage>1</minDamage>
+				<chance>50</chance>
+				<isCritical>true</isCritical>
+				<targetType>TARGET</targetType>
+				<allowWeapons>BOW,CROSSBOW,TWOHANDCROSSBOW</allowWeapons>
+				<skillId>19098</skillId>
+				<skillLevel>1</skillLevel>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19096" toLevel="1" name="Added Blow">
+		<!-- Glory Days confirmed -->
+		<icon>icon.skill0056</icon>
+		<nextAction>ATTACK</nextAction>
+		<operateType>A1</operateType>
+		<effectPoint>-2</effectPoint>
+		<rideState>NONE</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<effectRange>1500</effectRange>
+		<magicLvl>97</magicLvl>
+		<castRange>900</castRange>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="i_p_attack">
+				<power>1</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19097" toLevel="1" name="Critical Target">
+		<!-- Glory Days confirmed -->
+		<icon>icon.skill0056</icon>
+		<nextAction>ATTACK</nextAction>
+		<operateType>A1</operateType>
+		<castRange>900</castRange>
+		<effectPoint>-2</effectPoint>
+		<rideState>NONE</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<effectRange>1500</effectRange>
+		<magicLvl>97</magicLvl>
+		<reuseDelay>10000</reuseDelay>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="i_p_attack">
+				<power>40000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19098" toLevel="1" name="Bleed Target">
+		<!-- Glory Days confirmed -->
+		<!-- Consumes 100 HP per second for 15 seconds. -->
+		<abnormalLvl>3</abnormalLvl>
+		<abnormalTime>20</abnormalTime>
+		<abnormalType>BLEEDING</abnormalType>
+		<abnormalVisualEffect>DOT_BLEEDING</abnormalVisualEffect>
+		<icon>icon.skill0096</icon>
+		<nextAction>ATTACK</nextAction>
+		<operateType>A2</operateType>
+		<castRange>900</castRange>
+		<reuseDelay>10000</reuseDelay>
+		<effectPoint>-2</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<rideState>NONE</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<effectRange>1500</effectRange>
+		<activateRate>100</activateRate>
+		<magicLvl>97</magicLvl>
+		<trait>BLEED</trait>
+		<isDebuff>1</isDebuff>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="t_hp">
+				<power>-100</power>
+				<ticks>3</ticks>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19099" toLevel="1" name="GM's Authority">
+		<!-- Glory Days confirmed -->
+		<!-- Inflicts petrification on target for 60 minutes. -->
+		<abnormalLvl>7</abnormalLvl>
+		<abnormalTime>3600</abnormalTime>
+		<abnormalType>TURN_STONE</abnormalType>
+		<abnormalVisualEffect>FLESH_STONE</abnormalVisualEffect>
+		<icon>icon.skill0367</icon>
+		<operateType>A2</operateType>
+		<castRange>900</castRange>
+		<hitTime>500</hitTime>
+		<basicProperty>MAGIC</basicProperty>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effectRange>1100</effectRange>
+		<lvlBonusRate>30</lvlBonusRate>
+		<magicLvl>99</magicLvl>
+		<trait>TURN_STONE</trait>
+		<isMagic>2</isMagic>
+		<isDebuff>1</isDebuff>
+		<targetType>TARGET</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="p_block_act" />
+			<effect name="p_block_getdamage">
+				<type>BLOCK_HP</type>
+			</effect>
+			<effect name="p_block_getdamage">
+				<type>BLOCK_MP</type>
+			</effect>
+			<effect name="p_block_buff" />
+			<effect name="p_block_debuff" />
+			<effect name="p_block_spell" />
+			<effect name="p_block_skill_physical" />
+		</effects>
+	</skill>
+</list>
