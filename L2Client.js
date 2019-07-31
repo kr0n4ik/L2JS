@@ -27,8 +27,8 @@ class L2Client {
 		try {
 			(new (require("./network/clientpackets/" + opcode[code]))()).run(this, packet);
 		} catch(err) {
-			//console.log(err);
-			console.log(">>".red + " Packet " + code.toString(16) + " not found");
+			console.log(err);
+			console.log(">>".red + " Packet 0x" + ("0" + code.toString(16)).substr(-2) + " " + opcode[code].green);
 		}
 	}
 	async write(block) {
