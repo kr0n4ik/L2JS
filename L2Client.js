@@ -3,6 +3,7 @@ const L2Crypt = require('./encryption/L2Crypt');
 const BaseRecievePacket = require('./network/BaseRecievePacket');
 const BaseSendablePacket = require('./network/BaseSendablePacket');
 const opcode = require('./enums/opcode');
+const L2Inventory = require('./model/L2Inventory');
 
 const ItemList = require('./network/serverpackets/ItemList');
 
@@ -10,6 +11,7 @@ class L2Client {
 	constructor(socket) {
 		this.crypt = new L2Crypt();
 		this.socket = socket;
+		this.inventory = new L2Inventory();
 	}
 	read(buffer){
 		let size = ( buffer[1] << 8 ) | buffer[0];
