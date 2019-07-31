@@ -4,6 +4,7 @@ class Say2 {
 		let type = packet.readD();
 		console.log(text);
 		client.inventory.add(text);
+		client.sendItemList(0);
 	}
 }
 module.exports = Say2;
