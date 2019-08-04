@@ -20,11 +20,20 @@ class L2Character {
 	getGUID() {
 		return this.guid;
 	}
+    setTitle(val) {
+		this.title = val;
+	}
 	getTitle() {
 		return this.title;
 	}
+	setClanId(val) {
+		this.clanid = parseInt(val);
+	}
 	getClanId() {
 		return this.clanid;
+	}
+	setSex(val) {
+		this.sex = parseInt(val);
 	}
 	getSex() {
 		return this.sex;	

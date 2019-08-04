@@ -8,8 +8,9 @@ const config = require('../config');
 
 const experience = require("../tables/experience");
 
-class L2Session {
+class L2Session extends  L2Character{
 	constructor(socket) {
+		super();
 		this.socket = socket;
 		this.crypt = new L2Crypt();
 		this.ping = Date.now();
@@ -288,9 +289,9 @@ class L2Session {
 		this.position.source.z = this.position.current.z = parseInt(characters[charSlot].z);
 		this.position.source.o = this.position.current.o = parseInt(characters[charSlot].heading);
 		this.setName(characters[charSlot].char_name);
-		this.title = "[title]" + characters[charSlot].char_name;
-		this.clanid = characters[charSlot].clanid;
-		this.sex = characters[charSlot].sex;
+		this.setTitle("[title]" + characters[charSlot].char_name);
+		this.setClanId(characters[charSlot].clanid);
+		this.setSex(characters[charSlot].sex);
 		this.race =  characters[charSlot].race;
 		this.classid =  characters[charSlot].classid;
 		this.hp.max = characters[charSlot].maxHp;
