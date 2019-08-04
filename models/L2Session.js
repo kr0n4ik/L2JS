@@ -14,6 +14,7 @@ class L2Session extends  L2Character{
 		this.socket = socket;
 		this.crypt = new L2Crypt();
 		this.ping = Date.now();
+		this.sp = {'cur':0, 'max':0};
 	}
 	read(buffer){
 		let size = ( buffer[1] << 8 ) | buffer[0];
@@ -109,7 +110,30 @@ class L2Session extends  L2Character{
 	getSlot() {
 		return this.slot;
 	}
-	
+	setLevel(val) {
+		this.level = val;
+	}
+	getLevel(){
+		return this.level;
+	}
+	setExp(val) {
+		this.exp = val;
+	}
+	getExp(){
+		return this.exp;
+	}
+	getSp(){
+		return this.sp.cur;
+	}
+	setSp(val) {
+		this.sp.cur = val;
+	}
+	setReputation(val){
+		this.reputation = val;
+	}
+	getReputation(){
+		return this.reputation;
+	}
 	SendProtocolVersion(packet) {
 		let version = packet.readD();
 		if (version == -2 ) {
@@ -289,19 +313,19 @@ class L2Session extends  L2Character{
 		this.position.source.z = this.position.current.z = parseInt(characters[charSlot].z);
 		this.position.source.o = this.position.current.o = parseInt(characters[charSlot].heading);
 		this.setName(characters[charSlot].char_name);
-		this.setTitle("[title]" + characters[charSlot].char_name);
+		this.setTitle("[title]" + this.getName());
 		this.setClanId(characters[charSlot].clanid);
 		this.setSex(characters[charSlot].sex);
-		this.race =  characters[charSlot].race;
-		this.classid =  characters[charSlot].classid;
-		this.hp.max = characters[charSlot].maxHp;
-		this.hp.cur = characters[charSlot].curHp;
-		this.mp.max = characters[charSlot].maxMp;
-		this.mp.cur = characters[charSlot].curMp;
-		this.sp = characters[charSlot].sp;
-		this.exp = characters[charSlot].exp;
-		this.level = characters[charSlot].level;
-		this.reputation = characters[charSlot].reputation;
+		this.setRace(characters[charSlot].race);
+		this.setCurrentHp(characters[charSlot].curHp);
+		this.setCurrentMp(characters[charSlot].curMp);
+		this.setClassId(characters[charSlot].classid);
+		this.setMaxHp(characters[charSlot].maxHp);
+		this.setMaxMp(characters[charSlot].maxMp);
+		this.setLevel(characters[charSlot].level);
+		this.setExp(characters[charSlot].exp);
+		this.setSp(characters[charSlot].sp);
+		this.setReputation(characters[charSlot].reputation);
 		this.pkkills = characters[charSlot].pkkills;
 	}
 }

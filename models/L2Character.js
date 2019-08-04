@@ -38,6 +38,9 @@ class L2Character {
 	getSex() {
 		return this.sex;	
 	}
+	setRace(val) {
+		this.race = val;
+	}
 	getRace() {
 		return this.race;	
 	}
@@ -50,14 +53,35 @@ class L2Character {
 	getZ() {
 		return this.position.current.z;
 	}
+	setCurrentHp(val) {
+		this.hp.cur = val;
+	}
 	getCurrentHp() {
 		return this.hp.cur;
+	}
+	setCurrentMp(val) {
+		this.mp.cur = val;
 	}
 	getCurrentMp() {
 		return this.mp.cur;
 	}
+	setMaxHp(val) {
+		this.hp.max = val;
+	}
+	getMaxHp(){
+		return this.hp.max;
+	}
+	setMaxMp(val){
+		this.mp.max = val;
+	}
+	gatMaxMp(){
+		return this.mp.max;
+	}
 	getSp() {
 		return 0;
+	}
+	setClassId(val) {
+		this.classid = val;
 	}
 	getClassId() {
 		return this.classid;
