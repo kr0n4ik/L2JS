@@ -400,6 +400,7 @@ class L2Session extends  L2Character{
 		packet.readD(); // Unknown Value
 		packet.readB(64); // Unknown Byte Array
 		packet.readD(); // Unknown Value
+		this.setStatus('world');
 		this.ExUserInfo();
 	}
 	ExUserInfo(...flags) {

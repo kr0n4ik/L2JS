@@ -10,7 +10,17 @@ class L2Character {
 		};
 		this.hp = {'cur': 0, 'max': 0};
 		this.mp = {'cur': 0, 'max': 0};
+		this.status = '';
+		this.base = {
+		};
 	}
+	setStatus(val) {
+		this.status = val;
+	}
+	getStatus() {
+		return this.status;
+	}
+	
 	setName(val) {
 		this.charname = val;
 	}
@@ -112,7 +122,19 @@ class L2Character {
 	}
 	
 	timer(fps) {
-		//console.log(fps);
+		/*let time = Date.now();
+		if (this.getStatus() == 'world') {
+			if (time%1000 == 0 ) {
+				let maxHp = this.getMaxHp();
+				let hp = this.getCurrentHp();
+				if (maxHp > hp) {
+					hp += 12.3;
+					this.setCurrentHp( (hp > maxHp) ? maxHp : hp);
+					this.StatusUpdate([{'key':0x09,'val': this.getCurrentHp()}]);
+				}
+			}
+		}
+		*/
 	}
 	
 	MoveToLocation() {
@@ -128,5 +150,17 @@ class L2Character {
 		packet.writeD(this.position.current.z);
 		this.write(packet.buffer());
 	}
+	/*StatusUpdate(vals){
+		let packet = new BaseSendablePacket(0x18);
+		packet.writeD(this.getGUID()); // casterId
+		packet.writeD(0);
+		packet.writeC(0x00);
+		packet.writeC(vals.length);
+		for (let val of vals){
+			packet.writeC(val.key);
+			packet.writeD(val.val);
+		}
+		this.write(packet.buffer());
+	}*/
 }
 module.exports =  L2Character;
