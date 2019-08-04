@@ -14,7 +14,7 @@ class L2Session extends  L2Character{
 		this.socket = socket;
 		this.crypt = new L2Crypt();
 		this.ping = Date.now();
-		this.sp = {'cur':0, 'max':0};
+		this.cp = {'cur':0, 'max':0};
 	}
 	read(buffer){
 		let size = ( buffer[1] << 8 ) | buffer[0];
@@ -35,7 +35,7 @@ class L2Session extends  L2Character{
 			//case 0x01: this.Attack(packet); break;
 			case 0x0E: this.SendProtocolVersion(packet); break;
 			//case 0x0F: this.MoveBackwardToLocation(packet); break;
-			//case 0x11: this.RequestGameStart(packet); break;
+			case 0x11: this.RequestGameStart(packet); break;
 			case 0x12: this.CharacterSelect(packet); break;
 			//case 0x1F: this.Action(packet); break;
 			case 0x2B: this.RequestLogin(packet); break;
@@ -123,10 +123,16 @@ class L2Session extends  L2Character{
 		return this.exp;
 	}
 	getSp(){
-		return this.sp.cur;
+		return this.sp;
 	}
 	setSp(val) {
-		this.sp.cur = val;
+		this.sp = val;
+	}
+	getMaxCp() {
+		return this.cp.max;
+	}
+	getCurrentCp(){
+		return this.cp.cur;
 	}
 	setReputation(val){
 		this.reputation = val;
@@ -134,6 +140,17 @@ class L2Session extends  L2Character{
 	getReputation(){
 		return this.reputation;
 	}
+	getPkKills() {
+		return this.pkkills;
+	}
+	setPkKills(val){
+		this.pkkills = val;
+	}
+	isGM() {
+		return 0x00;
+	}
+	
+	
 	SendProtocolVersion(packet) {
 		let version = packet.readD();
 		if (version == -2 ) {
@@ -326,7 +343,160 @@ class L2Session extends  L2Character{
 		this.setExp(characters[charSlot].exp);
 		this.setSp(characters[charSlot].sp);
 		this.setReputation(characters[charSlot].reputation);
-		this.pkkills = characters[charSlot].pkkills;
+		this.setPkKills(characters[charSlot].pkkills);
+		this.CharacterSelected();
+	}
+	CharacterSelected() {
+		let packet = new BaseSendablePacket(0x0B);
+		packet.writeS(this.getName());
+		packet.writeD(this.getGUID());
+		packet.writeS(this.getTitle());
+		packet.writeD(this.getSession());
+		packet.writeD(this.getClanId());
+		packet.writeD(0x00); // ??
+		packet.writeD(this.getSex());
+		packet.writeD(this.getRace());
+		packet.writeD(this.getClassId());
+		packet.writeD(0x01); // active ??
+		packet.writeD(this.getX());
+		packet.writeD(this.getY());
+		packet.writeD(this.getZ());
+		packet.writeF(this.getCurrentHp());
+		packet.writeF(this.getCurrentMp());
+		packet.writeQ(this.getSp());
+		packet.writeQ(this.getExp());
+		packet.writeD(this.getLevel());
+		packet.writeD(this.getReputation());
+		packet.writeD(this.getPkKills());
+		packet.writeD((Date.now()/60000) % (24 * 60)); // "reset" on 24th hour
+		packet.writeD(0x00);
+	
+		packet.writeD(this.getClassId());
+		
+		packet.writeB(new Buffer.alloc(16));
+		
+		packet.writeD(0x00);
+		packet.writeD(0x00);
+		packet.writeD(0x00);
+		packet.writeD(0x00);
+		
+		packet.writeD(0x00);
+		
+		packet.writeD(0x00);
+		packet.writeD(0x00);
+		packet.writeD(0x00);
+		packet.writeD(0x00);
+		
+		packet.writeB(new Buffer.alloc(28));
+		packet.writeD(0x00);
+		this.write(packet.buffer());
+	}
+	RequestGameStart(packet) {
+		for (let i = 0; i < 20; i++)
+			packet.readC();
+		packet.readD(); // Unknown Value
+		packet.readD(); // Unknown Value
+		packet.readD(); // Unknown Value
+		packet.readD(); // Unknown Value
+		packet.readB(64); // Unknown Byte Array
+		packet.readD(); // Unknown Value
+		this.ExUserInfo();
+	}
+	ExUserInfo(...flags) {
+		let size = 5;
+		let mask = [0x00, 0x00, 0x00];
+		if (flags.length > 0) {
+		
+		} else {
+			mask = [0x78, 0x3C, 0x08];
+			size += 16 + this.getName().length * 2 + 18 + 18 + 18 + 10 + 18+14 + 38 + 18;
+		}
+		let packet = new BaseSendablePacket(0x32);
+		packet.writeD(this.getGUID());
+		packet.writeD(size);
+		packet.writeH(23);
+		packet.writeB(mask);
+		
+		if ((mask[0] & 0x40) != 0){
+			packet.writeH(16 + this.getName().length * 2);
+			packet.writeT(this.getName());
+			packet.writeC(this.isGM());
+			packet.writeC(this.getRace());
+			packet.writeC(this.getSex());
+			packet.writeD(this.getClassId());
+			packet.writeD(this.getClassId());
+			packet.writeC(this.getLevel());
+		}
+		
+		if ((mask[0] & 0x20) != 0){
+			packet.writeH(18);
+			packet.writeH(this.getSTR());
+			packet.writeH(this.getDEX());
+			packet.writeH(this.getCON());
+			packet.writeH(this.getINT());
+			packet.writeH(this.getWIT());
+			packet.writeH(this.getMEN());
+			packet.writeH(this.getLUC());
+			packet.writeH(this.getCHA());
+		}
+		
+		if ((mask[0] & 0x10) != 0){
+			packet.writeH(14);
+			packet.writeD(this.getMaxHp());
+			packet.writeD(this.getMaxMp());
+			packet.writeD(this.getMaxCp());
+		}
+		
+		if ((mask[0] & 0x08) != 0){
+			packet.writeH(38);
+			packet.writeD(this.getCurrentHp());
+			packet.writeD(this.getCurrentMp());
+			packet.writeD(this.getCurrentCp());
+			packet.writeQ(this.getSp());
+			packet.writeQ(this.getExp());
+			packet.writeF((this.getExp() - experience.getExpForLevel(this.getLevel()))/(experience.getExpForLevel(this.getLevel() + 1) - experience.getExpForLevel(this.getLevel())));
+		}
+		
+		if ((mask[1] & 0x20) != 0) {
+			packet.writeH(18);
+			packet.writeD(this.getX());
+			packet.writeD(this.getY());
+			packet.writeD(this.getZ());
+			packet.writeD(0);
+		}
+		if ((mask[1] & 0x10) != 0) {
+			packet.writeH(18);
+			packet.writeH(300);
+			packet.writeH(300);
+			packet.writeH(300);
+			packet.writeH(300);
+			packet.writeH(300);
+			packet.writeH(300);
+			packet.writeH(300);
+			packet.writeH(300);
+		}
+		if ((mask[1] & 0x08) != 0) {
+			packet.writeH(18);
+			packet.writeF(1.0);
+			packet.writeF(1.0);
+		}
+		if ((mask[1] & 0x04) != 0) {
+			packet.writeH(18);
+			packet.writeF(8.0);
+			packet.writeF(23.5);
+		}
+		
+		if ((mask[2] & 0x08) != 0) {
+			packet.writeH(10);
+			packet.writeD(0);
+			packet.writeD(0);
+		}
+		this.write(packet.buffer());
+		
+		//[!] заплптка для добавления npc
+		//let npc = new L2Npc();
+		//L2World.add(npc);
+		//this.write(npc.ExNpcInfo(this));
 	}
 }
 module.exports = L2Session;

@@ -74,7 +74,7 @@ class L2Character {
 	setMaxMp(val){
 		this.mp.max = val;
 	}
-	gatMaxMp(){
+	getMaxMp(){
 		return this.mp.max;
 	}
 	getSp() {
@@ -86,6 +86,35 @@ class L2Character {
 	getClassId() {
 		return this.classid;
 	}
+	getSTR(){
+		return this.str;
+	}
+	getDEX() {
+		return this.dex;
+	}
+	getCON() {
+		return this.con;
+	}
+	getINT() {
+		return this.int;
+	}
+	getWIT() {
+		return this.wit;
+	}
+	getMEN() {
+		return this.men;
+	}
+	getLUC() {
+		return this.luc;
+	}
+	getCHA() {
+		return this.cha;
+	}
+	
+	timer(fps) {
+		//console.log(fps);
+	}
+	
 	MoveToLocation() {
 		let packet = new BaseSendablePacket(0x2F);
 		packet.writeD(this.guid);
